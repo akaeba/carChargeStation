@@ -12,3 +12,6 @@ Charging station for Faller cars (Li-ion/NiMH)
 
 ### User Guides
 * [MCP1631HV Digitally Controlled Programmable Current Source Reference Design](http://ww1.microchip.com/downloads/en/DeviceDoc/51798a.pdf)
+
+### Eval Boards
+* [MCP1631RD-DCPC1](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/MCP1631RD-DCPC1) (MCP1631HV Digitally Controlled Programmable Current Source Reference Design)
