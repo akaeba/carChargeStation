@@ -7311,52 +7311,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;dd&gt;Initial Release&lt;/dd&gt;
 &lt;/dl&gt;</description>
 <packages>
-<package name="PJ-D5M7-C2M5-FC-A">
-<description>&lt;p&gt;
-&lt;h3&gt;Panel Jack - 5.7/2.5mm - Angular&lt;/h3&gt;&lt;ul&gt;
-  &lt;li&gt;Contact: Out Ø 5.7 mm, In Ø 2.5 mm&lt;/li&gt;
-  &lt;li&gt;Technology: THT&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.bkl-electronic.de/produkt/072859"&gt;Mechanical Reference&lt;/a&gt;&lt;/il&gt;
-&lt;/p&gt;</description>
-<pad name="2" x="5.715" y="8.09625" drill="1" diameter="2.54" shape="long"/>
-<wire x1="4.1275" y1="8.5725" x2="4.1275" y2="7.62" width="0" layer="46"/>
-<wire x1="4.1275" y1="7.62" x2="7.3025" y2="7.62" width="0" layer="46"/>
-<wire x1="7.3025" y1="7.62" x2="7.3025" y2="8.5725" width="0" layer="46"/>
-<wire x1="7.3025" y1="8.5725" x2="4.1275" y2="8.5725" width="0" layer="46"/>
-<pad name="1" x="5.715" y="1.905" drill="1" diameter="2.54" shape="long"/>
-<wire x1="4.1275" y1="2.38125" x2="4.1275" y2="1.42875" width="0" layer="46"/>
-<wire x1="4.1275" y1="1.42875" x2="7.3025" y2="1.42875" width="0" layer="46"/>
-<wire x1="7.3025" y1="1.42875" x2="7.3025" y2="2.38125" width="0" layer="46"/>
-<wire x1="7.3025" y1="2.38125" x2="4.1275" y2="2.38125" width="0" layer="46"/>
-<pad name="3" x="0.9525" y="4.92125" drill="1" diameter="2.54" shape="long" rot="R90"/>
-<wire x1="0.47625" y1="3.33375" x2="1.42875" y2="3.33375" width="0" layer="46"/>
-<wire x1="1.42875" y1="3.33375" x2="1.42875" y2="6.50875" width="0" layer="46"/>
-<wire x1="1.42875" y1="6.50875" x2="0.47625" y2="6.50875" width="0" layer="46"/>
-<wire x1="0.47625" y1="6.50875" x2="0.47625" y2="3.33375" width="0" layer="46"/>
-<wire x1="0" y1="16.1925" x2="11.58875" y2="16.1925" width="0.3048" layer="21"/>
-<wire x1="0" y1="12.3825" x2="11.58875" y2="12.3825" width="0.3048" layer="21"/>
-<wire x1="0" y1="12.3825" x2="0" y2="16.1925" width="0.3048" layer="21"/>
-<wire x1="11.58875" y1="12.3825" x2="11.58875" y2="16.1925" width="0.3048" layer="21"/>
-<wire x1="0" y1="0" x2="11.58875" y2="0" width="0.3048" layer="21"/>
-<wire x1="11.58875" y1="0" x2="11.58875" y2="12.3825" width="0.3048" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="2.2225" width="0.3048" layer="21"/>
-<wire x1="0" y1="12.3825" x2="0" y2="7.62" width="0.3048" layer="21"/>
-<wire x1="0" y1="16.1925" x2="0" y2="12.3825" width="0.3048" layer="51"/>
-<wire x1="0" y1="12.3825" x2="0" y2="0" width="0.3048" layer="51"/>
-<wire x1="0" y1="0" x2="11.58875" y2="0" width="0.3048" layer="51"/>
-<wire x1="11.58875" y1="0" x2="11.58875" y2="12.3825" width="0.3048" layer="51"/>
-<wire x1="11.58875" y1="12.3825" x2="11.58875" y2="16.1925" width="0.3048" layer="51"/>
-<wire x1="11.58875" y1="16.1925" x2="9.68375" y2="16.1925" width="0.3048" layer="51"/>
-<wire x1="9.68375" y1="16.1925" x2="1.74625" y2="16.1925" width="0.3048" layer="51"/>
-<wire x1="1.74625" y1="16.1925" x2="0" y2="16.1925" width="0.3048" layer="51"/>
-<wire x1="0" y1="12.3825" x2="11.58875" y2="12.3825" width="0.3048" layer="51"/>
-<wire x1="1.74625" y1="21.9075" x2="1.74625" y2="16.1925" width="0.3048" layer="51"/>
-<wire x1="9.68375" y1="21.9075" x2="9.68375" y2="16.1925" width="0.3048" layer="51"/>
-<wire x1="1.74625" y1="21.9075" x2="9.68375" y2="21.9075" width="0.3048" layer="51"/>
-<rectangle x1="4.445" y1="16.1925" x2="6.985" y2="19.685" layer="51"/>
-<text x="15.24" y="0.635" size="1.27" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
-<text x="13.335" y="0.635" size="1.27" layer="27" font="vector" ratio="12" rot="R90">&gt;NAME</text>
-</package>
 <package name="BOXHD-06-2.54-S">
 <description>&lt;p&gt;
 &lt;h3&gt;Box Header 2X03 - Straight&lt;/h3&gt;&lt;ul&gt;
@@ -7418,21 +7372,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </package>
 </packages>
 <symbols>
-<symbol name="JPSWT">
-<pin name="P$2" x="2.54" y="2.54" visible="pad" length="short" rot="R180"/>
-<pin name="P$1" x="2.54" y="0" visible="pad" length="short" rot="R180"/>
-<wire x1="0" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0.508" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0.762" x2="-0.508" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-1.778" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="JP">
-<pin name="P$1" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
-<rectangle x1="0" y1="-0.508" x2="2.54" y2="0.508" layer="94"/>
-</symbol>
 <symbol name="PHDL">
 <description>&lt;p&gt;
 &lt;h2&gt;Pin Head Single Connector&lt;/h2&gt;
@@ -7457,39 +7396,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DC-PJ-SWT">
-<description>&lt;p&gt;
-&lt;h2&gt;DC Panel Jack&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;two terminal connection&lt;/li&gt;
-  &lt;li&gt;switched contact, closed if unplug&lt;/li&gt;
-  &lt;li&gt;BKL 072859:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;&lt;a href="https://www.bkl-electronic.de/produkt/072859"&gt;BKL Website&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/C160/072859.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="JPSWT" x="2.54" y="0" addlevel="always"/>
-<gate name="G$2" symbol="JP" x="0" y="-2.54" addlevel="always"/>
-</gates>
-<devices>
-<device name="-5.7/2.5" package="PJ-D5M7-C2M5-FC-A">
-<connects>
-<connect gate="G$1" pin="P$1" pad="2"/>
-<connect gate="G$1" pin="P$2" pad="3"/>
-<connect gate="G$2" pin="P$1" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DIST#REICHELT#" value="DC-BU 072859" constant="no"/>
-<attribute name="VALUE" value="24V/0A5" constant="no"/>
-<attribute name="VENDOR#" value="BKL,072859" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BOXHD-06" prefix="X" uservalue="yes">
 <description>&lt;p&gt;
 &lt;h2&gt;Box Header 2X3&lt;/h2&gt;
@@ -9199,6 +9105,339 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </deviceset>
 </devicesets>
 </library>
+<library name="omcOpto">
+<description>&lt;h1&gt;omcOpto.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;LED&lt;/li&gt;
+  &lt;li&gt;7 Segment&lt;/li&gt;
+  &lt;li&gt;Optocoupler&lt;/li&gt;
+  &lt;li&gt;LED Dimmer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2016-03-26&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="LED3216">
+<description>&lt;h3&gt;LED 3216 (1206)&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD 1206&lt;/li&gt;
+  &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbrightusa.com/images/catalog/SPEC/APTR3216SURCK.pdf"&gt;Mechanical Reference (3216) [Knightbright]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.resistorguide.com/resistor-sizes-and-packages/"&gt;Mechanical Reference (3216)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-1.905" y="0" dx="1.524" dy="2.286" layer="1"/>
+<smd name="2" x="1.905" y="0" dx="1.524" dy="2.286" layer="1"/>
+<wire x1="-1.5875" y1="0.79375" x2="-1.5875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.79375" x2="1.5875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.79375" x2="1.5875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.79375" x2="-1.5875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="0.79375" x2="1.031875" y2="0.79375" width="0.127" layer="21"/>
+<wire x1="-1.031875" y1="-0.79375" x2="1.031875" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.635" x2="-0.47625" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.635" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="-0.47625" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.635" x2="-0.47625" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="-0.47625" y2="0.635" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="-0.635" width="0.127" layer="51"/>
+<rectangle x1="-1.5875" y1="-0.79375" x2="-0.9525" y2="0.79375" layer="51"/>
+<rectangle x1="0.9525" y1="-0.79375" x2="1.5875" y2="0.79375" layer="51"/>
+<wire x1="-2.8575" y1="1.27" x2="-2.8575" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.8575" y1="-1.27" x2="2.8575" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.8575" y1="-1.27" x2="2.8575" y2="1.27" width="0.127" layer="39"/>
+<wire x1="2.8575" y1="1.27" x2="-2.8575" y2="1.27" width="0.127" layer="39"/>
+<text x="-2.54" y="-2.54" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+<package name="LED2012">
+<description>&lt;h3&gt;LED 2012 (0805)&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD 0805&lt;/li&gt;
+  &lt;li&gt;2.0mm x1.25mm SMD LED&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbright.com/attachments/file/psearch/000/00/00/KP-2012SGC(Ver.20B).pdf"&gt;Mechanical Reference (2012) [Knightbright]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.resistorguide.com/resistor-sizes-and-packages/"&gt;Mechanical Reference (2012)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-1.190625" y="0" dx="1.27" dy="1.143" layer="1" rot="R180"/>
+<smd name="2" x="1.190625" y="0" dx="1.27" dy="1.143" layer="1"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="-0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.3175" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="-0.3175" width="0.127" layer="51"/>
+<wire x1="-0.3175" y1="-0.3175" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="-0.3175" y2="0.3175" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0.3175" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.3175" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="0.714375" x2="-1.905" y2="-0.714375" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-0.714375" x2="1.905" y2="-0.714375" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-0.714375" x2="1.905" y2="0.714375" width="0.127" layer="39"/>
+<wire x1="1.905" y1="0.714375" x2="-1.905" y2="0.714375" width="0.127" layer="39"/>
+<text x="-2.54" y="-2.06375" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.33375" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="1.031875" y1="-0.555625" x2="1.031875" y2="0.555625" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="-0.555625" x2="1.031875" y2="-0.555625" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="0.555625" x2="1.031875" y2="0.555625" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="-0.555625" x2="-1.031875" y2="0.555625" width="0.127" layer="51"/>
+<rectangle x1="-1.031875" y1="-0.555625" x2="-0.555625" y2="0.555625" layer="51"/>
+<rectangle x1="0.555625" y1="-0.555625" x2="1.031875" y2="0.555625" layer="51"/>
+<wire x1="-0.47625" y1="-0.555625" x2="0.47625" y2="-0.555625" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.555625" x2="0.47625" y2="0.555625" width="0.127" layer="21"/>
+</package>
+<package name="LED1608">
+<description>&lt;h3&gt;LED 1608 (0603)&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD 0603&lt;/li&gt;
+  &lt;li&gt;1.6mm x 0.8mm SMD LED&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbright.com/attachments/file/psearch/000/00/00/KP-1608CGCK(Ver.19B).pdf"&gt;Mechanical Reference (1608) [Knightbright]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.resistorguide.com/resistor-sizes-and-packages/"&gt;Mechanical Reference (1608)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-0.79375" y="0" dx="0.6096" dy="0.889" layer="1"/>
+<smd name="2" x="0.79375" y="0" dx="0.6096" dy="0.889" layer="1"/>
+<text x="-1.905" y="-2.06375" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-3.33375" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<wire x1="-0.396875" y1="0.396875" x2="0.3175" y2="0.396875" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.396875" x2="0.396875" y2="0.396875" width="0.127" layer="21"/>
+<wire x1="-1.190625" y1="0.555625" x2="-1.190625" y2="-0.555625" width="0.127" layer="39"/>
+<wire x1="-1.190625" y1="-0.555625" x2="1.190625" y2="-0.555625" width="0.127" layer="39"/>
+<wire x1="1.190625" y1="-0.555625" x2="1.190625" y2="0.555625" width="0.127" layer="39"/>
+<wire x1="1.190625" y1="0.555625" x2="-1.190625" y2="0.555625" width="0.127" layer="39"/>
+<wire x1="-0.396875" y1="-0.396875" x2="0.3175" y2="-0.396875" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="-0.396875" x2="0.396875" y2="-0.396875" width="0.127" layer="21"/>
+<wire x1="0.396875" y1="0.396875" x2="0.396875" y2="-0.396875" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.396875" x2="0.3175" y2="-0.396875" width="0.127" layer="21"/>
+<wire x1="-0.714375" y1="0.396875" x2="0.47625" y2="0.396875" width="0.127" layer="51"/>
+<wire x1="0.47625" y1="0.396875" x2="0.714375" y2="0.396875" width="0.127" layer="51"/>
+<wire x1="-0.714375" y1="-0.396875" x2="0.47625" y2="-0.396875" width="0.127" layer="51"/>
+<rectangle x1="-0.79375" y1="-0.396875" x2="-0.47625" y2="0.396875" layer="51"/>
+<rectangle x1="0.47625" y1="-0.396875" x2="0.79375" y2="0.396875" layer="51"/>
+<wire x1="0.47625" y1="-0.396875" x2="0.714375" y2="-0.396875" width="0.127" layer="51"/>
+<wire x1="0.47625" y1="0.396875" x2="0.47625" y2="-0.396875" width="0.127" layer="51"/>
+<wire x1="-0.15875" y1="0.238125" x2="-0.15875" y2="-0.238125" width="0.127" layer="51"/>
+<wire x1="-0.15875" y1="-0.238125" x2="0.079375" y2="0" width="0.127" layer="51"/>
+<wire x1="0.079375" y1="0" x2="-0.15875" y2="0.238125" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<description>&lt;h3&gt;LED Symbol&lt;/h3&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;single LED&lt;/li&gt;
+  &lt;li&gt;various colours&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
+<pin name="A" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="0.381"/>
+<vertex x="-3.048" y="1.27"/>
+<vertex x="-2.54" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-0.762"/>
+<vertex x="-2.921" y="0.127"/>
+<vertex x="-2.413" y="-0.381"/>
+</polygon>
+<text x="2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LEDMONO" prefix="LED" uservalue="yes">
+<description>&lt;h2&gt;LED Monochromatic&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Knighbright (KP3216)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;operating temperature: -40 to +85 °C&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216SERIES.pdf"&gt;Reichelt Datasheet (Red/Green/Yellow)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/KP-3216QBC-D.pdf"&gt;Reichelt Datasheet (Blue)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Knighbright (KP2012)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;2.0x1.25mm (0805) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050393-da-01-en-SMD_CHIPLED_OR_0805_KP_2012SECK.pdf"&gt;Conrad Datasheet&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Knighbright (KP1608)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;SMD 0603&lt;/li&gt;
+    &lt;li&gt;1.6mm x 0.8mm SMD LED&lt;/li&gt;
+    &lt;li&gt;Datasheet Color:&lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050379-da-01-en-SMD_CHIPLED_BL_0603_KP_1608QBC_D.pdf"&gt;Blue [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050377-da-01-en-SMD_CHIPLED_GR_0603_KP_1608CGCK.pdf"&gt;Green [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050375-da-01-en-SMD_CHIPLED_OR_0603_KP_1608SECK.pdf"&gt;Orange [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050374-da-01-en-SMD_CHIPLED_ROT_0603_KP_1608SURCK.pdf"&gt;Red [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="http://www.produktinfo.conrad.com/datenblaetter/1000000-1099999/001050376-da-01-en-SMD_CHIPLED_GE_0603_KP_1608SYCK.pdf"&gt;Yellow [Conrad]&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Everlight (2521)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;3.2x1.6mm (1206) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-S2C-AQ2R2B.pdf"&gt;Reichelt Datasheet (Orange)&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/15-21-T7D-JQ2S1PY.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt;Lucky Light (S172)&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;2.0x1.25mm (0805) SMD chip LED lamps&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/A500/S172W-W2-1C.pdf"&gt;Reichelt Datasheet (White)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-KP3216" package="LED3216">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-BLUE">
+<attribute name="DIST#REICHELT#" value="SMD-LED 1206 BL" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
+<attribute name="VENDOR#" value="Kingbright,KP-3216QBC" constant="no"/>
+</technology>
+<technology name="-GREEN">
+<attribute name="DIST#REICHELT#" value="SMD-LED 1206 GN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
+<attribute name="VENDOR#" value="Kingbright,KP-3216SGD" constant="no"/>
+</technology>
+<technology name="-RED">
+<attribute name="DIST#REICHELT#" value="SMD-LED 1206 RT" constant="no"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VENDOR#" value="Kingbright,KP-3216HD" constant="no"/>
+</technology>
+<technology name="-YELLOW">
+<attribute name="DIST#REICHELT#" value="SMD-LED 1206 GE" constant="no"/>
+<attribute name="VALUE" value="Yellow"/>
+<attribute name="VENDOR#" value="Kingbright,KP-3216SYD" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-EL1521" package="LED3216">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-ORANGE">
+<attribute name="DIST#REICHELT#" value="LED EL 1206 OR" constant="no"/>
+<attribute name="VALUE" value="Orange"/>
+<attribute name="VENDOR#" value="Everlight,15-21/S2C-AQ2R2B/2T" constant="no"/>
+</technology>
+<technology name="-WHITE">
+<attribute name="DIST#REICHELT#" value="LED EL 1206 WS" constant="no"/>
+<attribute name="VALUE" value="White"/>
+<attribute name="VENDOR#" value="Everlight,15-21/T7D-JQ2S1PY/2T" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-S172" package="LED2012">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-WHITE">
+<attribute name="DIST#REICHELT#" value="LED LL 0805 WS" constant="no"/>
+<attribute name="VALUE" value="White"/>
+<attribute name="VENDOR#" value="Lucky Light,S172W-W2-1C" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-KP2012" package="LED2012">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-BLUE">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 BL" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012QBC-D" constant="no"/>
+</technology>
+<technology name="-GREEN">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 GN" constant="no"/>
+<attribute name="VALUE" value="Green"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012SGD" constant="no"/>
+</technology>
+<technology name="-ORANGE">
+<attribute name="DIST#CONRAD#" value="1050393 - 62" constant="no"/>
+<attribute name="DIST#REICHELT#" value="" constant="no"/>
+<attribute name="VALUE" value="Orange"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012SECK" constant="no"/>
+</technology>
+<technology name="-RED">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 RT" constant="no"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012SRD" constant="no"/>
+</technology>
+<technology name="-YELLOW">
+<attribute name="DIST#CONRAD#" value="" constant="no"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 0805 GE" constant="no"/>
+<attribute name="VALUE" value="Yellow"/>
+<attribute name="VENDOR#" value="Knighbright,KP-2012YD" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-KP1608" package="LED1608">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name="-BLUE">
+<attribute name="DIST#CONRAD#" value="1050379 - 62" constant="no"/>
+<attribute name="VALUE" value="Blue"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608QBC-D" constant="no"/>
+</technology>
+<technology name="-GREEN">
+<attribute name="DIST#CONRAD#" value="1050377 - 62" constant="no"/>
+<attribute name="VALUE" value="Green"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608CGCK" constant="no"/>
+</technology>
+<technology name="-ORANGE">
+<attribute name="DIST#CONRAD#" value="1050375 - 62" constant="no"/>
+<attribute name="VALUE" value="Orange"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608SECK" constant="no"/>
+</technology>
+<technology name="-RED">
+<attribute name="DIST#CONRAD#" value="1050374 - 62" constant="no"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608SURCK " constant="no"/>
+</technology>
+<technology name="-YELLOW">
+<attribute name="DIST#CONRAD#" value="1050376 - 62" constant="no"/>
+<attribute name="VALUE" value="Yellow"/>
+<attribute name="VENDOR#" value="Knighbright,KP-1608SYCK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9227,7 +9466,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="U$1" library="omcConnector" deviceset="DC-PJ-SWT" device="-5.7/2.5" value="24V/0A5"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="omcCapacitor" deviceset="X5R" device="-1210" technology="-22000000P" value="22µ/25V"/>
 <part name="C8" library="omcCapacitor" deviceset="X5R" device="-1210" technology="-22000000P" value="22µ/25V"/>
@@ -9373,6 +9611,16 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="C47" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
 <part name="C4" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
 <part name="GND53" library="supply1" deviceset="GNDA" device=""/>
+<part name="LED1" library="omcOpto" deviceset="LEDMONO" device="-KP3216" technology="-GREEN" value="Green"/>
+<part name="R29" library="omcResistor" deviceset="R1206" device="-1%" technology="-1800" value="1K8"/>
+<part name="P-1" library="supply1" deviceset="-5V" device=""/>
+<part name="P+1" library="supply1" deviceset="+5V" device=""/>
+<part name="R34" library="omcResistor" deviceset="R1206" device="-1%" technology="-3900" value="3K9"/>
+<part name="R35" library="omcResistor" deviceset="R1206" device="-1%" technology="-15000" value="15K"/>
+<part name="P+2" library="supply1" deviceset="+12V" device=""/>
+<part name="C21" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-68000P" value="68n/50V"/>
+<part name="GND14" library="supply1" deviceset="GNDA" device=""/>
+<part name="GND16" library="supply1" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9391,6 +9639,27 @@ uC as possible</text>
 <wire x1="35.56" y1="81.28" x2="39.878" y2="81.28" width="0.1524" layer="94"/>
 <wire x1="39.878" y1="81.28" x2="39.878" y2="99.06" width="0.1524" layer="94"/>
 <wire x1="39.878" y1="99.06" x2="35.56" y2="99.06" width="0.1524" layer="94"/>
+<text x="71.12" y="25.4" size="1.9304" layer="98">PWR LED</text>
+<text x="116.84" y="31.75" size="1.778" layer="98">VI</text>
+<text x="119.888" y="31.75" size="1.778" layer="98">=</text>
+<text x="122.682" y="32.258" size="1.778" layer="98">1 +</text>
+<text x="127.508" y="33.528" size="1.778" layer="98">R35</text>
+<text x="127.508" y="30.734" size="1.778" layer="98">R34</text>
+<text x="134.366" y="33.528" size="1.778" layer="98">VREF</text>
+<text x="134.62" y="30.48" size="1.778" layer="98">2</text>
+<text x="136.144" y="31.75" size="1.016" layer="98">NADC</text>
+<text x="140.97" y="32.258" size="1.778" layer="98">DIG</text>
+<wire x1="121.92" y1="30.48" x2="121.92" y2="35.56" width="0.1524" layer="98"/>
+<wire x1="121.92" y1="35.56" x2="122.174" y2="35.56" width="0.1524" layer="98"/>
+<wire x1="121.92" y1="30.48" x2="122.174" y2="30.48" width="0.1524" layer="98"/>
+<wire x1="132.842" y1="35.56" x2="133.096" y2="35.56" width="0.1524" layer="98"/>
+<wire x1="133.096" y1="35.56" x2="133.096" y2="30.48" width="0.1524" layer="98"/>
+<wire x1="133.096" y1="30.48" x2="132.842" y2="30.48" width="0.1524" layer="98"/>
+<wire x1="127" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="98"/>
+<wire x1="134.366" y1="33.02" x2="140.208" y2="33.02" width="0.1524" layer="98"/>
+<text x="116.84" y="26.67" size="1.778" layer="98">VI</text>
+<text x="119.38" y="26.416" size="1.016" layer="98">LSB</text>
+<text x="122.428" y="27.178" size="1.778" layer="98">= 19.4mV</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9409,21 +9678,21 @@ uC as possible</text>
 <instance part="P+6" gate="1" x="60.96" y="78.74" smashed="yes" rot="R90">
 <attribute name="VALUE" x="59.69" y="79.248" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+7" gate="1" x="165.1" y="45.72" smashed="yes" rot="R90">
-<attribute name="VALUE" x="163.83" y="46.228" size="1.778" layer="96" rot="R180"/>
+<instance part="P+7" gate="1" x="15.24" y="27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="13.97" y="28.448" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="DAC2" gate="G$1" x="175.26" y="60.96"/>
-<instance part="DAC2" gate="G$2" x="198.12" y="35.56"/>
+<instance part="DAC2" gate="G$2" x="48.26" y="17.78"/>
 <instance part="DAC1" gate="G$1" x="175.26" y="83.82"/>
-<instance part="DAC1" gate="G$2" x="177.8" y="35.56"/>
+<instance part="DAC1" gate="G$2" x="27.94" y="17.78"/>
 <instance part="GND34" gate="1" x="63.5" y="71.12" smashed="yes" rot="R270">
 <attribute name="VALUE" x="62.484" y="72.136" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND37" gate="1" x="180.34" y="30.48" smashed="yes">
-<attribute name="VALUE" x="177.292" y="27.94" size="1.778" layer="96"/>
+<instance part="GND37" gate="1" x="30.48" y="12.7" smashed="yes">
+<attribute name="VALUE" x="27.432" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND38" gate="1" x="200.66" y="30.48" smashed="yes">
-<attribute name="VALUE" x="197.612" y="27.94" size="1.778" layer="96"/>
+<instance part="GND38" gate="1" x="50.8" y="12.7" smashed="yes">
+<attribute name="VALUE" x="47.752" y="10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="L4" gate="G$1" x="195.58" y="139.7"/>
 <instance part="R36" gate="G$1" x="170.18" y="104.14" smashed="yes" rot="R90">
@@ -9438,13 +9707,13 @@ uC as possible</text>
 <attribute name="NAME" x="164.084" y="105.6386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="164.084" y="103.378" size="1.778" layer="96"/>
 </instance>
-<instance part="C29" gate="G$1" x="190.5" y="40.64"/>
-<instance part="GND41" gate="1" x="190.5" y="30.48" smashed="yes">
-<attribute name="VALUE" x="187.452" y="27.94" size="1.778" layer="96"/>
+<instance part="C29" gate="G$1" x="40.64" y="22.86"/>
+<instance part="GND41" gate="1" x="40.64" y="12.7" smashed="yes">
+<attribute name="VALUE" x="37.592" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="170.18" y="40.64"/>
-<instance part="GND43" gate="1" x="170.18" y="30.48" smashed="yes">
-<attribute name="VALUE" x="167.132" y="27.94" size="1.778" layer="96"/>
+<instance part="C30" gate="G$1" x="20.32" y="22.86"/>
+<instance part="GND43" gate="1" x="20.32" y="12.7" smashed="yes">
+<attribute name="VALUE" x="17.272" y="10.16" size="1.778" layer="96"/>
 </instance>
 <instance part="C32" gate="G$1" x="93.98" y="58.42"/>
 <instance part="C10" gate="G$1" x="213.36" y="78.74"/>
@@ -9537,7 +9806,7 @@ uC as possible</text>
 <instance part="GND5" gate="1" x="114.3" y="127"/>
 <instance part="GND52" gate="1" x="142.24" y="127"/>
 <instance part="C5" gate="G$1" x="142.24" y="134.62"/>
-<instance part="P-4" gate="1" x="226.06" y="139.7" rot="R90"/>
+<instance part="P-4" gate="1" x="223.52" y="139.7" rot="R90"/>
 <instance part="C23" gate="G$1" x="215.9" y="147.32"/>
 <instance part="C24" gate="G$1" x="215.9" y="160.02"/>
 <instance part="L5" gate="G$1" x="195.58" y="165.1"/>
@@ -9557,6 +9826,38 @@ uC as possible</text>
 <instance part="C4" gate="G$1" x="114.3" y="134.62"/>
 <instance part="GND53" gate="1" x="226.06" y="147.32" smashed="yes">
 <attribute name="VALUE" x="223.012" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="LED1" gate="G$1" x="76.2" y="20.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="76.2" y="17.018" size="1.27" layer="95"/>
+<attribute name="VALUE" x="76.2" y="15.24" size="1.27" layer="96"/>
+</instance>
+<instance part="R29" gate="G$1" x="86.36" y="20.32" smashed="yes">
+<attribute name="NAME" x="83.82" y="16.7386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="14.478" size="1.778" layer="96"/>
+</instance>
+<instance part="P-1" gate="1" x="71.12" y="15.24" smashed="yes">
+<attribute name="VALUE" x="69.088" y="12.192" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="1" x="93.98" y="25.4" smashed="yes">
+<attribute name="VALUE" x="95.504" y="27.686" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R34" gate="G$1" x="109.22" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.49" y="19.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.49" y="17.018" size="1.778" layer="96"/>
+</instance>
+<instance part="R35" gate="G$1" x="109.22" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="110.49" y="29.4386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.49" y="27.178" size="1.778" layer="96"/>
+</instance>
+<instance part="P+2" gate="1" x="109.22" y="35.56" smashed="yes">
+<attribute name="VALUE" x="106.68" y="38.1" size="1.778" layer="96"/>
+</instance>
+<instance part="C21" gate="G$1" x="119.38" y="17.78"/>
+<instance part="GND14" gate="1" x="109.22" y="10.16" smashed="yes">
+<attribute name="VALUE" x="106.172" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="119.38" y="10.16" smashed="yes">
+<attribute name="VALUE" x="116.332" y="7.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9689,18 +9990,18 @@ uC as possible</text>
 <segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <pinref part="C30" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="43.18" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="DAC1" gate="G$2" pin="VDD"/>
-<wire x1="170.18" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
-<junction x="170.18" y="45.72"/>
-<wire x1="180.34" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
-<junction x="180.34" y="45.72"/>
+<wire x1="20.32" y1="27.94" x2="30.48" y2="27.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="27.94"/>
+<wire x1="30.48" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
+<junction x="30.48" y="27.94"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="43.18" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="25.4" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="DAC2" gate="G$2" pin="VDD"/>
-<wire x1="190.5" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
-<junction x="190.5" y="45.72"/>
+<wire x1="40.64" y1="27.94" x2="50.8" y2="27.94" width="0.1524" layer="91"/>
+<junction x="40.64" y="27.94"/>
 </segment>
 <segment>
 <pinref part="C25" gate="G$1" pin="1"/>
@@ -9714,6 +10015,12 @@ uC as possible</text>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="220.98" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 <junction x="215.9" y="165.1"/>
+</segment>
+<segment>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="93.98" y1="20.32" x2="93.98" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VREF_ADC" class="0">
@@ -9747,17 +10054,17 @@ uC as possible</text>
 <pinref part="IC2" gate="G$1" pin="1@RA"/>
 </segment>
 </net>
-<net name="I2C_SCL" class="0">
+<net name="SCL" class="0">
 <segment>
-<wire x1="134.62" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
-<label x="149.352" y="62.992" size="1.778" layer="95" rot="R180"/>
+<wire x1="134.62" y1="60.96" x2="142.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="141.732" y="62.992" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC2" gate="G$1" pin="3@RC"/>
 </segment>
 </net>
-<net name="I2C_SDA" class="0">
+<net name="SDA" class="0">
 <segment>
-<wire x1="134.62" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-<label x="149.352" y="60.452" size="1.778" layer="95" rot="R180"/>
+<wire x1="134.62" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
+<label x="141.732" y="60.452" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC2" gate="G$1" pin="4@RC"/>
 </segment>
 </net>
@@ -9781,12 +10088,12 @@ uC as possible</text>
 <segment>
 <pinref part="GND41" gate="1" pin="GNDA"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="33.02" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="15.24" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND43" gate="1" pin="GNDA"/>
 <pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="33.02" x2="170.18" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="15.24" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C34" gate="G$1" pin="2"/>
@@ -9803,6 +10110,14 @@ uC as possible</text>
 <wire x1="215.9" y1="152.4" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND53" gate="1" pin="GNDA"/>
 <wire x1="226.06" y1="152.4" x2="226.06" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="GND14" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="GND16" gate="1" pin="GNDA"/>
 </segment>
 </net>
 <net name="!CS_DAC1" class="0">
@@ -10114,12 +10429,18 @@ uC as possible</text>
 <wire x1="203.2" y1="139.7" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="142.24" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <junction x="215.9" y="139.7"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="148.59" x2="205.74" y2="139.7" width="0.1524" layer="91"/>
 <junction x="205.74" y="139.7"/>
+</segment>
+<segment>
+<pinref part="P-1" gate="1" pin="-5V"/>
+<wire x1="71.12" y1="17.78" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="71.12" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -10190,6 +10511,34 @@ uC as possible</text>
 <wire x1="38.1" y1="144.78" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C47" gate="G$1" pin="1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="P+2" gate="1" pin="+12V"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="VP12_AD" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="2@RA"/>
+<wire x1="109.22" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<label x="94.488" y="86.614" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<junction x="109.22" y="22.86"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="20.32" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
+<junction x="119.38" y="22.86"/>
+<label x="132.08" y="25.4" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>
@@ -10275,8 +10624,6 @@ Imax = Vopa / 0.27 = 1.26A</text>
 <instance part="C7" gate="G$1" x="73.66" y="152.4"/>
 <instance part="GND6" gate="1" x="60.96" y="144.78"/>
 <instance part="GND7" gate="1" x="73.66" y="144.78"/>
-<instance part="U$1" gate="G$1" x="205.74" y="149.86" rot="MR0"/>
-<instance part="U$1" gate="G$2" x="208.28" y="147.32" rot="R180"/>
 <instance part="GND8" gate="1" x="200.66" y="139.7"/>
 <instance part="C6" gate="G$1" x="60.96" y="152.4"/>
 <instance part="C8" gate="G$1" x="175.26" y="147.32"/>
@@ -10469,7 +10816,6 @@ Imax = Vopa / 0.27 = 1.26A</text>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="200.66" y1="142.24" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$2" pin="P$1"/>
 <wire x1="200.66" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10558,7 +10904,6 @@ Imax = Vopa / 0.27 = 1.26A</text>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
 <wire x1="149.86" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="149.86" x2="160.02" y2="149.86" width="0.1524" layer="91"/>
