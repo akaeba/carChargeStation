@@ -1,15 +1,15 @@
 # Eagle
 #
-*_eagle/*.s#?
-*_eagle/*.b#?
-*_eagle/*.l#?
-*_eagle/*.b$?
-*_eagle/*.s$?
-*_eagle/*.l$?
-*_eagle/*.s#*
-*_eagle/*.b#*
-*_eagle/*.lck
-*_eagle/eagle.epf
+*_cad/*.s#?
+*_cad/*.b#?
+*_cad/*.l#?
+*_cad/*.b$?
+*_cad/*.s$?
+*_cad/*.l$?
+*_cad/*.s#*
+*_cad/*.b#*
+*_cad/*.lck
+*_cad/eagle.epf
 
 
 
