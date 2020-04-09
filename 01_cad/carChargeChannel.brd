@@ -1,0 +1,3198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tPadExt" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bPadExt" color="1" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Parts" color="13" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="100.33" y2="0" width="0" layer="20"/>
+<wire x1="100.33" y1="0" x2="100.33" y2="80.01" width="0" layer="20"/>
+<wire x1="100.33" y1="80.01" x2="0" y2="80.01" width="0" layer="20"/>
+<wire x1="0" y1="80.01" x2="0" y2="0" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="omcCapacitor">
+<description>&lt;h1&gt;omcCapacitor.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Ceramic Capacitors:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;X5R&lt;/li&gt;
+    &lt;li&gt;X7R&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="1206">
+<description>&lt;p&gt;
+&lt;h3&gt; Capacitor 1206 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;LxW: 3.2mm x 1.6mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.knowlescapacitors.com/File%20Library/Novacap/English/GlobalNavigation/Technical%20Info/Application%20Notes/solder.pdf"&gt;Dimensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Capacitor Height Dimension (T)&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Code&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Dimension&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;2&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.2mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;3&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.3mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;4&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.4mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;5&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;6&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;7&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.7mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;8&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;9&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.85mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;A&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;B&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.25mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;C&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;D&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;2.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;E&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;2.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;M&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.15mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;Q&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;S&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;2.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;X&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;Depends on individual standards.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1524" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1524" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.651" dy="1.7272" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.651" dy="1.7272" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="-0.48875" y1="0.787" x2="0.48875" y2="0.787" width="0.1524" layer="21"/>
+<wire x1="-0.48875" y1="-0.787" x2="0.48875" y2="-0.787" width="0.1524" layer="21"/>
+</package>
+<package name="0805">
+<description>&lt;p&gt;
+&lt;h3&gt; Capacitor 0805 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;LxW: 2.2mm x 1.25mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.knowlescapacitors.com/File%20Library/Novacap/English/GlobalNavigation/Technical%20Info/Application%20Notes/solder.pdf"&gt;Dimensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<wire x1="-0.80625" y1="0.62825" x2="0.80625" y2="0.62825" width="0.1524" layer="51"/>
+<wire x1="-0.80625" y1="-0.62825" x2="0.80625" y2="-0.62825" width="0.1524" layer="51"/>
+<smd name="1" x="-1.0825" y="0" dx="1.143" dy="1.524" layer="1"/>
+<smd name="2" x="1.0825" y="0" dx="1.143" dy="1.524" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.6858" x2="-0.635" y2="0.6858" layer="51"/>
+<rectangle x1="0.635" y1="-0.6858" x2="1.27" y2="0.6858" layer="51"/>
+<wire x1="-1.905" y1="1.11125" x2="-1.905" y2="-1.11125" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.11125" x2="1.905" y2="-1.11125" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.11125" x2="1.905" y2="1.11125" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.11125" x2="-1.905" y2="1.11125" width="0.127" layer="39"/>
+<wire x1="-0.33" y1="0.62825" x2="0.33" y2="0.62825" width="0.1524" layer="21"/>
+<wire x1="-0.33" y1="-0.62825" x2="0.33" y2="-0.62825" width="0.1524" layer="21"/>
+</package>
+<package name="1210">
+<description>&lt;h3&gt; Capacitor 1210 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;LxW: 3.2mm x 2.5mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.knowlescapacitors.com/File%20Library/Novacap/English/GlobalNavigation/Technical%20Info/Application%20Notes/solder.pdf"&gt;Dimensions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;b&gt;Capacitor Height Dimension (T)&lt;/b&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-megi{font-weight:bold;font-size:12px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#d0d0d0;vertical-align:top}
+.tg .tg-iuhm{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;vertical-align:top}
+.tg .tg-zzfq{font-size:10px;font-family:Arial, Helvetica, sans-serif !important;;background-color:#efefef;vertical-align:top}
+.tg .tg-25al{font-size:10px;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-megi"&gt;Code&lt;/th&gt;
+    &lt;th class="tg-megi"&gt;Dimension&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;2&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.2mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;3&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.3mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;4&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.4mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;5&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;6&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;7&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.7mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;8&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;0.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;9&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;0.85mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;A&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;B&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.25mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;C&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.6mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;D&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;2.0mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;E&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;2.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-iuhm"&gt;M&lt;/td&gt;
+    &lt;td class="tg-iuhm"&gt;1.15mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;Q&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;1.5mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-25al"&gt;S&lt;/td&gt;
+    &lt;td class="tg-25al"&gt;2.8mm&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-zzfq"&gt;X&lt;/td&gt;
+    &lt;td class="tg-zzfq"&gt;Depends on individual standards.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-1.4" y="0" dx="1.651" dy="2.794" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.651" dy="2.794" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.27" x2="-0.9517" y2="1.27" layer="51"/>
+<rectangle x1="0.9517" y1="-1.27" x2="1.7018" y2="1.27" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-1.905" x2="2.54" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.127" layer="39"/>
+<wire x1="2.54" y1="1.905" x2="-2.54" y2="1.905" width="0.127" layer="39"/>
+<wire x1="-0.47625" y1="1.27" x2="0.47625" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.47625" y1="-1.27" x2="0.47625" y2="-1.27" width="0.1524" layer="21"/>
+</package>
+<package name="PANC">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-C&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type C&lt;/li&gt;
+  &lt;li&gt;Diameter: 5mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CP" x="0" y="2.2225" dx="1.6" dy="2.8" layer="1"/>
+<smd name="CN" x="0" y="-2.2225" dx="1.6" dy="2.8" layer="1"/>
+<text x="-3.175" y="-3.01625" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.01625" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<text x="0.79375" y="0.9525" size="1.016" layer="21">+</text>
+<text x="0.79375" y="0.9525" size="1.016" layer="51">+</text>
+<wire x1="-2.69875" y1="-3.01625" x2="2.69875" y2="-3.01625" width="0.1016" layer="51"/>
+<wire x1="-2.69875" y1="-3.01625" x2="-2.69875" y2="1.42875" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2.38125" width="0.127" layer="51"/>
+<wire x1="-1.11125" y1="3.01625" x2="1.11125" y2="3.01625" width="0.1016" layer="51"/>
+<wire x1="2.69875" y1="-3.01625" x2="2.69875" y2="1.42875" width="0.1016" layer="51"/>
+<wire x1="-2.69875" y1="1.42875" x2="-1.11125" y2="3.01625" width="0.1016" layer="51"/>
+<wire x1="2.69875" y1="1.42875" x2="1.11125" y2="3.01625" width="0.1016" layer="51"/>
+<wire x1="-2.69875" y1="-3.01625" x2="-2.69875" y2="1.42875" width="0.1016" layer="21"/>
+<wire x1="2.69875" y1="-3.01625" x2="2.69875" y2="1.42875" width="0.1016" layer="21"/>
+<wire x1="-2.69875" y1="1.42875" x2="-1.11125" y2="3.01625" width="0.1016" layer="21"/>
+<wire x1="2.69875" y1="1.42875" x2="1.11125" y2="3.01625" width="0.1016" layer="21"/>
+<wire x1="-1.11125" y1="3.01625" x2="-0.9525" y2="3.01625" width="0.1016" layer="21"/>
+<wire x1="0.9525" y1="3.01625" x2="1.11125" y2="3.01625" width="0.1016" layer="21"/>
+<wire x1="-2.69875" y1="-3.01625" x2="-0.9525" y2="-3.01625" width="0.1016" layer="21"/>
+<wire x1="0.9525" y1="-3.01625" x2="2.69875" y2="-3.01625" width="0.1016" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-1.74625" y1="-1.42875" x2="1.74625" y2="-1.42875" width="0.254" layer="51"/>
+<wire x1="-1.5875" y1="-1.5875" x2="1.5875" y2="-1.5875" width="0.254" layer="51"/>
+<wire x1="-1.42875" y1="-1.74625" x2="1.42875" y2="-1.74625" width="0.254" layer="51"/>
+<wire x1="-1.11125" y1="-1.905" x2="1.11125" y2="-1.905" width="0.254" layer="51"/>
+<wire x1="1.11125" y1="-1.905" x2="1.27" y2="-1.905" width="0.254" layer="51"/>
+<wire x1="-0.9525" y1="-2.06375" x2="0.9525" y2="-2.06375" width="0.254" layer="51"/>
+<wire x1="-0.635" y1="-2.2225" x2="0.635" y2="-2.2225" width="0.254" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.11125" y2="-1.905" width="0.254" layer="51"/>
+<wire x1="-1.11125" y1="-1.905" x2="-0.9525" y2="-2.06375" width="0.254" layer="51"/>
+<wire x1="0.9525" y1="-2.06375" x2="1.11125" y2="-1.905" width="0.254" layer="51"/>
+<rectangle x1="-0.635" y1="2.38125" x2="0.635" y2="3.33375" layer="51"/>
+<rectangle x1="-0.635" y1="-3.33375" x2="0.635" y2="-2.38125" layer="51"/>
+<wire x1="-3.175" y1="3.81" x2="-3.175" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="-3.175" y1="-3.81" x2="3.175" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="3.175" y1="-3.81" x2="3.175" y2="3.81" width="0.127" layer="39"/>
+<wire x1="3.175" y1="3.81" x2="-3.175" y2="3.81" width="0.127" layer="39"/>
+</package>
+<package name="PANB">
+<description>&lt;p&gt;
+&lt;h3&gt;Panasonic AEC-B&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Aluminum Electrolytic Capacitors&lt;/li&gt;
+  &lt;li&gt;SMD package type B&lt;/li&gt;
+  &lt;li&gt;Diameter: 4mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL48.pdf"&gt;Mechanical&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<smd name="CN" x="0" y="-1.74625" dx="1.6" dy="2.5" layer="1"/>
+<smd name="CP" x="0" y="1.74625" dx="1.6" dy="2.5" layer="1"/>
+<wire x1="-2.2225" y1="-2.38125" x2="2.2225" y2="-2.38125" width="0.1016" layer="51"/>
+<wire x1="-2.2225" y1="-2.38125" x2="-2.2225" y2="1.27" width="0.1016" layer="21"/>
+<wire x1="2.2225" y1="-2.38125" x2="2.2225" y2="1.27" width="0.1016" layer="21"/>
+<wire x1="-1.11125" y1="2.38125" x2="1.11125" y2="2.38125" width="0.1016" layer="51"/>
+<wire x1="-2.2225" y1="1.27" x2="-1.11125" y2="2.38125" width="0.1016" layer="21"/>
+<wire x1="2.2225" y1="1.27" x2="1.11125" y2="2.38125" width="0.1016" layer="21"/>
+<wire x1="-1.11125" y1="2.38125" x2="-0.9525" y2="2.38125" width="0.1016" layer="21"/>
+<wire x1="-2.2225" y1="-2.38125" x2="-0.9525" y2="-2.38125" width="0.1016" layer="21"/>
+<wire x1="0.9525" y1="-2.38125" x2="2.2225" y2="-2.38125" width="0.1016" layer="21"/>
+<wire x1="0.9525" y1="2.38125" x2="1.11125" y2="2.38125" width="0.1016" layer="21"/>
+<text x="-2.69875" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="3.96875" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-2.2225" y1="-2.38125" x2="-2.2225" y2="1.27" width="0.1016" layer="51"/>
+<wire x1="-2.2225" y1="1.27" x2="-1.11125" y2="2.38125" width="0.1016" layer="51"/>
+<wire x1="2.2225" y1="1.27" x2="1.11125" y2="2.38125" width="0.1016" layer="51"/>
+<wire x1="2.2225" y1="-2.38125" x2="2.2225" y2="1.27" width="0.1016" layer="51"/>
+<text x="0.79375" y="0.9525" size="1.016" layer="51">+</text>
+<circle x="0" y="0" radius="2.06375" width="0.127" layer="51"/>
+<wire x1="-1.74625" y1="-0.79375" x2="1.74625" y2="-0.79375" width="0.254" layer="51"/>
+<wire x1="-1.74625" y1="-0.9525" x2="1.74625" y2="-0.9525" width="0.254" layer="51"/>
+<wire x1="-1.5875" y1="-1.11125" x2="1.5875" y2="-1.11125" width="0.254" layer="51"/>
+<wire x1="-1.42875" y1="-1.27" x2="1.42875" y2="-1.27" width="0.254" layer="51"/>
+<wire x1="-1.27" y1="-1.42875" x2="1.27" y2="-1.42875" width="0.254" layer="51"/>
+<wire x1="-1.11125" y1="-1.5875" x2="1.11125" y2="-1.5875" width="0.254" layer="51"/>
+<wire x1="-0.9525" y1="-1.74625" x2="-0.79375" y2="-1.74625" width="0.254" layer="51"/>
+<wire x1="-0.79375" y1="-1.74625" x2="0.79375" y2="-1.74625" width="0.254" layer="51"/>
+<wire x1="0.79375" y1="-1.74625" x2="0.9525" y2="-1.74625" width="0.254" layer="51"/>
+<wire x1="-0.47625" y1="-1.905" x2="0.47625" y2="-1.905" width="0.254" layer="51"/>
+<wire x1="-1.11125" y1="-1.5875" x2="-1.5875" y2="-1.11125" width="0.254" layer="51"/>
+<wire x1="1.11125" y1="-1.5875" x2="1.5875" y2="-1.11125" width="0.254" layer="51"/>
+<wire x1="0.47625" y1="-1.905" x2="0.79375" y2="-1.74625" width="0.254" layer="51"/>
+<wire x1="-0.47625" y1="-1.905" x2="-0.79375" y2="-1.74625" width="0.254" layer="51"/>
+<rectangle x1="-0.47625" y1="2.06375" x2="0.47625" y2="2.69875" layer="51"/>
+<rectangle x1="-0.47625" y1="-2.69875" x2="0.47625" y2="-2.06375" layer="51"/>
+<wire x1="-2.54" y1="3.33375" x2="-2.54" y2="-3.33375" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-3.33375" x2="2.54" y2="-3.33375" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-3.33375" x2="2.54" y2="3.33375" width="0.127" layer="39"/>
+<wire x1="2.54" y1="3.33375" x2="-2.54" y2="3.33375" width="0.127" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="omcDiode">
+<description>&lt;h1&gt;omcDiode.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;PN-Diode&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;1N400X&lt;/li&gt;
+     &lt;li&gt;1N4148&lt;/li&gt;
+     &lt;li&gt;LL4148&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;Schottky-Diode&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;BAT46&lt;/li&gt;
+   &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 3. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2013&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+  &lt;dt&gt;2016&lt;/dt&gt;
+  &lt;dd&gt;added BAT46, 1N400X, DIL-Rectifier&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="DO214AB">
+<description>&lt;p&gt;
+&lt;h3&gt;DO214AB/SMC Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;DO214AB or SMC Package&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/packages/SMC.pdf"&gt;Mechanical outline&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/package-outlines.html"&gt;Diodes Incorporate side&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/DO-214"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="C" x="-3.33375" y="0" dx="2.5" dy="3.3" layer="1"/>
+<smd name="A" x="3.33375" y="0" dx="2.5" dy="3.3" layer="1"/>
+<wire x1="-3.4925" y1="3.175" x2="3.4925" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="-3.175" x2="3.4925" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="3.175" x2="-3.4925" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="3.4925" y1="3.175" x2="3.4925" y2="1.74625" width="0.127" layer="21"/>
+<wire x1="3.4925" y1="-3.175" x2="3.4925" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="-3.175" x2="-3.4925" y2="-1.74625" width="0.127" layer="21"/>
+<wire x1="-3.4925" y1="3.175" x2="-3.4925" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-3.4925" y1="-3.175" x2="3.4925" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="3.4925" y1="-3.175" x2="3.4925" y2="3.175" width="0.127" layer="51"/>
+<wire x1="3.4925" y1="3.175" x2="-3.4925" y2="3.175" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1905" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1905" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1905" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.1905" layer="21"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.1905" layer="21"/>
+<rectangle x1="-2.8575" y1="-3.175" x2="-2.2225" y2="3.175" layer="51"/>
+<rectangle x1="-2.8575" y1="-3.175" x2="-2.2225" y2="-1.74625" layer="21"/>
+<rectangle x1="-2.8575" y1="1.74625" x2="-2.2225" y2="3.175" layer="21"/>
+<rectangle x1="-4.1275" y1="-1.5875" x2="-3.4925" y2="1.5875" layer="51"/>
+<rectangle x1="3.4925" y1="-1.5875" x2="4.1275" y2="1.5875" layer="51"/>
+<text x="-4.28625" y="-5.08" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-4.28625" y="3.96875" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.127" layer="39"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.127" layer="39"/>
+<wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.127" layer="39"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.1905" layer="51"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.1905" layer="51"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1905" layer="51"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="1.27" width="0.1905" layer="51"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.1905" layer="51"/>
+</package>
+<package name="SOD323">
+<description>&lt;p&gt;
+&lt;h3&gt;SOD323 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD323, P173)&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="0.373" y1="0.346" x2="-0.373" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.373" y1="0" x2="0.373" y2="-0.346" width="0.127" layer="21"/>
+<wire x1="0.373" y1="-0.346" x2="0.373" y2="0.346" width="0.127" layer="21"/>
+<text x="-2.794" y="1.143" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<rectangle x1="-1.007" y1="-0.635" x2="-0.762" y2="0.635" layer="51"/>
+<rectangle x1="-0.508" y1="-0.381" x2="-0.254" y2="0.381" layer="21"/>
+<wire x1="0.97155" y1="0.6731" x2="-0.9398" y2="0.6731" width="0.1524" layer="51"/>
+<text x="-2.794" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<smd name="C" x="-1.016" y="0" dx="0.635" dy="0.508" layer="1"/>
+<smd name="A" x="1.016" y="0" dx="0.635" dy="0.508" layer="1"/>
+<rectangle x1="0.771" y1="-0.635" x2="1.016" y2="0.635" layer="51"/>
+<wire x1="0.97155" y1="-0.5969" x2="-0.9398" y2="-0.5969" width="0.1524" layer="51"/>
+<wire x1="-1.5875" y1="0.9525" x2="-1.5875" y2="-0.79375" width="0.127" layer="39"/>
+<wire x1="-1.5875" y1="-0.79375" x2="1.5875" y2="-0.79375" width="0.127" layer="39"/>
+<wire x1="1.5875" y1="-0.79375" x2="1.5875" y2="0.9525" width="0.127" layer="39"/>
+<wire x1="1.5875" y1="0.9525" x2="-1.5875" y2="0.9525" width="0.127" layer="39"/>
+<wire x1="0.97155" y1="-0.5969" x2="-0.9398" y2="-0.5969" width="0.1524" layer="21"/>
+<wire x1="0.97155" y1="0.6731" x2="-0.9398" y2="0.6731" width="0.1524" layer="21"/>
+<rectangle x1="-1.007" y1="-0.635" x2="-0.762" y2="0.635" layer="51"/>
+<rectangle x1="-1.007" y1="0.3175" x2="-0.762" y2="0.635" layer="21"/>
+<rectangle x1="-1.007" y1="-0.635" x2="-0.762" y2="-0.3175" layer="21"/>
+<rectangle x1="0.771" y1="0.3175" x2="1.016" y2="0.635" layer="21"/>
+<rectangle x1="0.771" y1="-0.635" x2="1.016" y2="-0.3175" layer="21"/>
+</package>
+<package name="SOD123">
+<description>&lt;p&gt;
+&lt;h3&gt;SOD123 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="C" x="-1.5875" y="0" dx="0.889" dy="1.016" layer="1"/>
+<smd name="A" x="1.5875" y="0" dx="0.889" dy="1.016" layer="1"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.627" y1="0.6" x2="-0.373" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.373" y1="0" x2="0.627" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="0.627" y1="-0.6" x2="0.627" y2="0.6" width="0.2032" layer="21"/>
+<text x="-2.794" y="1.143" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
+<rectangle x1="-0.635" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+<wire x1="1.3208" y1="0.8001" x2="-1.3208" y2="0.8001" width="0.1524" layer="51"/>
+<text x="-2.794" y="-2.413" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="1.3208" y1="0.8001" x2="-1.3208" y2="0.8001" width="0.1524" layer="21"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="21"/>
+<rectangle x1="-1.8542" y1="0.5588" x2="-1.2954" y2="0.8636" layer="21"/>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="-0.5588" layer="21"/>
+<rectangle x1="1.2954" y1="0.5588" x2="1.8542" y2="0.8636" layer="21"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="-0.5588" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="omcAD">
+<description>&lt;h1&gt;omcAD.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+Analog/Digital and Digital/Analog convertor library.
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;
+This library is licensed under the General Public License, Version 3. 
+&lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="https://www.gnu.org/licenses/gpl-3.0.en.html"&gt;https://www.gnu.org/licenses/gpl-3.0.en.html&lt;/a&gt;.
+&lt;br /&gt;
+&lt;/p&gt;</description>
+<packages>
+<package name="MSOP8">
+<description>&lt;h3&gt;MSOP8&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD&lt;/li&gt;
+  &lt;li&gt;3mm×4.9mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.vishay.com/docs/71244/71244.pdf"&gt;Mechanical Reference&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="2" x="1.27" y="0.575" dx="0.4" dy="0.95" layer="1"/>
+<smd name="7" x="1.27" y="4.66375" dx="0.4" dy="0.95" layer="1"/>
+<smd name="1" x="0.635" y="0.575" dx="0.4" dy="0.95" layer="1"/>
+<smd name="3" x="1.905" y="0.575" dx="0.4" dy="0.95" layer="1"/>
+<smd name="4" x="2.54" y="0.575" dx="0.4" dy="0.95" layer="1"/>
+<smd name="8" x="0.635" y="4.66375" dx="0.4" dy="0.95" layer="1"/>
+<smd name="6" x="1.905" y="4.66375" dx="0.4" dy="0.95" layer="1"/>
+<smd name="5" x="2.54" y="4.66375" dx="0.4" dy="0.95" layer="1"/>
+<wire x1="0" y1="5.23875" x2="0" y2="0" width="0.127" layer="39"/>
+<wire x1="0" y1="0" x2="3.175" y2="0" width="0.127" layer="39"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="5.23875" width="0.127" layer="39"/>
+<wire x1="3.175" y1="5.23875" x2="0" y2="5.23875" width="0.127" layer="39"/>
+<wire x1="0.15875" y1="3.96875" x2="0.15875" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="1.27" x2="3.01625" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.01625" y1="1.27" x2="3.01625" y2="3.96875" width="0.2032" layer="21"/>
+<wire x1="3.01625" y1="3.96875" x2="0.15875" y2="3.96875" width="0.2032" layer="21"/>
+<circle x="0.79375" y="1.905" radius="0.354975" width="0.127" layer="21"/>
+<text x="6.985" y="0" size="1.27" layer="27" font="vector" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="5.08" y="0" size="1.27" layer="21" font="vector" ratio="12" rot="R90">&gt;NAME</text>
+<rectangle x1="0.47625" y1="3.96875" x2="0.79375" y2="4.7625" layer="51"/>
+<rectangle x1="1.11125" y1="3.96875" x2="1.42875" y2="4.7625" layer="51"/>
+<rectangle x1="1.74625" y1="3.96875" x2="2.06375" y2="4.7625" layer="51"/>
+<rectangle x1="2.38125" y1="3.96875" x2="2.69875" y2="4.7625" layer="51"/>
+<rectangle x1="0.47625" y1="0.47625" x2="0.79375" y2="1.27" layer="51"/>
+<rectangle x1="1.11125" y1="0.47625" x2="1.42875" y2="1.27" layer="51"/>
+<rectangle x1="1.74625" y1="0.47625" x2="2.06375" y2="1.27" layer="51"/>
+<rectangle x1="2.38125" y1="0.47625" x2="2.69875" y2="1.27" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="omcFuse">
+<description>&lt;h1&gt;omcFuse.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Schurter&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;OMT125/OMT250 SMD Fuses&lt;/li&gt;
+   &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="OMT125">
+<description>&lt;p&gt;
+&lt;h3&gt;Schurter OMT125&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD Fuse&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.schurter.ch/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OMT_125.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-3.175" y="0" dx="3" dy="2.8" layer="1"/>
+<smd name="2" x="3.175" y="0" dx="3" dy="2.8" layer="1"/>
+<wire x1="-1.27" y1="1.5875" x2="1.27" y2="1.5875" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-1.5875" x2="1.27" y2="-1.5875" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="1.5875" x2="3.81" y2="1.5875" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-1.5875" x2="3.81" y2="-1.5875" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="1.5875" x2="-3.81" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-1.5875" x2="-3.81" y2="-1.27" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="1.5875" x2="3.81" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="-1.5875" x2="3.81" y2="-1.27" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.3048" layer="51" curve="-180"/>
+<wire x1="3.81" y1="-1.27" x2="3.81" y2="1.27" width="0.3048" layer="51" curve="-180"/>
+<wire x1="-0.9525" y1="0.9525" x2="0.9525" y2="-0.9525" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="0.9525" x2="-2.8575" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="0.9525" y1="-0.9525" x2="2.8575" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="0.9525" y1="-0.9525" x2="-0.9525" y2="0.9525" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="0.3175" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.3048" layer="39"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.3048" layer="39"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.3048" layer="39"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.3048" layer="39"/>
+<text x="-3.175" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.175" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="holes">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3,2-PAD">
+<description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 3.2 mm, round</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="39"/>
+<circle x="0" y="0" radius="3.683" width="1.27" layer="40"/>
+<circle x="0" y="0" radius="3.556" width="1.016" layer="43"/>
+<circle x="0" y="0" radius="1.7" width="0.1524" layer="21"/>
+<pad name="B3,2" x="0" y="0" drill="3.2" diameter="5.842"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,2</text>
+</package>
+</packages>
+</library>
+<library name="omcPwrSupply">
+<description>&lt;h1&gt;omcPwrSupply.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+Collection of integrated circuits to bilud-up a power supply chain
+&lt;ul&gt;
+  &lt;li&gt;Linear Regulator&lt;/li&gt;
+  &lt;li&gt;Switching Regulator&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;Voltage Mode&lt;/li&gt;
+    &lt;li&gt;Current Mode&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; DC/DC Converter&lt;/li&gt; &lt;ul&gt;
+     &lt;li&gt;1W/2W&lt;/li&gt;
+   &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="TO263-7">
+<description>&lt;h3&gt;TO263 (7-Lead)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;D2PAK&lt;/li&gt;
+&lt;li&gt;DDPAK&lt;/li&gt;
+&lt;li&gt;KTT&lt;/li&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;10.16mm×15.24mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/TO-263"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;a href="http://focus.ti.com/download/aap/pdf/slyb130_KTT-DesignSummary.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-5.23875" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<smd name="8" x="0" y="2.54" dx="10.7" dy="8.6" layer="1"/>
+<wire x1="5.8166" y1="5.1054" x2="5.817" y2="-4.3815" width="0.2032" layer="21"/>
+<wire x1="5.817" y1="-4.3815" x2="-5.817" y2="-4.3815" width="0.2032" layer="21"/>
+<wire x1="-5.817" y1="-4.3815" x2="-5.8166" y2="5.1054" width="0.2032" layer="21"/>
+<wire x1="-5.817" y1="5.105" x2="5.8174" y2="5.1046" width="0.2032" layer="51"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-5.1054" y="5.207"/>
+<vertex x="-5.1054" y="6.07695"/>
+<vertex x="-4.6482" y="6.53415"/>
+<vertex x="4.6482" y="6.53415"/>
+<vertex x="5.1054" y="6.07695"/>
+<vertex x="5.1054" y="5.207"/>
+</polygon>
+<rectangle x1="-5.64625" y1="-8.5725" x2="-4.84625" y2="-4.4831" layer="51"/>
+<smd name="2" x="-3.4925" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<smd name="3" x="-1.74625" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<smd name="4" x="0" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<smd name="5" x="1.74625" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<text x="7.62" y="-3.81" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<text x="-6.35" y="-3.81" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<rectangle x1="-3.9" y1="-8.5725" x2="-3.1" y2="-4.4831" layer="51"/>
+<rectangle x1="-2.15375" y1="-8.5725" x2="-1.35375" y2="-4.4831" layer="51"/>
+<rectangle x1="-0.4075" y1="-8.5725" x2="0.3925" y2="-4.4831" layer="51"/>
+<rectangle x1="1.33875" y1="-8.5725" x2="2.13875" y2="-4.4831" layer="51"/>
+<circle x="-4.92125" y="-3.33375" radius="0.4490125" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="6.985" x2="-6.35" y2="-10.16" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="-10.16" x2="6.35" y2="-10.16" width="0.127" layer="39"/>
+<wire x1="6.35" y1="-10.16" x2="6.35" y2="6.985" width="0.127" layer="39"/>
+<wire x1="6.35" y1="6.985" x2="-6.35" y2="6.985" width="0.127" layer="39"/>
+<smd name="6" x="3.4925" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<smd name="7" x="5.23875" y="-8.255" dx="1" dy="3.4" layer="1"/>
+<rectangle x1="3.085" y1="-8.5725" x2="3.885" y2="-4.4831" layer="51"/>
+<rectangle x1="4.83125" y1="-8.5725" x2="5.63125" y2="-4.4831" layer="51"/>
+</package>
+<package name="SOT23-5">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 5-lead Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT23-5, SOT-23/5&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.vishay.com/docs/83315/sot235l.pdf"&gt;Mechanical reference&lt;/a&gt; (Vishay)&lt;/il&gt;
+&lt;/p&gt;</description>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.9525" x2="-1.5875" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.9525" x2="1.5875" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.9525" x2="1.5875" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.9525" x2="-1.5875" y2="0.9525" width="0.127" layer="51"/>
+<wire x1="-1.349375" y1="0.9525" x2="-1.5875" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.9525" x2="-1.5875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="1.42875" y1="0.9525" x2="1.5875" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.9525" x2="1.5875" y2="-0.9525" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.5875" x2="-0.7239" y2="-0.9525" layer="51"/>
+<rectangle x1="0.6985" y1="-1.5875" x2="1.1811" y2="-0.9525" layer="51"/>
+<rectangle x1="-0.254" y1="-1.5875" x2="0.2286" y2="-0.9525" layer="51"/>
+<wire x1="-1.5875" y1="-0.9525" x2="-1.42875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.9525" x2="1.42875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-1.74625" y1="2.06375" x2="-1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="-1.74625" y1="-2.06375" x2="1.74625" y2="-2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="-2.06375" x2="1.74625" y2="2.06375" width="0.127" layer="39"/>
+<wire x1="1.74625" y1="2.06375" x2="-1.74625" y2="2.06375" width="0.127" layer="39"/>
+<smd name="2" x="0" y="-1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="1" x="-0.9525" y="-1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="3" x="0.9525" y="-1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="5" x="-0.9525" y="1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<smd name="4" x="0.9525" y="1.42875" dx="0.635" dy="1.143" layer="1" rot="R180"/>
+<rectangle x1="-1.2065" y1="0.9525" x2="-0.7239" y2="1.5875" layer="51"/>
+<rectangle x1="0.6985" y1="0.9525" x2="1.1811" y2="1.5875" layer="51"/>
+<wire x1="0.555625" y1="-0.9525" x2="0.396875" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="-0.396875" y1="-0.9525" x2="-0.47625" y2="-0.9525" width="0.127" layer="21"/>
+<wire x1="0.555625" y1="0.9525" x2="-0.555625" y2="0.9525" width="0.127" layer="21"/>
+<wire x1="-1.42875" y1="-0.9525" x2="-0.47625" y2="-0.9525" width="0.127" layer="21" curve="-180"/>
+</package>
+<package name="TO263">
+<description>&lt;h3&gt;TO263 (3-Lead)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;D2PAK&lt;/li&gt;
+&lt;li&gt;DDPAK&lt;/li&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;10.16mm×15.24mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/TO-263"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;a href="http://www.onsemi.com/pub_link/Collateral/418AJ.PDF"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-2.54" y="-6.0325" dx="1.6002" dy="4.2926" layer="1"/>
+<smd name="3" x="2.54" y="-6.0325" dx="1.6002" dy="4.2926" layer="1"/>
+<smd name="4" x="0" y="3.81" dx="11" dy="9.2" layer="1"/>
+<wire x1="-6.35" y1="8.89" x2="6.35" y2="8.89" width="0.127" layer="39"/>
+<wire x1="6.35" y1="8.89" x2="6.35" y2="-8.89" width="0.127" layer="39"/>
+<wire x1="6.35" y1="-8.89" x2="-6.35" y2="-8.89" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="-8.89" x2="-6.35" y2="8.89" width="0.127" layer="39"/>
+<wire x1="5.8166" y1="6.3754" x2="5.817" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="5.817" y1="-2.159" x2="-5.817" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-5.817" y1="-2.159" x2="-5.8166" y2="6.3754" width="0.2032" layer="21"/>
+<wire x1="-5.817" y1="6.375" x2="5.8174" y2="6.3746" width="0.2032" layer="51"/>
+<rectangle x1="-3.2258" y1="-6.35" x2="-1.8542" y2="-2.2606" layer="51"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-5.1054" y="6.477"/>
+<vertex x="-5.1054" y="7.8232"/>
+<vertex x="-4.6482" y="8.2804"/>
+<vertex x="4.6482" y="8.2804"/>
+<vertex x="5.1054" y="7.8232"/>
+<vertex x="5.1054" y="6.477"/>
+</polygon>
+<rectangle x1="1.8542" y1="-6.35" x2="3.2258" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.6858" y1="-3.302" x2="0.6858" y2="-2.2606" layer="51"/>
+<circle x="-5.08" y="-1.42875" radius="0.4490125" width="0.127" layer="21"/>
+<text x="7.62" y="-1.27" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<text x="-6.35" y="-1.27" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="omcPIC">
+<description>&lt;h1&gt;omcPIC.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;8Bit Controller&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;PIC12F629&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;16Bit Controller&lt;/li&gt;&lt;ul&gt;
+  &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 3. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2016-04-03&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="SOIC28-7.62">
+<description>&lt;h3&gt;SOIC28&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD&lt;/li&gt;
+  &lt;li&gt;18mm×7.5mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+  &lt;li&gt;&lt;a href="http://practicalcomponents.com/assets/cfc/Attachments.cfc?method=Download&amp;AttachmentID=895"&gt;Landing Pattern&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="2" x="-6.985" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="27" x="-6.985" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="1" x="-8.255" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="3" x="-5.715" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="4" x="-4.445" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="28" x="-8.255" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="26" x="-5.715" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="25" x="-4.445" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<wire x1="-7.6596875" y1="3.095625" x2="-7.5803125" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-7.6596875" y1="-4.445" x2="-7.5803125" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-6.3896875" y1="-4.445" x2="-6.3103125" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-5.1196875" y1="-4.445" x2="-5.0403125" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-9.2075" y1="5.08" x2="-9.2075" y2="-6.35" width="0.127" layer="39"/>
+<wire x1="-9.2075" y1="-6.35" x2="9.2075" y2="-6.35" width="0.127" layer="39"/>
+<wire x1="9.2075" y1="-6.35" x2="9.2075" y2="5.08" width="0.127" layer="39"/>
+<wire x1="9.2075" y1="5.08" x2="-9.2075" y2="5.08" width="0.127" layer="39"/>
+<wire x1="-8.969375" y1="3.095625" x2="-8.969375" y2="-3.96875" width="0.2032" layer="51"/>
+<wire x1="-8.969375" y1="-3.96875" x2="-8.969375" y2="-4.445" width="0.2032" layer="51"/>
+<wire x1="-8.969375" y1="-4.445" x2="8.969375" y2="-4.445" width="0.2032" layer="51"/>
+<wire x1="8.969375" y1="-4.445" x2="8.969375" y2="-3.96875" width="0.2032" layer="51"/>
+<wire x1="8.969375" y1="-3.96875" x2="8.969375" y2="3.095625" width="0.2032" layer="51"/>
+<wire x1="8.969375" y1="3.095625" x2="-8.969375" y2="3.095625" width="0.2032" layer="51"/>
+<wire x1="-8.969375" y1="-3.96875" x2="8.969375" y2="-3.96875" width="0.2032" layer="51"/>
+<smd name="5" x="-3.175" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="6" x="-1.905" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="7" x="-0.635" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="8" x="0.635" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="9" x="1.905" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="10" x="3.175" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="11" x="4.445" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="12" x="5.715" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="13" x="6.985" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="14" x="8.255" y="-5.29875" dx="0.72" dy="1.78" layer="1"/>
+<smd name="15" x="8.255" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="16" x="6.985" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="17" x="5.715" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="18" x="4.445" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="19" x="3.175" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="20" x="1.905" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="21" x="0.635" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="22" x="-0.635" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="23" x="-1.905" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<smd name="24" x="-3.175" y="3.949375" dx="0.72" dy="1.78" layer="1"/>
+<wire x1="-3.8496875" y1="-4.445" x2="-3.7703125" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-2.5796875" y1="-4.445" x2="-2.5003125" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-1.3096875" y1="-4.445" x2="-1.2303125" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-0.0396875" y1="-4.445" x2="0.0396875" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="1.2303125" y1="-4.445" x2="1.3096875" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="2.5003125" y1="-4.445" x2="2.5796875" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="3.7703125" y1="-4.445" x2="3.8496875" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="5.0403125" y1="-4.445" x2="5.1196875" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="6.3103125" y1="-4.445" x2="6.3896875" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="7.5803125" y1="-4.445" x2="7.6596875" y2="-4.445" width="0.2032" layer="21"/>
+<rectangle x1="-8.493125" y1="-5.794375" x2="-8.016875" y2="-4.524375" layer="51"/>
+<rectangle x1="-8.493125" y1="3.175" x2="-8.016875" y2="4.445" layer="51"/>
+<wire x1="-6.3896875" y1="3.095625" x2="-6.3103125" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-5.1196875" y1="3.095625" x2="-5.0403125" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-3.8496875" y1="3.095625" x2="-3.7703125" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-2.5796875" y1="3.095625" x2="-2.5003125" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-1.3096875" y1="3.095625" x2="-1.2303125" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-0.0396875" y1="3.095625" x2="0.0396875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="1.2303125" y1="3.095625" x2="1.3096875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="2.5003125" y1="3.095625" x2="2.5796875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="3.7703125" y1="3.095625" x2="3.8496875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="5.0403125" y1="3.095625" x2="5.1196875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="6.3103125" y1="3.095625" x2="6.3896875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="7.5803125" y1="3.095625" x2="7.6596875" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="3.095625" x2="-8.969375" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="-8.969375" y1="3.095625" x2="-8.969375" y2="-3.96875" width="0.2032" layer="21"/>
+<wire x1="-8.969375" y1="-3.96875" x2="-8.969375" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-8.969375" y1="-4.445" x2="-8.89" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="-8.969375" y1="-3.96875" x2="8.969375" y2="-3.96875" width="0.2032" layer="21"/>
+<wire x1="8.89" y1="-4.445" x2="8.969375" y2="-4.445" width="0.2032" layer="21"/>
+<wire x1="8.969375" y1="-4.445" x2="8.969375" y2="3.095625" width="0.2032" layer="21"/>
+<wire x1="8.969375" y1="3.095625" x2="8.89" y2="3.095625" width="0.2032" layer="21"/>
+<rectangle x1="-7.223125" y1="-5.794375" x2="-6.746875" y2="-4.524375" layer="51"/>
+<rectangle x1="-5.953125" y1="-5.794375" x2="-5.476875" y2="-4.524375" layer="51"/>
+<rectangle x1="-4.683125" y1="-5.794375" x2="-4.206875" y2="-4.524375" layer="51"/>
+<rectangle x1="-3.413125" y1="-5.794375" x2="-2.936875" y2="-4.524375" layer="51"/>
+<rectangle x1="-2.143125" y1="-5.794375" x2="-1.666875" y2="-4.524375" layer="51"/>
+<rectangle x1="-0.873125" y1="-5.794375" x2="-0.396875" y2="-4.524375" layer="51"/>
+<rectangle x1="0.396875" y1="-5.794375" x2="0.873125" y2="-4.524375" layer="51"/>
+<rectangle x1="1.666875" y1="-5.794375" x2="2.143125" y2="-4.524375" layer="51"/>
+<rectangle x1="2.936875" y1="-5.794375" x2="3.413125" y2="-4.524375" layer="51"/>
+<rectangle x1="4.206875" y1="-5.794375" x2="4.683125" y2="-4.524375" layer="51"/>
+<rectangle x1="5.476875" y1="-5.794375" x2="5.953125" y2="-4.524375" layer="51"/>
+<rectangle x1="6.746875" y1="-5.794375" x2="7.223125" y2="-4.524375" layer="51"/>
+<rectangle x1="8.016875" y1="-5.794375" x2="8.493125" y2="-4.524375" layer="51"/>
+<rectangle x1="-7.223125" y1="3.175" x2="-6.746875" y2="4.445" layer="51"/>
+<rectangle x1="-5.953125" y1="3.175" x2="-5.476875" y2="4.445" layer="51"/>
+<rectangle x1="-4.683125" y1="3.175" x2="-4.206875" y2="4.445" layer="51"/>
+<rectangle x1="-3.413125" y1="3.175" x2="-2.936875" y2="4.445" layer="51"/>
+<rectangle x1="-2.143125" y1="3.175" x2="-1.666875" y2="4.445" layer="51"/>
+<rectangle x1="-0.873125" y1="3.175" x2="-0.396875" y2="4.445" layer="51"/>
+<rectangle x1="0.396875" y1="3.175" x2="0.873125" y2="4.445" layer="51"/>
+<rectangle x1="1.666875" y1="3.175" x2="2.143125" y2="4.445" layer="51"/>
+<rectangle x1="2.936875" y1="3.175" x2="3.413125" y2="4.445" layer="51"/>
+<rectangle x1="4.206875" y1="3.175" x2="4.683125" y2="4.445" layer="51"/>
+<rectangle x1="5.476875" y1="3.175" x2="5.953125" y2="4.445" layer="51"/>
+<rectangle x1="6.746875" y1="3.175" x2="7.223125" y2="4.445" layer="51"/>
+<rectangle x1="8.016875" y1="3.175" x2="8.493125" y2="4.445" layer="51"/>
+<text x="-9.525" y="-4.445" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="10.795" y="-4.445" size="1.27" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+<circle x="-7.62" y="-2.54" radius="0.70995" width="0.2032" layer="21"/>
+<circle x="-7.62" y="-2.54" radius="0.70995" width="0.2032" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="pinhead">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X04">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.1562" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
+<rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="omcInductor">
+<description>&lt;h1&gt;omcInductor.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+This library contains Inductor Devices:
+&lt;ul&gt;
+  &lt;li&gt;Ferrite&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt; PISM Series (SMD, Toroideal)&lt;/li&gt;
+     &lt;li&gt; PISG Series (SMD, Toroideal)&lt;/li&gt;
+     &lt;li&gt; MESC Series (THT, Axial)&lt;/li&gt;
+     &lt;li&gt; SK Series (THT, Toroideal)&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;Current-compensated Chokes&lt;/li&gt;&lt;ul&gt;
+       &lt;li&gt; RN-Series (THT) &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="PIS472X">
+<description>&lt;h3&gt;PIS282X Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;2820 Series&lt;/li&gt;
+&lt;li&gt;2828 Series&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="0" y="4.92125" dx="5.4" dy="2.9" layer="1"/>
+<smd name="2" x="0" y="-4.92125" dx="5.4" dy="2.9" layer="1"/>
+<wire x1="-6.19125" y1="6.19125" x2="-6.19125" y2="-6.19125" width="0.3048" layer="21"/>
+<wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="21"/>
+<wire x1="-6.19125" y1="6.19125" x2="-3.175" y2="6.19125" width="0.3048" layer="21"/>
+<wire x1="-6.19125" y1="-6.19125" x2="-3.175" y2="-6.19125" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="-6.19125" x2="6.19125" y2="-6.19125" width="0.3048" layer="21"/>
+<wire x1="-6.6675" y1="6.82625" x2="-6.6675" y2="-6.82625" width="0.127" layer="39"/>
+<wire x1="-6.6675" y1="-6.82625" x2="6.6675" y2="-6.82625" width="0.127" layer="39"/>
+<wire x1="6.6675" y1="-6.82625" x2="6.6675" y2="6.82625" width="0.127" layer="39"/>
+<wire x1="6.6675" y1="6.82625" x2="-6.6675" y2="6.82625" width="0.127" layer="39"/>
+<wire x1="-3.01625" y1="3.96875" x2="-3.01625" y2="-3.96875" width="0.3048" layer="21" curve="106"/>
+<text x="-6.35" y="8.255" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="-6.35" y="6.82625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<circle x="0" y="0" radius="5" width="0.3048" layer="51"/>
+<wire x1="3.01625" y1="-3.96875" x2="3.01625" y2="3.96875" width="0.3048" layer="21" curve="106"/>
+<wire x1="-4.28625" y1="3.01625" x2="-4.7625" y2="3.4925" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="3.4925" x2="-3.81" y2="4.445" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="4.445" x2="-3.33375" y2="3.96875" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="3.4925" x2="-3.81" y2="4.445" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="4.445" x2="-3.33375" y2="3.96875" width="0.3048" layer="21"/>
+<wire x1="-4.7625" y1="3.4925" x2="-4.28625" y2="3.01625" width="0.3048" layer="21"/>
+<wire x1="3.33375" y1="3.96875" x2="3.81" y2="4.445" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="4.445" x2="4.7625" y2="3.4925" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="3.4925" x2="4.28625" y2="3.01625" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="4.445" x2="4.7625" y2="3.4925" width="0.3048" layer="21"/>
+<wire x1="4.7625" y1="3.4925" x2="4.28625" y2="3.01625" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="4.445" x2="3.33375" y2="3.96875" width="0.3048" layer="21"/>
+<wire x1="-3.33375" y1="-3.96875" x2="-3.81" y2="-4.445" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-4.445" x2="-4.7625" y2="-3.4925" width="0.3048" layer="51"/>
+<wire x1="-4.7625" y1="-3.4925" x2="-4.28625" y2="-3.01625" width="0.3048" layer="51"/>
+<wire x1="-3.81" y1="-4.445" x2="-4.7625" y2="-3.4925" width="0.3048" layer="21"/>
+<wire x1="-4.7625" y1="-3.4925" x2="-4.28625" y2="-3.01625" width="0.3048" layer="21"/>
+<wire x1="-3.81" y1="-4.445" x2="-3.33375" y2="-3.96875" width="0.3048" layer="21"/>
+<wire x1="4.28625" y1="-3.01625" x2="4.7625" y2="-3.4925" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="-3.4925" x2="3.81" y2="-4.445" width="0.3048" layer="51"/>
+<wire x1="3.81" y1="-4.445" x2="3.33375" y2="-3.96875" width="0.3048" layer="51"/>
+<wire x1="4.7625" y1="-3.4925" x2="3.81" y2="-4.445" width="0.3048" layer="21"/>
+<wire x1="3.81" y1="-4.445" x2="3.33375" y2="-3.96875" width="0.3048" layer="21"/>
+<wire x1="4.7625" y1="-3.4925" x2="4.28625" y2="-3.01625" width="0.3048" layer="21"/>
+<wire x1="-6.19125" y1="6.19125" x2="-6.19125" y2="-6.19125" width="0.3048" layer="51"/>
+<wire x1="-6.19125" y1="-6.19125" x2="6.19125" y2="-6.19125" width="0.3048" layer="51"/>
+<wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="51"/>
+<wire x1="6.19125" y1="6.19125" x2="-6.19125" y2="6.19125" width="0.3048" layer="51"/>
+</package>
+<package name="1210">
+<description>&lt;h3&gt;1210 Package&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;3.2mm×2.5mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://katalog.we-online.de/pbs/datasheet/82551600.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-1.74625" y="0" dx="2.1" dy="2" layer="1"/>
+<smd name="2" x="1.74625" y="0" dx="2.1" dy="2" layer="1"/>
+<wire x1="-1.5875" y1="-1.27" x2="-1.5875" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="1.27" x2="1.5875" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="1.27" x2="1.5875" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-1.27" x2="-1.5875" y2="-1.27" width="0.127" layer="21"/>
+<text x="-2.54" y="-3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="1.905" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.2225" y1="-0.47625" x2="-1.5875" y2="0.47625" layer="51"/>
+<rectangle x1="1.5875" y1="-0.47625" x2="2.2225" y2="0.47625" layer="51"/>
+<circle x="0" y="0" radius="1.239875" width="0.127" layer="51"/>
+<wire x1="-3.01625" y1="1.5875" x2="-3.01625" y2="-1.5875" width="0.127" layer="39"/>
+<wire x1="-3.01625" y1="-1.5875" x2="3.01625" y2="-1.5875" width="0.127" layer="39"/>
+<wire x1="3.01625" y1="-1.5875" x2="3.01625" y2="1.5875" width="0.127" layer="39"/>
+<wire x1="3.01625" y1="1.5875" x2="-3.01625" y2="1.5875" width="0.127" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="omcOpto">
+<description>&lt;h1&gt;omcOpto.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;LED&lt;/li&gt;
+  &lt;li&gt;7 Segment&lt;/li&gt;
+  &lt;li&gt;Optocoupler&lt;/li&gt;
+  &lt;li&gt;LED Dimmer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2016-03-26&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="LED3216">
+<description>&lt;h3&gt;LED 3216 (1206)&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SMD 1206&lt;/li&gt;
+  &lt;li&gt;3.2x1.6mm SMD chip LED lamps&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.kingbrightusa.com/images/catalog/SPEC/APTR3216SURCK.pdf"&gt;Mechanical Reference (3216) [Knightbright]&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.resistorguide.com/resistor-sizes-and-packages/"&gt;Mechanical Reference (3216)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="1" x="-1.905" y="0" dx="1.524" dy="2.286" layer="1"/>
+<smd name="2" x="1.905" y="0" dx="1.524" dy="2.286" layer="1"/>
+<wire x1="-1.5875" y1="0.79375" x2="-1.5875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.79375" x2="1.5875" y2="-0.79375" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.79375" x2="1.5875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.79375" x2="-1.5875" y2="0.79375" width="0.127" layer="51"/>
+<wire x1="-1.031875" y1="0.79375" x2="1.031875" y2="0.79375" width="0.127" layer="21"/>
+<wire x1="-1.031875" y1="-0.79375" x2="1.031875" y2="-0.79375" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.635" x2="-0.47625" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.635" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="-0.47625" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="0.635" x2="-0.47625" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.3175" y2="0" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0" x2="-0.47625" y2="0.635" width="0.127" layer="51"/>
+<wire x1="0.3175" y1="0.635" x2="0.3175" y2="-0.635" width="0.127" layer="51"/>
+<rectangle x1="-1.5875" y1="-0.79375" x2="-0.9525" y2="0.79375" layer="51"/>
+<rectangle x1="0.9525" y1="-0.79375" x2="1.5875" y2="0.79375" layer="51"/>
+<wire x1="-2.8575" y1="1.27" x2="-2.8575" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.8575" y1="-1.27" x2="2.8575" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.8575" y1="-1.27" x2="2.8575" y2="1.27" width="0.127" layer="39"/>
+<wire x1="2.8575" y1="1.27" x2="-2.8575" y2="1.27" width="0.127" layer="39"/>
+<text x="-2.54" y="-2.54" size="1.016" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="omcOpAmp">
+<description>&lt;h1&gt;omcOpAmp.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+Contains operational ampflifieres from the foloowing vendors:
+
+&lt;ul&gt;
+  &lt;li&gt;Linear Technolgy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="SOIC14">
+<description>&lt;h3&gt;SOIC14&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;8.5mm×6.2mm&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://glacier.lbl.gov/gtp/DOM/dataSheets/soic14_dim.pdf"&gt;Mechanical&lt;/a&gt;&lt;/il&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Small_Outline_Integrated_Circuit"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="8.75" y1="5.71" x2="8.75" y2="1.91" width="0.2032" layer="51"/>
+<wire x1="8.75" y1="1.91" x2="0.14" y2="1.91" width="0.2032" layer="51"/>
+<wire x1="0.14" y1="1.91" x2="0.14" y2="5.71" width="0.2032" layer="51"/>
+<wire x1="0.14" y1="5.71" x2="8.75" y2="5.71" width="0.2032" layer="51"/>
+<smd name="2" x="1.905" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="13" x="1.905" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<smd name="1" x="0.635" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="3" x="3.175" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="4" x="4.445" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="14" x="0.635" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<smd name="12" x="3.175" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<smd name="11" x="4.445" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<text x="10.3505" y="1.5875" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="12.192" y="1.5875" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<rectangle x1="0.39" y1="0.71" x2="0.88" y2="1.81" layer="51"/>
+<rectangle x1="1.66" y1="0.71" x2="2.15" y2="1.81" layer="51"/>
+<rectangle x1="2.93" y1="0.71" x2="3.42" y2="1.81" layer="51"/>
+<rectangle x1="4.2" y1="5.81" x2="4.69" y2="6.91" layer="51"/>
+<rectangle x1="2.93" y1="5.81" x2="3.42" y2="6.91" layer="51"/>
+<rectangle x1="1.66" y1="5.81" x2="2.15" y2="6.91" layer="51"/>
+<rectangle x1="0.39" y1="5.81" x2="0.88" y2="6.91" layer="51"/>
+<wire x1="1.11125" y1="5.715" x2="1.42875" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="5.715" x2="2.69875" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="3.65125" y1="5.715" x2="3.96875" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="1.11125" y1="1.905" x2="1.42875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.38125" y1="1.905" x2="2.69875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="3.65125" y1="1.905" x2="3.96875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="1.905" x2="0.15875" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="2.54" x2="0.15875" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="8.73125" y1="1.905" x2="8.73125" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="8.73125" y1="2.54" x2="8.73125" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="2.54" x2="8.73125" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="0.15875" y1="2.54" x2="8.73125" y2="2.54" width="0.2032" layer="51"/>
+<smd name="5" x="5.715" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="6" x="6.985" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="9" x="6.985" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<smd name="10" x="5.715" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<wire x1="4.92125" y1="1.905" x2="5.23875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="6.19125" y1="1.905" x2="6.50875" y2="1.905" width="0.2032" layer="21"/>
+<rectangle x1="6.74" y1="0.71" x2="7.23" y2="1.81" layer="51"/>
+<rectangle x1="4.2" y1="0.71" x2="4.69" y2="1.81" layer="51"/>
+<rectangle x1="5.47" y1="0.71" x2="5.96" y2="1.81" layer="51"/>
+<wire x1="4.92125" y1="5.715" x2="5.23875" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="6.19125" y1="5.715" x2="6.50875" y2="5.715" width="0.2032" layer="21"/>
+<rectangle x1="5.47" y1="5.81" x2="5.96" y2="6.91" layer="51"/>
+<rectangle x1="6.74" y1="5.81" x2="7.23" y2="6.91" layer="51"/>
+<smd name="7" x="8.255" y="1.21" dx="0.72" dy="1.78" layer="1"/>
+<smd name="8" x="8.255" y="6.41" dx="0.72" dy="1.78" layer="1"/>
+<wire x1="7.46125" y1="1.905" x2="7.77875" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="7.46125" y1="5.715" x2="7.77875" y2="5.715" width="0.2032" layer="21"/>
+<rectangle x1="8.01" y1="5.81" x2="8.5" y2="6.91" layer="51"/>
+<rectangle x1="8.01" y1="0.71" x2="8.5" y2="1.81" layer="51"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.127" layer="39"/>
+<wire x1="0" y1="0" x2="8.89" y2="0" width="0.127" layer="39"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="7.62" width="0.127" layer="39"/>
+<wire x1="8.89" y1="7.62" x2="0" y2="7.62" width="0.127" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="omcResonator">
+<description>&lt;h1&gt;omcResonator.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Crystals&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;MT (SMD: 3.2x2.5x0.7mm)&lt;/li&gt;
+   &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 3. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="MT">
+<description>&lt;h3&gt;MT&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;MT Crystals&lt;/li&gt;
+&lt;li&gt;SMD&lt;/li&gt;
+&lt;li&gt;3.2 x 2.5 x 0.7mm&lt;/li&gt;
+&lt;/ul&gt;</description>
+<smd name="4" x="-1.11125" y="0.9525" dx="1.3208" dy="1.016" layer="1"/>
+<smd name="3" x="1.11125" y="0.9525" dx="1.3208" dy="1.016" layer="1"/>
+<smd name="1" x="-1.11125" y="-0.9525" dx="1.3208" dy="1.016" layer="1"/>
+<smd name="2" x="1.11125" y="-0.9525" dx="1.3208" dy="1.016" layer="1"/>
+<wire x1="-1.5875" y1="-1.27" x2="1.5875" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-1.27" x2="1.5875" y2="1.27" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="1.27" x2="-1.5875" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="1.27" x2="-1.5875" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="0.238125" x2="-1.5875" y2="-0.238125" width="0.127" layer="21"/>
+<wire x1="-0.238125" y1="-1.27" x2="0.238125" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.238125" x2="1.5875" y2="0.238125" width="0.127" layer="21"/>
+<wire x1="0.238125" y1="1.27" x2="-0.238125" y2="1.27" width="0.127" layer="21"/>
+<text x="-1.349375" y="-0.3175" size="0.6096" layer="21" font="vector" ratio="20">xxMHz</text>
+<text x="1.905" y="0.3175" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="omcResistor">
+<description>&lt;h1&gt;omcResistor.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Shuntresistors:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; Constantan Wire Footprints&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;SMD 0805:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; E12 series&lt;/li&gt;
+    &lt;li&gt; 0.125W&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;li&gt;SMD 1206:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; E24 series&lt;/li&gt;
+    &lt;li&gt; 0.25W&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the Lesser General Public License, Version 3. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/lgpl.html"&gt;http://www.gnu.org/copyleft/lgpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2016-01-17&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+  &lt;dt&gt;2016-01-20&lt;/dt&gt;
+  &lt;dd&gt;added Shuntresistors Footprints&lt;/dd&gt;
+  &lt;dt&gt;2016-03-09&lt;/dt&gt;
+  &lt;dd&gt;added E24 1206 Resistors&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="1206">
+<description>&lt;h3&gt;SMD Resistor&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;0.25W&lt;/li&gt;
+&lt;li&gt;1206 Package (3.20mm x 1.60mm)&lt;/li&gt;
+&lt;li&gt;Reflow Soldering&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/Chip-Bauform"&gt;Wikipedia&lt;/a&gt;&lt;/il&gt;
+&lt;/ul&gt;</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="39"/>
+<wire x1="0.47625" y1="0.8128" x2="-0.48895" y2="0.8128" width="0.1524" layer="21"/>
+<wire x1="0.47625" y1="-0.8128" x2="-0.48895" y2="-0.8128" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="omcReferences">
+<description>&lt;h1&gt;omcReferences.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+Circuits for References Voltage and cucrrent generation.
+
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein - &lt;a href="mailto:andreas.kaeberlein@web.de"&gt;andreas.kaeberlein@web.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 3. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;</description>
+<packages>
+<package name="SOT23">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT-23&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="3" x="0" y="0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.635" x2="1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.47625" y1="0.635" x2="1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.635" x2="1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.47625" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.27" x2="-0.7239" y2="-0.635" layer="51"/>
+<rectangle x1="0.6985" y1="-1.27" x2="1.1811" y2="-0.635" layer="51"/>
+<rectangle x1="-0.254" y1="0.635" x2="0.2286" y2="1.27" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="-1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.635" x2="1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="omcTransistor">
+<description>&lt;h1&gt;omcTransistor.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Darlington Arrays&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt; ULN280X&lt;/li&gt;
+    &lt;li&gt; ULN200X&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; Power Mosfet&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt;IRLR2905&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;li&gt; Bipolar&lt;/li&gt;&lt;ul&gt;
+  &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2013-10-06&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+  &lt;dt&gt;2016-01-16&lt;/dt&gt;
+  &lt;dd&gt;merged IRLR2905 from other library&lt;/dd&gt;
+  &lt;dt&gt;2016-03-15&lt;/dt&gt;
+  &lt;dd&gt;added ULN200x&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="SOT23">
+<description>&lt;p&gt;
+&lt;h3&gt;SOT23 Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;SOT-23&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.diodes.com/_files/datasheets/ap02001.pdf"&gt;Package Dimensions&lt;/a&gt; (SOD123, P171)&lt;/il&gt;
+&lt;/p&gt;</description>
+<smd name="1" x="-0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<smd name="3" x="0" y="0.9525" dx="0.7112" dy="0.889" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="1.5875" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="-0.635" x2="1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="1.5875" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="51"/>
+<wire x1="-0.47625" y1="0.635" x2="-1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.5875" y1="0.635" x2="-1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="0.47625" y1="0.635" x2="1.5875" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="0.635" x2="1.5875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-0.47625" y1="-0.635" x2="0.47625" y2="-0.635" width="0.127" layer="21"/>
+<rectangle x1="-1.2065" y1="-1.27" x2="-0.7239" y2="-0.635" layer="51"/>
+<rectangle x1="0.6985" y1="-1.27" x2="1.1811" y2="-0.635" layer="51"/>
+<rectangle x1="-0.254" y1="0.635" x2="0.2286" y2="1.27" layer="51"/>
+<wire x1="-1.5875" y1="-0.635" x2="-1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.5875" y1="-0.635" x2="1.42875" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.127" layer="39"/>
+<wire x1="1.905" y1="1.905" x2="-1.905" y2="1.905" width="0.127" layer="39"/>
+</package>
+<package name="TO263AB">
+<description>&lt;p&gt;
+&lt;h3&gt; TO263AB Package&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt; TO263AB&lt;/li&gt;
+  &lt;li&gt; D2-PAK&lt;/li&gt;
+  &lt;li&gt; D2PAK&lt;/li&gt;
+  &lt;li&gt;Technology: SMD&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.diodes.com/assets/Package-Files/TO263AB%20(D2PAK).pdf"&gt;Package reference&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="3.1496" y1="14.732" x2="3.1496" y2="15.4432" width="0.2032" layer="51"/>
+<wire x1="3.1496" y1="15.4432" x2="3.6068" y2="15.9004" width="0.2032" layer="51"/>
+<wire x1="3.6068" y1="15.9004" x2="7.8232" y2="15.9004" width="0.2032" layer="51"/>
+<wire x1="7.8232" y1="15.9004" x2="8.2804" y2="15.4432" width="0.2032" layer="51"/>
+<wire x1="8.2804" y1="15.4432" x2="8.2804" y2="14.732" width="0.2032" layer="51"/>
+<wire x1="8.2804" y1="14.732" x2="3.1496" y2="14.732" width="0.2032" layer="51"/>
+<smd name="4" x="5.715" y="12.66" dx="10.41" dy="7.01" layer="1"/>
+<text x="9.525" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="9.525" y="1.27" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<polygon width="0.1998" layer="51">
+<vertex x="1.8796" y="14.732"/>
+<vertex x="1.8796" y="15.4432"/>
+<vertex x="2.3368" y="15.9004"/>
+<vertex x="9.0932" y="15.9004"/>
+<vertex x="9.5504" y="15.4432"/>
+<vertex x="9.5504" y="14.732"/>
+</polygon>
+<smd name="1" x="3.175" y="1.905" dx="1.1" dy="3.5" layer="1"/>
+<smd name="3" x="8.255" y="1.905" dx="1.1" dy="3.5" layer="1"/>
+<wire x1="0.238125" y1="5.000625" x2="11.191875" y2="5.000625" width="0.127" layer="51"/>
+<wire x1="0.238125" y1="5.000625" x2="0.238125" y2="14.605" width="0.127" layer="51"/>
+<wire x1="0.238125" y1="14.605" x2="11.191875" y2="14.605" width="0.127" layer="51"/>
+<wire x1="11.191875" y1="14.605" x2="11.191875" y2="5.000625" width="0.127" layer="51"/>
+<wire x1="0.238125" y1="14.605" x2="0.238125" y2="5.000625" width="0.127" layer="21"/>
+<wire x1="0.238125" y1="5.000625" x2="11.191875" y2="5.000625" width="0.127" layer="21"/>
+<wire x1="11.191875" y1="5.000625" x2="11.191875" y2="14.605" width="0.127" layer="21"/>
+<rectangle x1="2.69875" y1="3.81" x2="3.65125" y2="5.000625" layer="21"/>
+<rectangle x1="2.69875" y1="2.06375" x2="3.65125" y2="5.000625" layer="51"/>
+<rectangle x1="7.77875" y1="3.81" x2="8.73125" y2="5.000625" layer="21"/>
+<rectangle x1="7.77875" y1="2.06375" x2="8.73125" y2="5.000625" layer="51"/>
+<rectangle x1="5.23875" y1="4.206875" x2="6.19125" y2="5.000625" layer="21"/>
+<wire x1="0" y1="0" x2="11.43" y2="0" width="0.127" layer="39"/>
+<wire x1="11.43" y1="0" x2="11.43" y2="16.51" width="0.127" layer="39"/>
+<wire x1="11.43" y1="16.51" x2="0" y2="16.51" width="0.127" layer="39"/>
+<wire x1="0" y1="16.51" x2="0" y2="0" width="0.127" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="omcConnector">
+<description>&lt;h1&gt;omcConnector.lbr&lt;/h1&gt;
+
+&lt;h2&gt;Description&lt;/h2&gt;&lt;p&gt;
+Library contains Footprints
+&lt;ul&gt;
+  &lt;li&gt;Connectors&lt;/li&gt;&lt;ul&gt;
+     &lt;li&gt; Soldered Connection (SMD)&lt;/li&gt;
+     &lt;li&gt; Solder Tag (THT)&lt;/li&gt;
+   &lt;/ul&gt;
+  &lt;li&gt;Resistors &lt;/li&gt;&lt;ul&gt;
+      &lt;li&gt;Wired Resistors (SMD) &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;Authors&lt;/h2&gt;
+&lt;p&gt;&lt;ul&gt;
+  &lt;li&gt;Andreas Käberlein&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;h2&gt;Copyright &amp; License&lt;/h2&gt;
+&lt;p&gt;This library is licensed under the General Public License, Version 2. &lt;br /&gt;
+More Information about the General Public License is available at &lt;a href="http://www.gnu.org/copyleft/gpl.html"&gt;http://www.gnu.org/copyleft/gpl.html&lt;/a&gt;. &lt;br /&gt;
+In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
+&lt;/p&gt;
+
+&lt;h2&gt;Version History&lt;/h2&gt;
+&lt;dl&gt;
+  &lt;dt&gt;2013-10-19&lt;/dt&gt;
+  &lt;dd&gt;Initial Release&lt;/dd&gt;
+&lt;/dl&gt;</description>
+<packages>
+<package name="BOXHD-06-2.54-S">
+<description>&lt;p&gt;
+&lt;h3&gt;Box Header 2X03 - Straight&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Technology: THT&lt;/li&gt;
+  &lt;li&gt;Pitch: 2.54mm&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/C151/WSL_6G_DB.PDF"&gt;Mechanical Reference (Reichelt)&lt;/a&gt;&lt;/il&gt;
+&lt;/p&gt;</description>
+<wire x1="-3.175" y1="7.62" x2="-3.175" y2="2.54" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-3.175" y2="-2.54" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-3.175" y2="-7.62" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="-7.62" x2="3.175" y2="-7.62" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="-7.62" x2="3.175" y2="7.62" width="0.4064" layer="21"/>
+<wire x1="3.175" y1="7.62" x2="-3.175" y2="7.62" width="0.4064" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-4.064" y2="2.54" width="0.4064" layer="21"/>
+<wire x1="-4.064" y1="2.54" x2="-4.064" y2="-2.54" width="0.4064" layer="21"/>
+<wire x1="-4.064" y1="-2.54" x2="-3.175" y2="-2.54" width="0.4064" layer="21"/>
+<text x="-2.54" y="8.255" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-9.525" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<pad name="1" x="-1.27" y="2.54" drill="1" shape="square"/>
+<pad name="2" x="1.27" y="2.54" drill="1" shape="octagon"/>
+<pad name="3" x="-1.27" y="0" drill="1" shape="octagon"/>
+<pad name="4" x="1.27" y="0" drill="1" shape="octagon"/>
+<pad name="5" x="-1.27" y="-2.54" drill="1" shape="octagon"/>
+<pad name="6" x="1.27" y="-2.54" drill="1" shape="octagon"/>
+</package>
+<package name="DIN5P">
+<description>&lt;p&gt;
+&lt;h3&gt;DIN Plug 5P 180°&lt;/h3&gt;&lt;ul&gt;
+  &lt;li&gt;Tecnology: THT&lt;/li&gt;
+&lt;/p&gt;</description>
+<pad name="1" x="17.78" y="3.81" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="3" x="2.54" y="3.81" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="4" x="15.24" y="1.27" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="5" x="5.08" y="1.27" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="2" x="10.16" y="3.81" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="S1" x="5.08" y="13.97" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<pad name="S2" x="15.24" y="13.97" drill="1.4" diameter="2.54" shape="octagon" rot="R180"/>
+<wire x1="0" y1="17.78" x2="20.32" y2="17.78" width="0.3048" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="5.715" width="0.3048" layer="21"/>
+<wire x1="0" y1="5.715" x2="0" y2="17.78" width="0.3048" layer="21"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="5.715" width="0.3048" layer="21"/>
+<wire x1="20.32" y1="5.715" x2="20.32" y2="17.78" width="0.3048" layer="21"/>
+<wire x1="0" y1="17.78" x2="0" y2="0" width="0.3048" layer="51"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.3048" layer="51"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="17.78" width="0.3048" layer="51"/>
+<wire x1="20.32" y1="17.78" x2="0" y2="17.78" width="0.3048" layer="51"/>
+<wire x1="0" y1="0" x2="3.175" y2="0" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="0" x2="13.335" y2="0" width="0.3048" layer="21"/>
+<wire x1="17.145" y1="0" x2="20.32" y2="0" width="0.3048" layer="21"/>
+<wire x1="0" y1="5.715" x2="20.32" y2="5.715" width="0.3048" layer="21"/>
+<text x="15.24" y="-1.905" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="15.24" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="1.905" y1="3.81" x2="3.175" y2="5.715" layer="51"/>
+<rectangle x1="4.445" y1="1.27" x2="5.715" y2="5.715" layer="51"/>
+<rectangle x1="9.525" y1="3.81" x2="10.795" y2="5.715" layer="51"/>
+<rectangle x1="14.605" y1="1.27" x2="15.875" y2="5.715" layer="51"/>
+<rectangle x1="17.145" y1="3.81" x2="18.415" y2="5.715" layer="51"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="C1" library="omcCapacitor" package="1206" value="4µ7" x="-88.9" y="82.55">
+<attribute name="VENDOR#" value="MURATA,GCM31CC71H475KA03" x="-88.9" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 4,7/50" x="-88.9" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C10" library="omcCapacitor" package="1206" value="2µ2/50V" x="-53.34" y="63.5">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71H225KA55" x="-53.34" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 2,2/50" x="-53.34" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C11" library="omcCapacitor" package="1206" value="100n" x="-25.4" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-25.4" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-25.4" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C12" library="omcCapacitor" package="1206" value="10µ" x="-95.25" y="82.55">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71C106KA64" x="-95.25" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 10/16" x="-95.25" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C13" library="omcCapacitor" package="0805" value="100n" x="-71.12" y="82.55">
+<attribute name="VENDOR#" value="YAGEO,08052R104K9BB0D" x="-71.12" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G0805 100N" x="-71.12" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C14" library="omcCapacitor" package="0805" value="100n" x="-77.47" y="82.55">
+<attribute name="VENDOR#" value="YAGEO,08052R104K9BB0D" x="-77.47" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G0805 100N" x="-77.47" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C15" library="omcCapacitor" package="0805" value="100n" x="-83.82" y="82.55">
+<attribute name="VENDOR#" value="YAGEO,08052R104K9BB0D" x="-83.82" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G0805 100N" x="-83.82" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C16" library="omcCapacitor" package="1206" value="10n/50V" x="-63.5" y="63.5">
+<attribute name="VENDOR#" value="YAGEO,12062R103K9BP0D" x="-63.5" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 10N" x="-63.5" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C17" library="omcCapacitor" package="1206" value="68n/50V" x="-73.66" y="63.5">
+<attribute name="VENDOR#" value="YAGEO,12062R683K9BP0D" x="-73.66" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 68N" x="-73.66" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C18" library="omcCapacitor" package="1206" value="100n/50V" x="-95.25" y="54.61">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-95.25" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-95.25" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C19" library="omcCapacitor" package="1206" value="68n/50V" x="-83.82" y="63.5">
+<attribute name="VENDOR#" value="YAGEO,12062R683K9BP0D" x="-83.82" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 68N" x="-83.82" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C2" library="omcCapacitor" package="1206" value="100n" x="-102.87" y="69.85">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-102.87" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-102.87" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C20" library="omcCapacitor" package="1206" value="470p/50V" x="-106.68" y="54.61">
+<attribute name="VENDOR#" value="YAGEO#1206CG471J9BP" x="-106.68" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="NPO-G1206 470P" x="-106.68" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-106.68" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-106.68" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C21" library="omcCapacitor" package="1206" value="68n/50V" x="-93.98" y="63.5">
+<attribute name="VENDOR#" value="YAGEO,12062R683K9BP0D" x="-93.98" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 68N" x="-93.98" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C22" library="omcCapacitor" package="1206" value="15p" x="-101.6" y="82.55">
+<attribute name="VENDOR#" value="RND,15pF" x="-101.6" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="NPO 1206 BK 15P" x="-101.6" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-101.6" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-101.6" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C23" library="omcCapacitor" package="1206" value="47µ/6V" x="-59.69" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GRM31CR60J476ME19#" x="-59.69" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1206 47/6" x="-59.69" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C24" library="omcCapacitor" package="1206" value="47µ/6V" x="-68.58" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GRM31CR60J476ME19#" x="-68.58" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1206 47/6" x="-68.58" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C25" library="omcCapacitor" package="1210" value="47µ/16V" x="-58.42" y="54.61">
+<attribute name="VENDOR#" value="MURATA,GRM32ER61C476ME15#" x="-58.42" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 47" x="-58.42" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C26" library="omcCapacitor" package="1206" value="100n" x="-33.02" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-33.02" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-33.02" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C27" library="omcCapacitor" package="1206" value="10µ" x="-16.51" y="88.9">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71C106KA64" x="-16.51" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 10/16" x="-16.51" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C28" library="omcCapacitor" package="1206" value="10µ/16V" x="-104.14" y="63.5">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71C106KA64" x="-104.14" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 10/16" x="-104.14" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C29" library="omcCapacitor" package="1206" value="100n" x="-40.64" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-40.64" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-40.64" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C3" library="omcCapacitor" package="1206" value="100n" x="-17.78" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-17.78" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-17.78" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C30" library="omcCapacitor" package="1206" value="100n" x="-48.26" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-48.26" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-48.26" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C31" library="omcCapacitor" package="PANC" value="47µ/16V" x="-17.78" y="44.45">
+<attribute name="I_RIPPLE" value="240m" x="-17.78" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1C470AP" x="-17.78" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="ESR" value="0R36" x="-17.78" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="VF 47/16 P-C" x="-17.78" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-17.78" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-17.78" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C32" library="omcCapacitor" package="1206" value="100n" x="-55.88" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-55.88" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-55.88" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C33" library="omcCapacitor" package="1206" value="2µ2/50V" x="-20.32" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71H225KA55" x="-20.32" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 2,2/50" x="-20.32" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C34" library="omcCapacitor" package="1206" value="2µ2/50V" x="-30.48" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71H225KA55" x="-30.48" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 2,2/50" x="-30.48" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C35" library="omcCapacitor" package="1206" value="15p" x="-22.86" y="88.9">
+<attribute name="VENDOR#" value="RND,15pF" x="-22.86" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="NPO 1206 BK 15P" x="-22.86" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-22.86" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-22.86" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C36" library="omcCapacitor" package="1206" value="100n" x="-63.5" y="76.2">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-63.5" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-63.5" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C37" library="omcCapacitor" package="1206" value="68n/50V" x="-40.64" y="69.85">
+<attribute name="VENDOR#" value="YAGEO,12062R683K9BP0D" x="-40.64" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 68N" x="-40.64" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C4" library="omcCapacitor" package="1206" value="100n/50V" x="-83.82" y="54.61">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-83.82" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-83.82" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C42" library="omcCapacitor" package="1206" value="1µ/50V" x="-77.47" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GCM31MR71H105KA55" x="-77.47" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 1,0/50" x="-77.47" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C43" library="omcCapacitor" package="1206" value="1µ/50V" x="-86.36" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GCM31MR71H105KA55" x="-86.36" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 1,0/50" x="-86.36" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C44" library="omcCapacitor" package="1206" value="1µ/50V" x="-95.25" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GCM31MR71H105KA55" x="-95.25" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 1,0/50" x="-95.25" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C45" library="omcCapacitor" package="1206" value="10µ/16V" x="-50.8" y="69.85">
+<attribute name="VENDOR#" value="MURATA,GCM31CR71C106KA64" x="-50.8" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 10/16" x="-50.8" y="69.85" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C46" library="omcCapacitor" package="PANC" value="47µ/16V" x="-27.94" y="44.45">
+<attribute name="I_RIPPLE" value="240m" x="-27.94" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFK1C470AP" x="-27.94" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="ESR" value="0R36" x="-27.94" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="VF 47/16 P-C" x="-27.94" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-27.94" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-27.94" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C47" library="omcCapacitor" package="1206" value="100n/50V" x="-21.59" y="63.5">
+<attribute name="VENDOR#" value="YAGEO,12062R104K9BP0D" x="-21.59" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G1206 100N" x="-21.59" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C48" library="omcCapacitor" package="PANB" value="22µ/16V" x="-38.1" y="44.45">
+<attribute name="I_RIPPLE" value="95m" x="-38.1" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR#" value="PANASONIC#EEEFC1C220R" x="-38.1" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="ESR" value="1R8" x="-38.1" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="VF 22/16 P-B" x="-38.1" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-38.1" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-38.1" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C5" library="omcCapacitor" package="1206" value="100µ/6V" x="-43.18" y="63.5">
+<attribute name="VENDOR#" value="MURATA,GRM31CR60J107ME39#" x="-43.18" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1206 100/6" x="-43.18" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C6" library="omcCapacitor" package="1210" value="22µ/25V" x="-27.94" y="54.61">
+<attribute name="VENDOR#" value="MURATA,GRM32ER61E226ME15#" x="-27.94" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 22" x="-27.94" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C7" library="omcCapacitor" package="0805" value="100n/50V" x="-33.02" y="63.5">
+<attribute name="VENDOR#" value="YAGEO,08052R104K9BB0D" x="-33.02" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X7R-G0805 100N" x="-33.02" y="63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C8" library="omcCapacitor" package="1210" value="22µ/25V" x="-38.1" y="54.61">
+<attribute name="VENDOR#" value="MURATA,GRM32ER61E226ME15#" x="-38.1" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 22" x="-38.1" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C9" library="omcCapacitor" package="1210" value="22µ/25V" x="-48.26" y="54.61">
+<attribute name="VENDOR#" value="MURATA,GRM32ER61E226ME15#" x="-48.26" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="X5R-G1210 22" x="-48.26" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D1" library="omcDiode" package="DO214AB" value="MBRS340" x="-55.88" y="29.21">
+<attribute name="VENDOR#" value="ON Semiconductor,MBRS340T3" x="-55.88" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="MBRS 340 SMD" x="-55.88" y="29.21" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="omcDiode" package="SOD323" value="PMEG2010" x="-83.82" y="101.6">
+<attribute name="VENDOR#" value="NXP,PMEG2010BEA" x="-83.82" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="" x="-83.82" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="omcDiode" package="SOD123" value="BAT46" x="-16.51" y="107.95">
+<attribute name="VENDOR#" value="DIODES,BAT46W-7-F" x="-16.51" y="107.95" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="BAT 46W" x="-16.51" y="107.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="omcDiode" package="SOD123" value="BAT46" x="-24.13" y="107.95">
+<attribute name="VENDOR#" value="DIODES,BAT46W-7-F" x="-24.13" y="107.95" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="BAT 46W" x="-24.13" y="107.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="omcDiode" package="SOD323" value="PMEG2010" x="-95.25" y="101.6">
+<attribute name="VENDOR#" value="NXP,PMEG2010BEA" x="-95.25" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="" x="-95.25" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="omcDiode" package="SOD323" value="PMEG2010" x="-106.68" y="101.6">
+<attribute name="VENDOR#" value="NXP,PMEG2010BEA" x="-106.68" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="" x="-106.68" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="DAC1" library="omcAD" package="MSOP8" value="MCP4812" x="-92.71" y="24.13">
+<attribute name="VENDOR#" value="Microchip,MCP4812-E/MS" x="-92.71" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REIHCELT#" value="MCP 4812-E/MS" x="-92.71" y="24.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="DAC2" library="omcAD" package="MSOP8" value="MCP4812" x="-101.6" y="24.13">
+<attribute name="VENDOR#" value="Microchip,MCP4812-E/MS" x="-101.6" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REIHCELT#" value="MCP 4812-E/MS" x="-101.6" y="24.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="F1" library="omcFuse" package="OMT125" value="T 1A0" x="-83.82" y="44.45">
+<attribute name="VENDOR#" value="Schurter,3404.0114.11" x="-83.82" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="OMT 125 1,0A" x="-83.82" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-83.82" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-83.82" y="44.45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H1" library="holes" package="3,2-PAD" value="D3.2" x="92.71" y="72.39"/>
+<element name="H2" library="holes" package="3,2-PAD" value="D3.2" x="7.62" y="72.39"/>
+<element name="H3" library="holes" package="3,2-PAD" value="D3.2" x="92.71" y="7.62"/>
+<element name="H4" library="holes" package="3,2-PAD" value="D3.2" x="7.62" y="7.62"/>
+<element name="IC1" library="omcPwrSupply" package="TO263-7" value="LT1513" x="-87.63" y="11.43">
+<attribute name="DIST#MOUSER#" value="584-LT1513CR#PBF" x="-87.63" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="#VENDOR" value="Linear Technology, LT1513CR" x="-87.63" y="11.43" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC2" library="omcPIC" package="SOIC28-7.62" value="PIC18F2420" x="-39.37" y="30.48">
+<attribute name="DIST#REICHELT" value="PIC 18F2420-I/SO" x="-39.37" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Microchip,PIC18F2420-I/SO" x="-39.37" y="30.48" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC3" library="omcPwrSupply" package="SOT23-5" value="TPS60403" x="-78.74" y="26.67">
+<attribute name="VENDOR#" value="TI,TPS60403DBVT" x="-78.74" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT" value="TPS 60403 DBVT" x="-78.74" y="26.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="IC4" library="omcPwrSupply" package="TO263" value="7805" x="-52.07" y="10.16">
+<attribute name="VENDOR#" value="On Semiconductor, MC7824CD2TG" x="-52.07" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT" value="MC 7805 CD2TG" x="-52.07" y="10.16" size="1.778" layer="27" display="off"/>
+</element>
+<element name="JP1" library="pinhead" package="1X04" value="" x="-46.99" y="106.68"/>
+<element name="L1" library="omcInductor" package="PIS472X" value="10µ" x="-102.87" y="7.62">
+<attribute name="VENDOR#" value="Fastron, PIS4720-100M-04" x="-102.87" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="L-PIS4720 10µ" x="-102.87" y="7.62" size="1.778" layer="27" display="off"/>
+</element>
+<element name="L2" library="omcInductor" package="PIS472X" value="10µ" x="-20.32" y="30.48">
+<attribute name="VENDOR#" value="Fastron, PIS4720-100M-04" x="-20.32" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="L-PIS4720 10µ" x="-20.32" y="30.48" size="1.778" layer="27" display="off"/>
+</element>
+<element name="L4" library="omcInductor" package="1210" value="100µ" x="-64.77" y="54.61">
+<attribute name="VENDOR#" value="Murata,LGH3C101K34" x="-64.77" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 100µ" x="-64.77" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="L5" library="omcInductor" package="1210" value="100µ" x="-71.12" y="54.61">
+<attribute name="VENDOR#" value="Murata,LGH3C101K34" x="-71.12" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="LQH3C 100µ" x="-71.12" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="LED1" library="omcOpto" package="LED3216" value="Green" x="-30.48" y="109.22">
+<attribute name="VENDOR#" value="Kingbright,KP-3216SGD" x="-30.48" y="109.22" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="SMD-LED 1206 GN" x="-30.48" y="109.22" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OPA1" library="omcOpAmp" package="SOIC14" value="MCP6H04" x="-74.93" y="24.13">
+<attribute name="VENDOR#" value="Microchip,MCP6H04E" x="-74.93" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="MCP 6H04-E/SL" x="-74.93" y="24.13" size="1.778" layer="27" display="off"/>
+</element>
+<element name="OSC1" library="omcResonator" package="MT" value="20MHz" x="-60.96" y="106.68">
+<attribute name="VENDOR#" value="Euroquartz,MT-20000-12" x="-60.96" y="106.68" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="20,000000-MT" x="-60.96" y="106.68" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R1" library="omcResistor" package="1206" value="10K" x="-29.21" y="88.9">
+<attribute name="VENDOR#" value="" x="-29.21" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-29.21" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-29.21" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-29.21" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R10" library="omcResistor" package="1206" value="110K" x="-93.98" y="76.2">
+<attribute name="VENDOR#" value="" x="-93.98" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 110K" x="-93.98" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-93.98" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-93.98" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R11" library="omcResistor" package="1206" value="33K" x="-60.96" y="88.9">
+<attribute name="VENDOR#" value="" x="-60.96" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 33K" x="-60.96" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-60.96" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-60.96" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R12" library="omcResistor" package="1206" value="2K2" x="-67.31" y="88.9">
+<attribute name="VENDOR#" value="" x="-67.31" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,2K" x="-67.31" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-67.31" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-67.31" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R13" library="omcResistor" package="1206" value="9K1" x="-73.66" y="88.9">
+<attribute name="VENDOR#" value="" x="-73.66" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 9,1K" x="-73.66" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-73.66" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-73.66" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R14" library="omcResistor" package="1206" value="10K" x="-80.01" y="88.9">
+<attribute name="VENDOR#" value="" x="-80.01" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-80.01" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-80.01" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-80.01" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R15" library="omcResistor" package="1206" value="100K" x="-101.6" y="76.2">
+<attribute name="VENDOR#" value="" x="-101.6" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 100K" x="-101.6" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-101.6" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-101.6" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R16" library="omcResistor" package="1206" value="33K" x="-86.36" y="88.9">
+<attribute name="VENDOR#" value="" x="-86.36" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 33K" x="-86.36" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-86.36" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-86.36" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R17" library="omcResistor" package="1206" value="11K" x="-92.71" y="88.9">
+<attribute name="VENDOR#" value="" x="-92.71" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 11K" x="-92.71" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-92.71" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-92.71" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R18" library="omcResistor" package="1206" value="1K" x="-99.06" y="88.9">
+<attribute name="VENDOR#" value="" x="-99.06" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" x="-99.06" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-99.06" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-99.06" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R19" library="omcResistor" package="1206" value="1K" x="-105.41" y="88.9">
+<attribute name="VENDOR#" value="" x="-105.41" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" x="-105.41" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-105.41" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-105.41" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="omcResistor" package="1206" value="240K" x="-71.12" y="76.2">
+<attribute name="VENDOR#" value="" x="-71.12" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 240K" x="-71.12" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-71.12" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-71.12" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R20" library="omcResistor" package="1206" value="2K2" x="-16.51" y="95.25">
+<attribute name="VENDOR#" value="" x="-16.51" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 2,2K" x="-16.51" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-16.51" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-16.51" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R21" library="omcResistor" package="1206" value="12K" x="-22.86" y="95.25">
+<attribute name="VENDOR#" value="" x="-22.86" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 12K" x="-22.86" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-22.86" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-22.86" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R22" library="omcResistor" package="1206" value="36K" x="-29.21" y="95.25">
+<attribute name="VENDOR#" value="" x="-29.21" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 36K" x="-29.21" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-29.21" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-29.21" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R23" library="omcResistor" package="1206" value="390K" x="-17.78" y="82.55">
+<attribute name="VENDOR#" value="" x="-17.78" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 390K" x="-17.78" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-17.78" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-17.78" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R24" library="omcResistor" package="1206" value="62K" x="-35.56" y="95.25">
+<attribute name="VENDOR#" value="" x="-35.56" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 62K" x="-35.56" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-35.56" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-35.56" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R25" library="omcResistor" package="1206" value="1M" x="-41.91" y="95.25">
+<attribute name="VENDOR#" value="" x="-41.91" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1M" x="-41.91" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-41.91" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-41.91" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R26" library="omcResistor" package="1206" value="0R27" x="-25.4" y="82.55">
+<attribute name="VENDOR#" value="Panasonic, ERJ-8BQJR27V" x="-25.4" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="" x="-25.4" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="1473270 - 62" x="-25.4" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="500mW" x="-25.4" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R27" library="omcResistor" package="1206" value="10K" x="-48.26" y="95.25">
+<attribute name="VENDOR#" value="" x="-48.26" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-48.26" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-48.26" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-48.26" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R28" library="omcResistor" package="1206" value="10K" x="-54.61" y="95.25">
+<attribute name="VENDOR#" value="" x="-54.61" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-54.61" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-54.61" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-54.61" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R29" library="omcResistor" package="1206" value="1K8" x="-60.96" y="95.25">
+<attribute name="VENDOR#" value="" x="-60.96" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,8K" x="-60.96" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-60.96" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-60.96" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="omcResistor" package="1206" value="270R" x="-78.74" y="76.2">
+<attribute name="VENDOR#" value="" x="-78.74" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 270" x="-78.74" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-78.74" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-78.74" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R30" library="omcResistor" package="1206" value="10K" x="-67.31" y="95.25">
+<attribute name="VENDOR#" value="" x="-67.31" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-67.31" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-67.31" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-67.31" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R31" library="omcResistor" package="1206" value="110K" x="-33.02" y="82.55">
+<attribute name="VENDOR#" value="" x="-33.02" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 110K" x="-33.02" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-33.02" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-33.02" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R32" library="omcResistor" package="1206" value="0R22" x="-40.64" y="82.55">
+<attribute name="VENDOR#" value="Panasonic, ERJ-8RQFR22V" x="-40.64" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="" x="-40.64" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="1479236 - 62" x="-40.64" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-40.64" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R33" library="omcResistor" package="1206" value="910R" x="-48.26" y="82.55">
+<attribute name="VENDOR#" value="" x="-48.26" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 910" x="-48.26" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-48.26" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-48.26" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R34" library="omcResistor" package="1206" value="3K9" x="-73.66" y="95.25">
+<attribute name="VENDOR#" value="" x="-73.66" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,9K" x="-73.66" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-73.66" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-73.66" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R35" library="omcResistor" package="1206" value="15K" x="-80.01" y="95.25">
+<attribute name="VENDOR#" value="" x="-80.01" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 15K" x="-80.01" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-80.01" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-80.01" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R36" library="omcResistor" package="1206" value="10K" x="-86.36" y="95.25">
+<attribute name="VENDOR#" value="" x="-86.36" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-86.36" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-86.36" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-86.36" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R37" library="omcResistor" package="1206" value="10K" x="-92.71" y="95.25">
+<attribute name="VENDOR#" value="" x="-92.71" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-92.71" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-92.71" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-92.71" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R38" library="omcResistor" package="1206" value="10K" x="-99.06" y="95.25">
+<attribute name="VENDOR#" value="" x="-99.06" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-99.06" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-99.06" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-99.06" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R39" library="omcResistor" package="1206" value="10K" x="-105.41" y="95.25">
+<attribute name="VENDOR#" value="" x="-105.41" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-105.41" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-105.41" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-105.41" y="95.25" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="omcResistor" package="1206" value="10K" x="-35.56" y="88.9">
+<attribute name="VENDOR#" value="" x="-35.56" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-35.56" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-35.56" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-35.56" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R40" library="omcResistor" package="1206" value="470R" x="-55.88" y="82.55">
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470RL" x="-55.88" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 470" x="-55.88" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-55.88" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-55.88" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R41" library="omcResistor" package="1206" value="470R" x="-63.5" y="82.55">
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470RL" x="-63.5" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 470" x="-63.5" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-63.5" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-63.5" y="82.55" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R42" library="omcResistor" package="1206" value="1K" x="-16.51" y="101.6">
+<attribute name="VENDOR#" value="" x="-16.51" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" x="-16.51" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-16.51" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-16.51" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R43" library="omcResistor" package="1206" value="1K" x="-22.86" y="101.6">
+<attribute name="VENDOR#" value="" x="-22.86" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" x="-22.86" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-22.86" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-22.86" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R44" library="omcResistor" package="1206" value="47K" x="-29.21" y="101.6">
+<attribute name="VENDOR#" value="" x="-29.21" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 47K" x="-29.21" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-29.21" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-29.21" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R45" library="omcResistor" package="1206" value="1K" x="-35.56" y="101.6">
+<attribute name="VENDOR#" value="" x="-35.56" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" x="-35.56" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-35.56" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-35.56" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R46" library="omcResistor" package="1206" value="1K" x="-41.91" y="101.6">
+<attribute name="VENDOR#" value="" x="-41.91" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,0K" x="-41.91" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-41.91" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-41.91" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R47" library="omcResistor" package="1206" value="47K" x="-48.26" y="101.6">
+<attribute name="VENDOR#" value="" x="-48.26" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 47K" x="-48.26" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-48.26" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-48.26" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R48" library="omcResistor" package="1206" value="47K" x="-54.61" y="101.6">
+<attribute name="VENDOR#" value="" x="-54.61" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 47K" x="-54.61" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-54.61" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-54.61" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R49" library="omcResistor" package="1206" value="15K" x="-60.96" y="101.6">
+<attribute name="VENDOR#" value="" x="-60.96" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 15K" x="-60.96" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-60.96" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-60.96" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R5" library="omcResistor" package="1206" value="10K" x="-41.91" y="88.9">
+<attribute name="VENDOR#" value="" x="-41.91" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 10K" x="-41.91" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-41.91" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-41.91" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R50" library="omcResistor" package="1206" value="3K9" x="-67.31" y="101.6">
+<attribute name="VENDOR#" value="" x="-67.31" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 3,9K" x="-67.31" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-67.31" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-67.31" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="omcResistor" package="1206" value="470R" x="-86.36" y="76.2">
+<attribute name="VENDOR#" value="YAGEO#RC1206FR-07470RL" x="-86.36" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="SMD 1/4W 470" x="-86.36" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-86.36" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-86.36" y="76.2" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R7" library="omcResistor" package="1206" value="0R" x="-73.66" y="101.6">
+<attribute name="VENDOR#" value="" x="-73.66" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1206 0" x="-73.66" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-73.66" y="101.6" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-73.66" y="101.6" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R8" library="omcResistor" package="1206" value="1K6" x="-48.26" y="88.9">
+<attribute name="VENDOR#" value="" x="-48.26" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 1,6K" x="-48.26" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-48.26" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-48.26" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R9" library="omcResistor" package="1206" value="47K" x="-54.61" y="88.9">
+<attribute name="VENDOR#" value="" x="-54.61" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="RND 1 47K" x="-54.61" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-54.61" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="PMAX" value="125mW" x="-54.61" y="88.9" size="1.778" layer="27" display="off"/>
+</element>
+<element name="REF1" library="omcReferences" package="SOT23" value="4.1V" x="-35.56" y="107.95">
+<attribute name="VENDOR#" value="TI, LM4040BIM3-4.1/NOPB" x="-35.56" y="107.95" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="LM 4040 BIM3-4.1" x="-35.56" y="107.95" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T1" library="omcTransistor" package="SOT23" value="BC847A" x="-91.44" y="43.18">
+<attribute name="VENDOR#" value="" x="-91.44" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="BC 847A SMD" x="-91.44" y="43.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T2" library="omcTransistor" package="TO263AB" value="IRL530" x="-77.47" y="1.27">
+<attribute name="VENDOR#" value="IRF, IRL530NS" x="-77.47" y="1.27" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="IRL 530NS" x="-77.47" y="1.27" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T3" library="omcTransistor" package="SOT23" value="BSS138" x="-99.06" y="43.18">
+<attribute name="#VENDOR" value="ON_SEMICONDUCTOR,BSS138L" x="-99.06" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="BSS 138 SMD" x="-99.06" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-99.06" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-99.06" y="43.18" size="1.778" layer="27" display="off"/>
+</element>
+<element name="T4" library="omcTransistor" package="SOT23" value="BSS138" x="-15.24" y="54.61">
+<attribute name="#VENDOR" value="ON_SEMICONDUCTOR,BSS138L" x="-15.24" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="BSS 138 SMD" x="-15.24" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#CONRAD#" value="" x="-15.24" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#DIGIKEY#" value="" x="-15.24" y="54.61" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X2" library="omcConnector" package="BOXHD-06-2.54-S" value="2X3" x="-39.37" y="10.16">
+<attribute name="VENDOR#" value="" x="-39.37" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="DIST#REICHELT#" value="WSL 6G" x="-39.37" y="10.16" size="1.778" layer="27" display="off"/>
+</element>
+<element name="X3" library="omcConnector" package="DIN5P" value="DIN5" x="20.32" y="15.24" rot="R90">
+<attribute name="DIST#REICHELT" value="MABPM 5S" x="20.32" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="GND">
+<contactref element="C11" pad="2"/>
+<contactref element="C32" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="IC2" pad="8"/>
+<contactref element="IC2" pad="19"/>
+<contactref element="C10" pad="2"/>
+<contactref element="C33" pad="2"/>
+<contactref element="C35" pad="2"/>
+<contactref element="C22" pad="2"/>
+<contactref element="OSC1" pad="2"/>
+<contactref element="OSC1" pad="4"/>
+<contactref element="X2" pad="3"/>
+<contactref element="IC3" pad="4"/>
+<contactref element="C43" pad="2"/>
+<contactref element="C44" pad="2"/>
+<contactref element="IC4" pad="4"/>
+<contactref element="C45" pad="2"/>
+<contactref element="C31" pad="CN"/>
+<contactref element="C46" pad="CN"/>
+<contactref element="C48" pad="CN"/>
+<contactref element="C28" pad="2"/>
+<contactref element="C5" pad="2"/>
+<contactref element="R7" pad="1"/>
+<contactref element="C47" pad="2"/>
+<contactref element="C4" pad="2"/>
+<contactref element="JP1" pad="4"/>
+<contactref element="C36" pad="2"/>
+<contactref element="IC1" pad="4"/>
+<contactref element="IC1" pad="8"/>
+<contactref element="C2" pad="2"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C8" pad="2"/>
+<contactref element="C9" pad="2"/>
+<contactref element="R32" pad="1"/>
+<contactref element="R21" pad="1"/>
+<contactref element="T1" pad="2"/>
+<contactref element="C18" pad="1"/>
+<contactref element="R26" pad="1"/>
+<contactref element="X3" pad="S1"/>
+<contactref element="X3" pad="S2"/>
+<contactref element="X3" pad="2"/>
+<contactref element="H1" pad="B3,2"/>
+<contactref element="H2" pad="B3,2"/>
+<contactref element="H3" pad="B3,2"/>
+<contactref element="H4" pad="B3,2"/>
+<wire x1="92.71" y1="7.62" x2="92.71" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="72.39" x2="92.71" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.38" y1="76.2" x2="7.62" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.92" y1="69.85" x2="-16.38" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.19" y1="63.5" x2="-18.92" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-24" y1="76.2" x2="-16.38" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.822" y1="82.55" x2="-24" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.46" y1="88.9" x2="-26.822" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.282" y1="95.25" x2="-21.46" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.54" y1="54.61" x2="-20.19" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.7" y1="54.61" x2="-26.54" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.9375" y1="63.5" x2="-36.7" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.78" y1="63.5" x2="-31.9375" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.4" y1="69.85" x2="-41.78" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.94" y1="63.5" x2="-49.4" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.48" y1="76.2" x2="-49.4" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.1" y1="76.2" x2="-54.48" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.86" y1="54.61" x2="-36.7" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="42.70375" x2="-36.7" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.195" y1="34.429375" x2="-38.1" y2="42.70375" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.735" y1="25.18125" x2="-36.195" y2="34.429375" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.94" y1="42.2275" x2="-38.1" y2="42.70375" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.78" y1="42.2275" x2="-27.94" y2="42.2275" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="20.32" x2="-38.735" y2="25.18125" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="30.48" x2="6.35" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="25.4" x2="6.35" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.062" y1="82.55" x2="-54.48" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.64" y1="10.16" x2="6.35" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="13.97" x2="-40.64" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.18" y1="106.68" x2="-24.282" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.84875" y1="105.7275" x2="-43.18" y2="106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.07125" y1="107.6325" x2="-59.84875" y2="105.7275" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.082" y1="101.6" x2="-62.07125" y2="107.6325" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.96" y1="69.85" x2="-62.1" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.85" y1="69.85" x2="-84.96" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-101.47" y1="69.85" x2="-93.85" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-102.74" y1="63.5" x2="-101.47" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.65" y1="54.61" x2="-102.74" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.85" y1="82.55" x2="-93.85" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.2" y1="82.55" x2="-93.85" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.4875" y1="42.2275" x2="-96.65" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.42" y1="54.61" x2="-96.65" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-77.7875" y1="28.09875" x2="-90.4875" y2="42.2275" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.63" y1="13.97" x2="-77.7875" y2="28.09875" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.63" y1="3.175" x2="-87.63" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="7.62" x2="6.35" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="IS_CHG">
+<contactref element="R6" pad="2"/>
+<contactref element="C10" pad="1"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-72.542" y1="76.2" x2="-54.74" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.938" y1="76.2" x2="-72.542" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+5V">
+<contactref element="R33" pad="1"/>
+<contactref element="C30" pad="1"/>
+<contactref element="DAC1" pad="1"/>
+<contactref element="C29" pad="1"/>
+<contactref element="DAC2" pad="1"/>
+<contactref element="C25" pad="1"/>
+<contactref element="L5" pad="2"/>
+<contactref element="C24" pad="1"/>
+<contactref element="R29" pad="2"/>
+<contactref element="R49" pad="2"/>
+<contactref element="OPA1" pad="4"/>
+<contactref element="C13" pad="1"/>
+<contactref element="C15" pad="1"/>
+<wire x1="-92.075" y1="24.705" x2="-100.965" y2="24.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.485" y1="25.34" x2="-92.075" y2="24.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.37375" y1="54.61" x2="-70.485" y2="25.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.82" y1="54.61" x2="-69.37375" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.98" y1="69.85" x2="-69.37375" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.2025" y1="82.55" x2="-69.98" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.9025" y1="82.55" x2="-72.2025" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.538" y1="95.25" x2="-72.2025" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.538" y1="101.6" x2="-59.538" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.682" y1="82.55" x2="-59.538" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.66" y1="76.2" x2="-49.682" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.04" y1="76.2" x2="-49.66" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VREF_ADC">
+<contactref element="R33" pad="2"/>
+<contactref element="REF1" pad="2"/>
+<contactref element="C27" pad="1"/>
+<contactref element="C26" pad="1"/>
+<contactref element="IC2" pad="7"/>
+<wire x1="-17.91" y1="88.9" x2="-34.6075" y2="106.9975" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.42" y1="76.2" x2="-17.91" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.838" y1="82.55" x2="-34.42" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.005" y1="25.18125" x2="-34.42" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="IM_CHG_AD">
+<contactref element="IC2" pad="2"/>
+<contactref element="R12" pad="2"/>
+<contactref element="C17" pad="1"/>
+<wire x1="-75.06" y1="63.5" x2="-65.888" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.355" y1="25.18125" x2="-75.06" y2="63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VBAT_AD">
+<contactref element="IC2" pad="3"/>
+<contactref element="R20" pad="2"/>
+<contactref element="C19" pad="1"/>
+<wire x1="-45.085" y1="25.18125" x2="-15.088" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.22" y1="63.5" x2="-45.085" y2="25.18125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCL">
+<contactref element="IC2" pad="14"/>
+</signal>
+<signal name="SDA">
+<contactref element="IC2" pad="15"/>
+</signal>
+<signal name="GNDA">
+<contactref element="C27" pad="2"/>
+<contactref element="C26" pad="2"/>
+<contactref element="REF1" pad="1"/>
+<contactref element="IC2" pad="6"/>
+<contactref element="C29" pad="2"/>
+<contactref element="C30" pad="2"/>
+<contactref element="C34" pad="2"/>
+<contactref element="R7" pad="2"/>
+<contactref element="C23" pad="1"/>
+<contactref element="C24" pad="2"/>
+<contactref element="R34" pad="1"/>
+<contactref element="C21" pad="2"/>
+<contactref element="C37" pad="2"/>
+<contactref element="D3" pad="A"/>
+<contactref element="C16" pad="2"/>
+<contactref element="C17" pad="2"/>
+<contactref element="R14" pad="1"/>
+<contactref element="R11" pad="1"/>
+<contactref element="C19" pad="2"/>
+<contactref element="R17" pad="1"/>
+<contactref element="R30" pad="1"/>
+<contactref element="C14" pad="1"/>
+<contactref element="C13" pad="2"/>
+<wire x1="-15.11" y1="88.9" x2="-14.9225" y2="107.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.62" y1="76.2" x2="-15.11" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.08" y1="69.85" x2="-31.62" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.24" y1="76.2" x2="-31.62" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.24" y1="69.85" x2="-39.24" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.86" y1="76.2" x2="-39.24" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.09" y1="69.85" x2="-46.86" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.18" y1="69.85" x2="-61.09" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.1" y1="63.5" x2="-61.09" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.26" y1="63.5" x2="-67.18" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.42" y1="63.5" x2="-72.26" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-92.58" y1="63.5" x2="-82.42" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.0375" y1="82.55" x2="-67.18" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.5525" y1="82.55" x2="-70.0375" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-81.432" y1="88.9" x2="-78.5525" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.082" y1="95.25" x2="-81.432" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.732" y1="95.25" x2="-75.082" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.238" y1="101.6" x2="-75.082" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.382" y1="88.9" x2="-68.732" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-94.132" y1="88.9" x2="-81.432" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.5125" y1="106.9975" x2="-14.9225" y2="107.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.275" y1="25.18125" x2="-62.1" y2="63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="!CS_DAC1">
+<contactref element="DAC1" pad="2"/>
+<contactref element="R39" pad="1"/>
+<contactref element="IC2" pad="21"/>
+<wire x1="-38.735" y1="34.429375" x2="-91.44" y2="24.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-106.832" y1="95.25" x2="-91.44" y2="24.705" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="DAC1" pad="3"/>
+<contactref element="DAC2" pad="3"/>
+<contactref element="IC2" pad="11"/>
+<wire x1="-90.805" y1="24.705" x2="-99.695" y2="24.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.925" y1="25.18125" x2="-90.805" y2="24.705" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$30">
+<contactref element="DAC1" pad="5"/>
+<contactref element="DAC2" pad="5"/>
+<contactref element="R36" pad="1"/>
+<contactref element="IC2" pad="13"/>
+<wire x1="-90.17" y1="28.79375" x2="-99.06" y2="28.79375" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.385" y1="25.18125" x2="-90.17" y2="28.79375" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.782" y1="95.25" x2="-90.17" y2="28.79375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="!CS_DAC2">
+<contactref element="DAC2" pad="2"/>
+<contactref element="R37" pad="1"/>
+<contactref element="IC2" pad="22"/>
+<wire x1="-40.005" y1="34.429375" x2="-100.33" y2="24.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-94.132" y1="95.25" x2="-100.33" y2="24.705" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="DAC2" pad="4"/>
+<contactref element="DAC1" pad="4"/>
+<contactref element="IC2" pad="12"/>
+<wire x1="-90.17" y1="24.705" x2="-99.06" y2="24.705" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.655" y1="25.18125" x2="-90.17" y2="24.705" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="XEN_CHRG">
+<contactref element="IC2" pad="24"/>
+<contactref element="D4" pad="C"/>
+<wire x1="-42.545" y1="34.429375" x2="-25.7175" y2="107.95" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD">
+<contactref element="C11" pad="1"/>
+<contactref element="C32" pad="1"/>
+<contactref element="C12" pad="1"/>
+<contactref element="D5" pad="C"/>
+<contactref element="IC2" pad="20"/>
+<contactref element="X2" pad="2"/>
+<wire x1="-57.28" y1="76.2" x2="-26.8" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.65" y1="82.55" x2="-57.28" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.266" y1="101.6" x2="-96.65" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.465" y1="34.429375" x2="-26.8" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="12.7" x2="-37.465" y2="34.429375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VS_CHG">
+<contactref element="C33" pad="1"/>
+<contactref element="R40" pad="2"/>
+<contactref element="R23" pad="1"/>
+<contactref element="R22" pad="1"/>
+<wire x1="-21.72" y1="69.85" x2="-19.202" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.632" y1="95.25" x2="-19.202" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.458" y1="82.55" x2="-30.632" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$29">
+<contactref element="DAC2" pad="8"/>
+<contactref element="R6" pad="1"/>
+<wire x1="-87.782" y1="76.2" x2="-100.965" y2="28.79375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$31">
+<contactref element="DAC2" pad="6"/>
+<contactref element="R40" pad="1"/>
+<wire x1="-57.302" y1="82.55" x2="-99.695" y2="28.79375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$32">
+<contactref element="DAC1" pad="8"/>
+<contactref element="R41" pad="1"/>
+<wire x1="-64.922" y1="82.55" x2="-92.075" y2="28.79375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="IS_XCHRG">
+<contactref element="C34" pad="1"/>
+<contactref element="R41" pad="2"/>
+<contactref element="R31" pad="1"/>
+<wire x1="-31.88" y1="69.85" x2="-34.442" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.078" y1="82.55" x2="-34.442" y2="82.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$34">
+<contactref element="OSC1" pad="3"/>
+<contactref element="C35" pad="1"/>
+<contactref element="IC2" pad="9"/>
+<wire x1="-59.84875" y1="107.6325" x2="-24.26" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.465" y1="25.18125" x2="-24.26" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$35">
+<contactref element="OSC1" pad="1"/>
+<contactref element="C22" pad="1"/>
+<contactref element="IC2" pad="10"/>
+<wire x1="-103" y1="82.55" x2="-62.07125" y2="105.7275" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.195" y1="25.18125" x2="-62.07125" y2="105.7275" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VSS">
+<contactref element="DAC1" pad="7"/>
+<contactref element="DAC2" pad="7"/>
+<wire x1="-91.44" y1="28.79375" x2="-100.33" y2="28.79375" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PGD">
+<contactref element="IC2" pad="28"/>
+<contactref element="X2" pad="4"/>
+<wire x1="-47.625" y1="34.429375" x2="-38.1" y2="10.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PGC">
+<contactref element="IC2" pad="27"/>
+<contactref element="X2" pad="5"/>
+<wire x1="-46.355" y1="34.429375" x2="-40.64" y2="7.62" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED1">
+<contactref element="IC2" pad="25"/>
+<contactref element="R45" pad="2"/>
+<wire x1="-43.815" y1="34.429375" x2="-34.138" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED2">
+<contactref element="IC2" pad="26"/>
+<contactref element="R46" pad="2"/>
+<wire x1="-45.085" y1="34.429375" x2="-40.488" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="!MCLR">
+<contactref element="R38" pad="1"/>
+<contactref element="IC2" pad="1"/>
+<contactref element="X2" pad="1"/>
+<wire x1="-47.625" y1="25.18125" x2="-40.64" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-100.482" y1="95.25" x2="-47.625" y2="25.18125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$39">
+<contactref element="R38" pad="2"/>
+<contactref element="D6" pad="C"/>
+<wire x1="-97.638" y1="95.25" x2="-107.696" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="R37" pad="2"/>
+<contactref element="R39" pad="2"/>
+<contactref element="R36" pad="2"/>
+<contactref element="D5" pad="A"/>
+<contactref element="D6" pad="A"/>
+<contactref element="IC4" pad="3"/>
+<contactref element="IC3" pad="2"/>
+<contactref element="C43" pad="1"/>
+<contactref element="C5" pad="1"/>
+<contactref element="L5" pad="1"/>
+<contactref element="R44" pad="2"/>
+<wire x1="-44.58" y1="63.5" x2="-27.788" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.86625" y1="54.61" x2="-44.58" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.76" y1="69.85" x2="-72.86625" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.938" y1="95.25" x2="-87.76" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.288" y1="95.25" x2="-84.938" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-94.234" y1="101.6" x2="-91.288" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-105.664" y1="101.6" x2="-94.234" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.988" y1="95.25" x2="-105.664" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.74" y1="25.24125" x2="-72.86625" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.53" y1="4.1275" x2="-78.74" y2="25.24125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="-5V">
+<contactref element="L4" pad="2"/>
+<contactref element="C23" pad="2"/>
+<contactref element="C25" pad="2"/>
+<contactref element="LED1" pad="2"/>
+<contactref element="R50" pad="1"/>
+<contactref element="OPA1" pad="11"/>
+<contactref element="C14" pad="2"/>
+<contactref element="C15" pad="2"/>
+<wire x1="-68.732" y1="101.6" x2="-28.575" y2="109.22" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.3875" y1="82.55" x2="-68.732" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.7375" y1="82.55" x2="-76.3875" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.29" y1="69.85" x2="-76.3875" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.02" y1="54.61" x2="-58.29" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.02375" y1="54.61" x2="-57.02" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.485" y1="30.54" x2="-63.02375" y2="54.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="C42" pad="2"/>
+<contactref element="IC3" pad="3"/>
+<wire x1="-76.07" y1="69.85" x2="-77.7875" y2="25.24125" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$28">
+<contactref element="C42" pad="1"/>
+<contactref element="IC3" pad="5"/>
+<wire x1="-78.87" y1="69.85" x2="-79.6925" y2="28.09875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$40">
+<contactref element="F1" pad="1"/>
+</signal>
+<signal name="N$33">
+<contactref element="IC3" pad="1"/>
+<contactref element="C44" pad="1"/>
+<contactref element="L4" pad="1"/>
+<wire x1="-66.51625" y1="54.61" x2="-79.6925" y2="25.24125" width="0" layer="19" extent="1-1"/>
+<wire x1="-96.65" y1="69.85" x2="-66.51625" y2="54.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+12V">
+<contactref element="C45" pad="1"/>
+<contactref element="F1" pad="2"/>
+<contactref element="C31" pad="CP"/>
+<contactref element="C46" pad="CP"/>
+<contactref element="C48" pad="CP"/>
+<contactref element="IC4" pad="1"/>
+<contactref element="C28" pad="1"/>
+<contactref element="C47" pad="1"/>
+<contactref element="C4" pad="1"/>
+<contactref element="R35" pad="2"/>
+<contactref element="IC1" pad="7"/>
+<contactref element="L2" pad="1"/>
+<contactref element="R4" pad="2"/>
+<contactref element="R5" pad="2"/>
+<contactref element="C6" pad="1"/>
+<contactref element="C7" pad="1"/>
+<wire x1="-54.61" y1="4.1275" x2="-82.39125" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.645" y1="44.45" x2="-82.39125" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.22" y1="54.61" x2="-80.645" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-105.54" y1="63.5" x2="-85.22" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.2" y1="69.85" x2="-85.22" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.1025" y1="63.5" x2="-52.2" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.34" y1="54.61" x2="-34.1025" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.94" y1="46.6725" x2="-29.34" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.78" y1="46.6725" x2="-27.94" y2="46.6725" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.1" y1="46.19625" x2="-27.94" y2="46.6725" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.99" y1="63.5" x2="-29.34" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.32" y1="35.40125" x2="-17.78" y2="46.6725" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.488" y1="88.9" x2="-52.2" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.138" y1="88.9" x2="-40.488" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.588" y1="95.25" x2="-52.2" y2="69.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$36">
+<contactref element="LED1" pad="1"/>
+<contactref element="R29" pad="1"/>
+<wire x1="-62.382" y1="95.25" x2="-32.385" y2="109.22" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VP12_AD">
+<contactref element="IC2" pad="4"/>
+<contactref element="R34" pad="2"/>
+<contactref element="R35" pad="1"/>
+<contactref element="C21" pad="1"/>
+<wire x1="-81.432" y1="95.25" x2="-95.38" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-72.238" y1="95.25" x2="-81.432" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.815" y1="25.18125" x2="-95.38" y2="63.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RXD">
+<contactref element="IC2" pad="17"/>
+<contactref element="R43" pad="2"/>
+<wire x1="-33.655" y1="34.429375" x2="-21.438" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="TXD">
+<contactref element="IC2" pad="18"/>
+<contactref element="R42" pad="2"/>
+<wire x1="-34.925" y1="34.429375" x2="-15.088" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$45">
+<contactref element="JP1" pad="3"/>
+<contactref element="T3" pad="2"/>
+<contactref element="R48" pad="1"/>
+<wire x1="-56.032" y1="101.6" x2="-45.72" y2="106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-98.1075" y1="42.2275" x2="-56.032" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$46">
+<contactref element="JP1" pad="2"/>
+<contactref element="T4" pad="2"/>
+<contactref element="R47" pad="1"/>
+<wire x1="-49.682" y1="101.6" x2="-48.26" y2="106.68" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.2875" y1="53.6575" x2="-49.682" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$47">
+<contactref element="T3" pad="3"/>
+<contactref element="R42" pad="1"/>
+<wire x1="-99.06" y1="44.1325" x2="-17.932" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$48">
+<contactref element="T4" pad="3"/>
+<contactref element="R43" pad="1"/>
+<contactref element="R44" pad="1"/>
+<wire x1="-30.632" y1="101.6" x2="-24.282" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.24" y1="55.5625" x2="-24.282" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+3V3">
+<contactref element="JP1" pad="1"/>
+<contactref element="C36" pad="1"/>
+<contactref element="T4" pad="1"/>
+<contactref element="T3" pad="1"/>
+<contactref element="R48" pad="2"/>
+<contactref element="R47" pad="2"/>
+<wire x1="-64.9" y1="76.2" x2="-100.0125" y2="42.2275" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.188" y1="101.6" x2="-64.9" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.8" y1="106.68" x2="-53.188" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.838" y1="101.6" x2="-53.188" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.1925" y1="53.6575" x2="-64.9" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VOPA_AD">
+<contactref element="R49" pad="1"/>
+<contactref element="R50" pad="2"/>
+<contactref element="C37" pad="1"/>
+<contactref element="D3" pad="C"/>
+<contactref element="IC2" pad="5"/>
+<wire x1="-62.382" y1="101.6" x2="-18.0975" y2="107.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.888" y1="101.6" x2="-62.382" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.04" y1="69.85" x2="-62.382" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.545" y1="25.18125" x2="-42.04" y2="69.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="C1" pad="2"/>
+<contactref element="L1" pad="2"/>
+<contactref element="D1" pad="A"/>
+<wire x1="-52.54625" y1="29.21" x2="-102.87" y2="2.69875" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.5" y1="82.55" x2="-52.54625" y2="29.21" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="IC1" pad="5"/>
+<contactref element="C1" pad="1"/>
+<contactref element="L2" pad="2"/>
+<wire x1="-20.32" y1="25.55875" x2="-85.88375" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.3" y1="82.55" x2="-85.88375" y2="3.175" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="IM_CHG">
+<contactref element="L1" pad="1"/>
+<contactref element="R1" pad="2"/>
+<contactref element="R32" pad="2"/>
+<contactref element="R9" pad="1"/>
+<wire x1="-56.032" y1="88.9" x2="-102.87" y2="12.54125" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.218" y1="82.55" x2="-56.032" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.788" y1="88.9" x2="-39.218" y2="82.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="C3" pad="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-80.162" y1="76.2" x2="-19.18" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="R3" pad="2"/>
+<contactref element="IC1" pad="1"/>
+<wire x1="-77.318" y1="76.2" x2="-92.86875" y2="3.175" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="IC1" pad="3"/>
+<contactref element="C2" pad="1"/>
+<contactref element="R1" pad="1"/>
+<contactref element="R2" pad="2"/>
+<wire x1="-104.27" y1="69.85" x2="-89.37625" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.698" y1="76.2" x2="-104.27" y2="69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.632" y1="88.9" x2="-69.698" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="IC1" pad="6"/>
+<contactref element="R4" pad="1"/>
+<contactref element="T1" pad="3"/>
+<wire x1="-91.44" y1="44.1325" x2="-84.1375" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.982" y1="88.9" x2="-91.44" y2="44.1325" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VBAT">
+<contactref element="D1" pad="C"/>
+<contactref element="C8" pad="1"/>
+<contactref element="C9" pad="1"/>
+<contactref element="R24" pad="2"/>
+<contactref element="R25" pad="2"/>
+<contactref element="X3" pad="3"/>
+<contactref element="X3" pad="1"/>
+<contactref element="R16" pad="1"/>
+<contactref element="T2" pad="4"/>
+<wire x1="-40.488" y1="95.25" x2="-34.138" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.5" y1="54.61" x2="-40.488" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.66" y1="54.61" x2="-39.5" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.21375" y1="29.21" x2="-49.66" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.755" y1="13.93" x2="-59.21375" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="17.78" x2="-59.21375" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="33.02" x2="16.51" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.782" y1="88.9" x2="-40.488" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="R5" pad="1"/>
+<contactref element="D4" pad="A"/>
+<contactref element="T1" pad="1"/>
+<wire x1="-43.332" y1="88.9" x2="-22.5425" y2="107.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-92.3925" y1="42.2275" x2="-43.332" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$27">
+<contactref element="R21" pad="2"/>
+<contactref element="R25" pad="1"/>
+<contactref element="IC1" pad="2"/>
+<contactref element="R24" pad="1"/>
+<contactref element="R23" pad="2"/>
+<contactref element="R22" pad="2"/>
+<wire x1="-43.332" y1="95.25" x2="-91.1225" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.982" y1="95.25" x2="-43.332" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.788" y1="95.25" x2="-36.982" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.438" y1="95.25" x2="-27.788" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.358" y1="82.55" x2="-21.438" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="R9" pad="2"/>
+<contactref element="OPA1" pad="2"/>
+<contactref element="R10" pad="1"/>
+<wire x1="-95.402" y1="76.2" x2="-73.025" y2="25.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.188" y1="88.9" x2="-95.402" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="OPA1" pad="1"/>
+<contactref element="R10" pad="2"/>
+<contactref element="R8" pad="1"/>
+<wire x1="-92.558" y1="76.2" x2="-74.295" y2="25.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.682" y1="88.9" x2="-92.558" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R11" pad="2"/>
+<contactref element="OPA1" pad="3"/>
+<wire x1="-59.538" y1="88.9" x2="-71.755" y2="25.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="C16" pad="1"/>
+<contactref element="R13" pad="1"/>
+<contactref element="R8" pad="2"/>
+<wire x1="-75.082" y1="88.9" x2="-46.838" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.9" y1="63.5" x2="-75.082" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="OPA1" pad="5"/>
+<contactref element="R13" pad="2"/>
+<wire x1="-72.238" y1="88.9" x2="-69.215" y2="25.34" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="R14" pad="2"/>
+<contactref element="OPA1" pad="6"/>
+<contactref element="R15" pad="1"/>
+<wire x1="-103.022" y1="76.2" x2="-67.945" y2="25.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.588" y1="88.9" x2="-103.022" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="R15" pad="2"/>
+<contactref element="OPA1" pad="7"/>
+<contactref element="R12" pad="1"/>
+<wire x1="-100.178" y1="76.2" x2="-66.675" y2="25.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.732" y1="88.9" x2="-100.178" y2="76.2" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="R18" pad="2"/>
+<contactref element="OPA1" pad="8"/>
+<contactref element="R20" pad="1"/>
+<wire x1="-97.638" y1="88.9" x2="-17.932" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.675" y1="30.54" x2="-97.638" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="R17" pad="2"/>
+<contactref element="R16" pad="2"/>
+<contactref element="OPA1" pad="10"/>
+<wire x1="-84.938" y1="88.9" x2="-69.215" y2="30.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-91.288" y1="88.9" x2="-84.938" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="R18" pad="1"/>
+<contactref element="R19" pad="2"/>
+<contactref element="OPA1" pad="9"/>
+<wire x1="-100.482" y1="88.9" x2="-67.945" y2="30.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.988" y1="88.9" x2="-100.482" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="R19" pad="1"/>
+<contactref element="C18" pad="2"/>
+<wire x1="-106.832" y1="88.9" x2="-93.85" y2="54.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="R27" pad="1"/>
+<contactref element="T2" pad="1"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-49.682" y1="95.25" x2="-74.295" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.804" y1="101.6" x2="-49.682" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$26">
+<contactref element="T2" pad="3"/>
+<contactref element="R28" pad="1"/>
+<contactref element="R26" pad="2"/>
+<wire x1="-23.978" y1="82.55" x2="-69.215" y2="3.175" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.032" y1="95.25" x2="-23.978" y2="82.55" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="R27" pad="2"/>
+<contactref element="OPA1" pad="14"/>
+<contactref element="C20" pad="1"/>
+<wire x1="-74.295" y1="30.54" x2="-108.08" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.838" y1="95.25" x2="-74.295" y2="30.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="R28" pad="2"/>
+<contactref element="C20" pad="2"/>
+<contactref element="OPA1" pad="13"/>
+<wire x1="-73.025" y1="30.54" x2="-105.28" y2="54.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.188" y1="95.25" x2="-105.28" y2="54.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="R30" pad="2"/>
+<contactref element="OPA1" pad="12"/>
+<contactref element="R31" pad="2"/>
+<wire x1="-65.888" y1="95.25" x2="-31.598" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.755" y1="30.54" x2="-65.888" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$41">
+<contactref element="X3" pad="4"/>
+<contactref element="R45" pad="1"/>
+<wire x1="19.05" y1="30.48" x2="-36.982" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$42">
+<contactref element="X3" pad="5"/>
+<contactref element="R46" pad="1"/>
+<wire x1="19.05" y1="20.32" x2="-43.332" y2="101.6" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="EN_XCHRG">
+<contactref element="D2" pad="C"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
