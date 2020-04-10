@@ -848,109 +848,56 @@ More Information about the General Public License is available at &lt;a href="ht
 In short: You are welcome to use (and extend) this library, but extensions must be published under the same license.
 &lt;/p&gt;</description>
 <packages>
-<package name="PIS281X">
-<description>&lt;h3&gt;PIS281X Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
+<package name="DR74">
+<description>&lt;h3&gt;Coiltronics DR Series&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;SMD&lt;/li&gt;
-&lt;li&gt;2812 Series&lt;/li&gt;
-&lt;li&gt;2816 Series&lt;/li&gt;
+&lt;li&gt;DR74 Series&lt;/li&gt;
 &lt;/ul&gt;</description>
-<smd name="1" x="0" y="3.33375" dx="2.159" dy="1.6002" layer="1"/>
-<smd name="2" x="0" y="-3.33375" dx="2.159" dy="1.6002" layer="1"/>
-<wire x1="-3.65125" y1="3.65125" x2="-3.65125" y2="-3.65125" width="0.3048" layer="21"/>
-<wire x1="3.65125" y1="-3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="21"/>
-<wire x1="-3.65125" y1="3.65125" x2="-1.27" y2="3.65125" width="0.3048" layer="21"/>
-<wire x1="-3.65125" y1="-3.65125" x2="-1.27" y2="-3.65125" width="0.3048" layer="21"/>
-<wire x1="1.27" y1="-3.65125" x2="3.65125" y2="-3.65125" width="0.3048" layer="21"/>
-<wire x1="-4.1275" y1="4.28625" x2="-4.1275" y2="-4.28625" width="0.127" layer="39"/>
-<wire x1="-4.1275" y1="-4.28625" x2="4.1275" y2="-4.28625" width="0.127" layer="39"/>
-<wire x1="4.1275" y1="-4.28625" x2="4.1275" y2="4.28625" width="0.127" layer="39"/>
-<wire x1="4.1275" y1="4.28625" x2="-4.1275" y2="4.28625" width="0.127" layer="39"/>
-<wire x1="-1.42875" y1="2.69875" x2="-1.42875" y2="-2.69875" width="0.3048" layer="21" curve="122.559042"/>
-<text x="-3.81" y="5.715" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-3.81" y="4.28625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-<circle x="0" y="0" radius="3.053615625" width="0.3048" layer="51"/>
-<wire x1="1.42875" y1="-2.69875" x2="1.42875" y2="2.69875" width="0.3048" layer="21" curve="122.559042"/>
-<wire x1="-2.69875" y1="1.74625" x2="-3.175" y2="2.2225" width="0.3048" layer="51"/>
-<wire x1="-3.175" y1="2.2225" x2="-2.2225" y2="3.175" width="0.3048" layer="51"/>
-<wire x1="-2.2225" y1="3.175" x2="-1.74625" y2="2.69875" width="0.3048" layer="51"/>
-<wire x1="-3.175" y1="2.2225" x2="-2.2225" y2="3.175" width="0.3048" layer="21"/>
-<wire x1="-2.2225" y1="3.175" x2="-1.74625" y2="2.69875" width="0.3048" layer="21"/>
-<wire x1="-3.175" y1="2.2225" x2="-2.69875" y2="1.74625" width="0.3048" layer="21"/>
-<wire x1="1.74625" y1="2.69875" x2="2.2225" y2="3.175" width="0.3048" layer="51"/>
-<wire x1="2.2225" y1="3.175" x2="3.175" y2="2.2225" width="0.3048" layer="51"/>
-<wire x1="3.175" y1="2.2225" x2="2.69875" y2="1.74625" width="0.3048" layer="51"/>
-<wire x1="2.2225" y1="3.175" x2="3.175" y2="2.2225" width="0.3048" layer="21"/>
-<wire x1="3.175" y1="2.2225" x2="2.69875" y2="1.74625" width="0.3048" layer="21"/>
-<wire x1="2.2225" y1="3.175" x2="1.74625" y2="2.69875" width="0.3048" layer="21"/>
-<wire x1="-1.74625" y1="-2.69875" x2="-2.2225" y2="-3.175" width="0.3048" layer="51"/>
-<wire x1="-2.2225" y1="-3.175" x2="-3.175" y2="-2.2225" width="0.3048" layer="51"/>
-<wire x1="-3.175" y1="-2.2225" x2="-2.69875" y2="-1.74625" width="0.3048" layer="51"/>
-<wire x1="-2.2225" y1="-3.175" x2="-3.175" y2="-2.2225" width="0.3048" layer="21"/>
-<wire x1="-3.175" y1="-2.2225" x2="-2.69875" y2="-1.74625" width="0.3048" layer="21"/>
-<wire x1="-2.2225" y1="-3.175" x2="-1.74625" y2="-2.69875" width="0.3048" layer="21"/>
-<wire x1="2.69875" y1="-1.74625" x2="3.175" y2="-2.2225" width="0.3048" layer="51"/>
-<wire x1="3.175" y1="-2.2225" x2="2.2225" y2="-3.175" width="0.3048" layer="51"/>
-<wire x1="2.2225" y1="-3.175" x2="1.74625" y2="-2.69875" width="0.3048" layer="51"/>
-<wire x1="3.175" y1="-2.2225" x2="2.2225" y2="-3.175" width="0.3048" layer="21"/>
-<wire x1="2.2225" y1="-3.175" x2="1.74625" y2="-2.69875" width="0.3048" layer="21"/>
-<wire x1="3.175" y1="-2.2225" x2="2.69875" y2="-1.74625" width="0.3048" layer="21"/>
-<wire x1="-3.65125" y1="3.65125" x2="-3.65125" y2="-3.65125" width="0.3048" layer="51"/>
-<wire x1="-3.65125" y1="-3.65125" x2="3.65125" y2="-3.65125" width="0.3048" layer="51"/>
-<wire x1="3.65125" y1="-3.65125" x2="3.65125" y2="3.65125" width="0.3048" layer="51"/>
-<wire x1="3.65125" y1="3.65125" x2="-3.65125" y2="3.65125" width="0.3048" layer="51"/>
-</package>
-<package name="PIS472X">
-<description>&lt;h3&gt;PIS282X Series - SMD Power Inductors (Also Shielded)&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;SMD&lt;/li&gt;
-&lt;li&gt;2820 Series&lt;/li&gt;
-&lt;li&gt;2828 Series&lt;/li&gt;
-&lt;/ul&gt;</description>
-<smd name="1" x="0" y="4.92125" dx="5.4" dy="2.9" layer="1"/>
-<smd name="2" x="0" y="-4.92125" dx="5.4" dy="2.9" layer="1"/>
-<wire x1="-6.19125" y1="6.19125" x2="-6.19125" y2="-6.19125" width="0.3048" layer="21"/>
-<wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="21"/>
-<wire x1="3.175" y1="6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="21"/>
-<wire x1="-6.19125" y1="6.19125" x2="-3.175" y2="6.19125" width="0.3048" layer="21"/>
-<wire x1="-6.19125" y1="-6.19125" x2="-3.175" y2="-6.19125" width="0.3048" layer="21"/>
-<wire x1="3.175" y1="-6.19125" x2="6.19125" y2="-6.19125" width="0.3048" layer="21"/>
-<wire x1="-6.6675" y1="6.82625" x2="-6.6675" y2="-6.82625" width="0.127" layer="39"/>
-<wire x1="-6.6675" y1="-6.82625" x2="6.6675" y2="-6.82625" width="0.127" layer="39"/>
-<wire x1="6.6675" y1="-6.82625" x2="6.6675" y2="6.82625" width="0.127" layer="39"/>
-<wire x1="6.6675" y1="6.82625" x2="-6.6675" y2="6.82625" width="0.127" layer="39"/>
-<wire x1="-3.01625" y1="3.96875" x2="-3.01625" y2="-3.96875" width="0.3048" layer="21" curve="106"/>
-<text x="-6.35" y="8.255" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
-<text x="-6.35" y="6.82625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
-<circle x="0" y="0" radius="5" width="0.3048" layer="51"/>
-<wire x1="3.01625" y1="-3.96875" x2="3.01625" y2="3.96875" width="0.3048" layer="21" curve="106"/>
-<wire x1="-4.28625" y1="3.01625" x2="-4.7625" y2="3.4925" width="0.3048" layer="51"/>
-<wire x1="-4.7625" y1="3.4925" x2="-3.81" y2="4.445" width="0.3048" layer="51"/>
-<wire x1="-3.81" y1="4.445" x2="-3.33375" y2="3.96875" width="0.3048" layer="51"/>
-<wire x1="-4.7625" y1="3.4925" x2="-3.81" y2="4.445" width="0.3048" layer="21"/>
-<wire x1="-3.81" y1="4.445" x2="-3.33375" y2="3.96875" width="0.3048" layer="21"/>
-<wire x1="-4.7625" y1="3.4925" x2="-4.28625" y2="3.01625" width="0.3048" layer="21"/>
-<wire x1="3.33375" y1="3.96875" x2="3.81" y2="4.445" width="0.3048" layer="51"/>
-<wire x1="3.81" y1="4.445" x2="4.7625" y2="3.4925" width="0.3048" layer="51"/>
-<wire x1="4.7625" y1="3.4925" x2="4.28625" y2="3.01625" width="0.3048" layer="51"/>
-<wire x1="3.81" y1="4.445" x2="4.7625" y2="3.4925" width="0.3048" layer="21"/>
-<wire x1="4.7625" y1="3.4925" x2="4.28625" y2="3.01625" width="0.3048" layer="21"/>
-<wire x1="3.81" y1="4.445" x2="3.33375" y2="3.96875" width="0.3048" layer="21"/>
-<wire x1="-3.33375" y1="-3.96875" x2="-3.81" y2="-4.445" width="0.3048" layer="51"/>
-<wire x1="-3.81" y1="-4.445" x2="-4.7625" y2="-3.4925" width="0.3048" layer="51"/>
-<wire x1="-4.7625" y1="-3.4925" x2="-4.28625" y2="-3.01625" width="0.3048" layer="51"/>
-<wire x1="-3.81" y1="-4.445" x2="-4.7625" y2="-3.4925" width="0.3048" layer="21"/>
-<wire x1="-4.7625" y1="-3.4925" x2="-4.28625" y2="-3.01625" width="0.3048" layer="21"/>
-<wire x1="-3.81" y1="-4.445" x2="-3.33375" y2="-3.96875" width="0.3048" layer="21"/>
-<wire x1="4.28625" y1="-3.01625" x2="4.7625" y2="-3.4925" width="0.3048" layer="51"/>
-<wire x1="4.7625" y1="-3.4925" x2="3.81" y2="-4.445" width="0.3048" layer="51"/>
-<wire x1="3.81" y1="-4.445" x2="3.33375" y2="-3.96875" width="0.3048" layer="51"/>
-<wire x1="4.7625" y1="-3.4925" x2="3.81" y2="-4.445" width="0.3048" layer="21"/>
-<wire x1="3.81" y1="-4.445" x2="3.33375" y2="-3.96875" width="0.3048" layer="21"/>
-<wire x1="4.7625" y1="-3.4925" x2="4.28625" y2="-3.01625" width="0.3048" layer="21"/>
-<wire x1="-6.19125" y1="6.19125" x2="-6.19125" y2="-6.19125" width="0.3048" layer="51"/>
-<wire x1="-6.19125" y1="-6.19125" x2="6.19125" y2="-6.19125" width="0.3048" layer="51"/>
-<wire x1="6.19125" y1="-6.19125" x2="6.19125" y2="6.19125" width="0.3048" layer="51"/>
-<wire x1="6.19125" y1="6.19125" x2="-6.19125" y2="6.19125" width="0.3048" layer="51"/>
+<smd name="1" x="2.06375" y="4.445" dx="3.25" dy="2.5" layer="1" rot="R90"/>
+<smd name="2" x="8.09625" y="4.445" dx="3.25" dy="2.5" layer="1" rot="R90"/>
+<text x="0" y="10.795" size="1.016" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<text x="0" y="9.36625" size="1.016" layer="27" font="vector" ratio="12">&gt;VALUE</text>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="8.255" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="8.255" x2="8.89" y2="8.255" width="0.3048" layer="51"/>
+<wire x1="8.89" y1="8.255" x2="8.89" y2="0.635" width="0.3048" layer="51"/>
+<wire x1="8.89" y1="0.635" x2="1.27" y2="0.635" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="8.89" y2="0.635" width="0.3048" layer="21"/>
+<wire x1="8.89" y1="0.635" x2="8.89" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="8.89" y1="6.35" x2="8.89" y2="8.255" width="0.3048" layer="21"/>
+<wire x1="8.89" y1="8.255" x2="1.27" y2="8.255" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="8.255" x2="1.27" y2="6.35" width="0.3048" layer="21"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.3048" layer="39"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="8.89" width="0.3048" layer="39"/>
+<wire x1="10.16" y1="8.89" x2="0" y2="8.89" width="0.3048" layer="39"/>
+<wire x1="0" y1="8.89" x2="0" y2="0" width="0.3048" layer="39"/>
+<circle x="5.08" y="4.445" radius="2.694075" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="1.905" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="1.905" width="0.3048" layer="51"/>
+<wire x1="7.62" y1="1.905" x2="6.985" y2="2.54" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="1.27" x2="6.35" y2="1.905" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="7.62" width="0.3048" layer="51"/>
+<wire x1="3.175" y1="7.62" x2="3.81" y2="6.985" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="6.35" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="7.62" x2="7.62" y2="6.985" width="0.3048" layer="51"/>
+<wire x1="7.62" y1="6.985" x2="6.985" y2="6.35" width="0.3048" layer="51"/>
+<wire x1="6.985" y1="7.62" x2="6.35" y2="6.985" width="0.3048" layer="51"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="7.62" x2="3.81" y2="6.985" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="3.175" y2="6.35" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="7.62" x2="7.62" y2="6.985" width="0.3048" layer="21"/>
+<wire x1="7.62" y1="6.985" x2="6.985" y2="6.35" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="6.985" x2="6.985" y2="7.62" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="2.54" y2="1.905" width="0.3048" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="1.905" width="0.3048" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.985" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="1.27" x2="7.62" y2="1.905" width="0.3048" layer="21"/>
+<wire x1="7.62" y1="1.905" x2="6.985" y2="2.54" width="0.3048" layer="21"/>
+<wire x1="6.985" y1="6.35" x2="3.175" y2="6.35" width="0.3048" layer="21" curve="90"/>
+<wire x1="3.175" y1="2.54" x2="6.985" y2="2.54" width="0.3048" layer="21" curve="90"/>
 </package>
 <package name="1210">
 <description>&lt;h3&gt;1210 Package&lt;/h3&gt;&lt;ul&gt;
@@ -986,215 +933,38 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PIS-" prefix="L" uservalue="yes">
-<description>&lt;p&gt;
-&lt;h2&gt;PIS - SMD Power Inductors (Shielded)&lt;/h2&gt;
+<deviceset name="DR-" prefix="L" uservalue="yes">
+<description>&lt;h2&gt; Eaton Coiltronics DR Series&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Mounting: SMD&lt;/li&gt;
-  &lt;li&gt;Material: Ferrite&lt;/li&gt;  
-  &lt;li&gt;PIS2812:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;Dimension: 7.5mm×7.5mm×3.6mm&lt;/li&gt;
-    &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/49/PIS2812.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2812.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/ul&gt;
-  &lt;li&gt;PIS2816:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;Dimension: 7.5mm×7.5mm×4.7mm&lt;/li&gt;
-    &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;&lt;a href="http://www.fastrongroup.com/image-show/50/PIS2816.pdf?type=Complete-DataSheet&amp;productType=series"&gt;Fastron&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="http://cdn-reichelt.de/documents/datenblatt/B400/PIS2816.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/ul&gt;
-  &lt;li&gt;PIS2820:&lt;/li&gt;&lt;ul&gt;
-    &lt;li&gt;Dimension: 12.3mm×12.3mm×6.3mm&lt;/li&gt;
-    &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
-      &lt;li&gt;&lt;a href="http://fastrongroup.com/series/52/findProducts?print=y&amp;pageSize=1000"&gt;Fastron&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/B400/PIS4720.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/ul&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
+  &lt;li&gt;Inductance range from 0.33μH to 1000μH&lt;/li&gt;
+  &lt;li&gt;Current range up to 56 amps peak&lt;/li&gt;
+  &lt;li&gt;Magnetic shielding&lt;/li&gt;
+  &lt;li&gt;Ferrite core material&lt;/li&gt;
+&lt;li&gt; Mounting: SMD
+  &lt;li&gt; Material: Ferrite
+  &lt;li&gt;Datasheet:&lt;/li&gt;&lt;ul&gt;
+    &lt;li&gt;&lt;a href="https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-dr-high-power-density-high-efficiency-shielded-drum-core-power-inductors-data-sheet.pdf"&gt;Eaton&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://cdn-reichelt.de/documents/datenblatt/B300/DR-SERIES_ENG_TDS.pdf"&gt;Reichelt&lt;/a&gt;&lt;/li&gt;
+
+   &lt;/ul&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-2812" package="PIS281X">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="1000U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 1,0M" constant="no"/>
-<attribute name="VALUE" value="1m"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-102M-04" constant="no"/>
-</technology>
-<technology name="100U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 100µ" constant="no"/>
-<attribute name="VALUE" value="100µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-101M-04" constant="no"/>
-</technology>
-<technology name="10U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 10µ" constant="no"/>
-<attribute name="VALUE" value="10µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-100M-04" constant="no"/>
-</technology>
-<technology name="150U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 150µ" constant="no"/>
-<attribute name="VALUE" value="150µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-151M-04" constant="no"/>
-</technology>
-<technology name="15U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 15µ" constant="no"/>
-<attribute name="VALUE" value="15µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-150M-04" constant="no"/>
-</technology>
-<technology name="220U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 220µ" constant="no"/>
-<attribute name="VALUE" value="220µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-221M-04" constant="no"/>
-</technology>
-<technology name="22U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 22µ" constant="no"/>
-<attribute name="VALUE" value="22µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-220M-04" constant="no"/>
-</technology>
-<technology name="270U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 270µ" constant="no"/>
-<attribute name="VALUE" value="270µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-271M-04" constant="no"/>
-</technology>
-<technology name="27U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 27µ" constant="no"/>
-<attribute name="VALUE" value="27µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-270M-04" constant="no"/>
-</technology>
-<technology name="330U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 330µ" constant="no"/>
-<attribute name="VALUE" value="330µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-331M-04" constant="no"/>
-</technology>
-<technology name="33U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 33µ" constant="no"/>
-<attribute name="VALUE" value="33µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-330M-04" constant="no"/>
-</technology>
-<technology name="470U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 470µ" constant="no"/>
-<attribute name="VALUE" value="470µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-471M-04" constant="no"/>
-</technology>
-<technology name="47U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 47µ" constant="no"/>
-<attribute name="VALUE" value="47µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-470M-04" constant="no"/>
-</technology>
-<technology name="680U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 680µ" constant="no"/>
-<attribute name="VALUE" value="680µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-681M-04" constant="no"/>
-</technology>
-<technology name="68U">
-<attribute name="DIST#REICHELT#" value="L-PIS2812 68µ" constant="no"/>
-<attribute name="VALUE" value="68µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2812-680M-04" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-2816" package="PIS281X">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="1000U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 1,0M" constant="no"/>
-<attribute name="VALUE" value="1m"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-102M-04" constant="no"/>
-</technology>
-<technology name="100U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 100µ" constant="no"/>
-<attribute name="VALUE" value="100µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-101M-04" constant="no"/>
-</technology>
-<technology name="10U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 10µ" constant="no"/>
-<attribute name="VALUE" value="10µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-100M-04" constant="no"/>
-</technology>
-<technology name="150U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 150µ" constant="no"/>
-<attribute name="VALUE" value="150µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-151M-04" constant="no"/>
-</technology>
-<technology name="15U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 15µ" constant="no"/>
-<attribute name="VALUE" value="15µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-150M-04" constant="no"/>
-</technology>
-<technology name="220U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 220µ" constant="no"/>
-<attribute name="VALUE" value="220µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-221M-04" constant="no"/>
-</technology>
-<technology name="22U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 22µ" constant="no"/>
-<attribute name="VALUE" value="22µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-220M-04" constant="no"/>
-</technology>
-<technology name="270U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 270µ" constant="no"/>
-<attribute name="VALUE" value="270µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-271M-04" constant="no"/>
-</technology>
-<technology name="27U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 27µ" constant="no"/>
-<attribute name="VALUE" value="27µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-270M-04" constant="no"/>
-</technology>
-<technology name="330U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 330µ" constant="no"/>
-<attribute name="VALUE" value="330µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-331M-04" constant="no"/>
-</technology>
-<technology name="33U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 33µ" constant="no"/>
-<attribute name="VALUE" value="33µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-330M-04" constant="no"/>
-</technology>
-<technology name="470U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 470µ" constant="no"/>
-<attribute name="VALUE" value="470µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-471M-04" constant="no"/>
-</technology>
-<technology name="47U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 47µ" constant="no"/>
-<attribute name="VALUE" value="47µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-470M-04" constant="no"/>
-</technology>
-<technology name="680U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 680µ" constant="no"/>
-<attribute name="VALUE" value="680µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-681M-04" constant="no"/>
-</technology>
-<technology name="68U">
-<attribute name="DIST#REICHELT#" value="L-PIS2816 68µ" constant="no"/>
-<attribute name="VALUE" value="68µ"/>
-<attribute name="VENDOR#" value="Fastron,PIS2816-680M-04" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-4720" package="PIS472X">
+<device name="-74" package="DR74">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="10U">
-<attribute name="DIST#REICHELT#" value="L-PIS4720 10µ" constant="no"/>
-<attribute name="VALUE" value="10µ"/>
-<attribute name="VENDOR#" value="Fastron, PIS4720-100M-04" constant="no"/>
+<attribute name="#VENDOR" value="Coiltronics,DR74-100-R" constant="no"/>
+<attribute name="DCR" value="0.0489R" constant="no"/>
+<attribute name="DIST#REICHELT" value="EATON DR74-100-R" constant="no"/>
+<attribute name="I_SAT" value="3.41A" constant="no"/>
+<attribute name="I_TYP" value="2.41A" constant="no"/>
+<attribute name="VALUE" value="10µ" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9939,8 +9709,8 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <parts>
 <part name="IC1" library="omcPwrSupply" deviceset="LT1513" device="CR" value="LT1513"/>
 <part name="D1" library="omcDiode" deviceset="MBRS3" device="" technology="40" value="MBRS340"/>
-<part name="L1" library="omcInductor" deviceset="PIS-" device="-4720" technology="10U" value="10µ"/>
-<part name="L2" library="omcInductor" deviceset="PIS-" device="-4720" technology="10U" value="10µ"/>
+<part name="L1" library="omcInductor" deviceset="DR-" device="-74" technology="10U" value="10µ"/>
+<part name="L2" library="omcInductor" deviceset="DR-" device="-74" technology="10U" value="10µ"/>
 <part name="C1" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-4700000P" value="4µ7"/>
 <part name="R1" library="omcResistor" deviceset="R1206" device="-1%" technology="-10000" value="10K"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -9951,7 +9721,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="omcResistor" deviceset="R1206" device="-1%" technology="-270" value="270R"/>
 <part name="R4" library="omcResistor" deviceset="R1206" device="-1%" technology="-10000" value="10K"/>
-<part name="C7" library="omcCapacitor" deviceset="X7R" device="-0805" technology="-100000P" value="100n/50V"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
@@ -10143,6 +9912,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="H4" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.2" value="D3.2"/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
+<part name="C38" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-4700000P" value="4µ7"/>
+<part name="GND57" library="supply1" deviceset="GND" device=""/>
+<part name="C7" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
+<part name="C39" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
 </parts>
 <sheets>
 <sheet>
@@ -11285,9 +11058,9 @@ BW=109kHz</text>
 <text x="160.02" y="78.74" size="1.4224" layer="98">VDIV=1/4</text>
 <text x="167.64" y="99.06" size="1.778" layer="91">TODO: CALC</text>
 <wire x1="22.86" y1="167.64" x2="22.86" y2="114.3" width="0.4064" layer="98" style="longdash"/>
-<wire x1="22.86" y1="114.3" x2="177.8" y2="114.3" width="0.4064" layer="98" style="longdash"/>
-<wire x1="177.8" y1="114.3" x2="177.8" y2="167.64" width="0.4064" layer="98" style="longdash"/>
-<wire x1="177.8" y1="167.64" x2="22.86" y2="167.64" width="0.4064" layer="98" style="longdash"/>
+<wire x1="22.86" y1="114.3" x2="190.5" y2="114.3" width="0.4064" layer="98" style="longdash"/>
+<wire x1="190.5" y1="114.3" x2="190.5" y2="167.64" width="0.4064" layer="98" style="longdash"/>
+<wire x1="190.5" y1="167.64" x2="22.86" y2="167.64" width="0.4064" layer="98" style="longdash"/>
 <wire x1="22.86" y1="104.14" x2="22.86" y2="66.04" width="0.4064" layer="98" style="longdash"/>
 <wire x1="22.86" y1="66.04" x2="139.7" y2="66.04" width="0.4064" layer="98" style="longdash"/>
 <wire x1="139.7" y1="66.04" x2="139.7" y2="104.14" width="0.4064" layer="98" style="longdash"/>
@@ -11312,7 +11085,7 @@ Pmax = ??</text>
 <text x="55.88" y="22.86" size="1.4224" layer="98">VD = 0.083
 Vopa = 4.096 * VD = 0.341V
 Imax = Vopa / 0.27 = 1.26A</text>
-<text x="208.28" y="127" size="1.4224" layer="98">Shield needs to be
+<text x="236.22" y="127" size="1.4224" layer="98">Shield needs to be
 connectd with GND
 at plug</text>
 </plain>
@@ -11350,7 +11123,6 @@ at plug</text>
 <attribute name="NAME" x="77.47" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.47" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="50.8" y="152.4"/>
 <instance part="GND6" gate="1" x="38.1" y="144.78"/>
 <instance part="GND7" gate="1" x="50.8" y="144.78"/>
 <instance part="C6" gate="G$1" x="38.1" y="152.4"/>
@@ -11489,25 +11261,25 @@ at plug</text>
 <attribute name="VALUE" x="157.226" y="39.878" size="1.778" layer="96"/>
 </instance>
 <instance part="P+13" gate="1" x="27.94" y="157.48" rot="R90"/>
-<instance part="X3" gate="G$1" x="210.82" y="149.86" rot="MR0"/>
-<instance part="X3" gate="G$2" x="210.82" y="147.32" rot="MR0"/>
-<instance part="X3" gate="G$3" x="210.82" y="144.78" rot="MR0"/>
-<instance part="X3" gate="G$4" x="210.82" y="142.24" rot="MR0"/>
-<instance part="X3" gate="G$5" x="210.82" y="139.7" rot="MR0"/>
-<instance part="X3" gate="G$6" x="210.82" y="137.16" rot="MR0"/>
-<instance part="X3" gate="G$7" x="210.82" y="134.62" rot="MR0"/>
-<instance part="GND8" gate="1" x="203.2" y="129.54"/>
+<instance part="X3" gate="G$1" x="238.76" y="149.86" rot="MR0"/>
+<instance part="X3" gate="G$2" x="238.76" y="147.32" rot="MR0"/>
+<instance part="X3" gate="G$3" x="238.76" y="144.78" rot="MR0"/>
+<instance part="X3" gate="G$4" x="238.76" y="142.24" rot="MR0"/>
+<instance part="X3" gate="G$5" x="238.76" y="139.7" rot="MR0"/>
+<instance part="X3" gate="G$6" x="238.76" y="137.16" rot="MR0"/>
+<instance part="X3" gate="G$7" x="238.76" y="134.62" rot="MR0"/>
+<instance part="GND8" gate="1" x="231.14" y="129.54"/>
 <instance part="D2" gate="G$1" x="78.74" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="83.312" y="50.3174" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="83.312" y="53.1114" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R45" gate="G$1" x="195.58" y="142.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="198.628" y="142.7226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="194.818" y="141.732" size="1.016" layer="96"/>
+<instance part="R45" gate="G$1" x="223.52" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="226.568" y="142.7226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.758" y="141.732" size="1.016" layer="96"/>
 </instance>
-<instance part="R46" gate="G$1" x="195.58" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="198.628" y="140.1826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="194.818" y="139.192" size="1.016" layer="96"/>
+<instance part="R46" gate="G$1" x="223.52" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="226.568" y="140.1826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.758" y="139.192" size="1.016" layer="96"/>
 </instance>
 <instance part="H1" gate="G$1" x="203.2" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="205.994" y="43.7642" size="1.778" layer="95"/>
@@ -11529,6 +11301,13 @@ at plug</text>
 <attribute name="VALUE" x="244.094" y="40.7162" size="1.778" layer="96"/>
 </instance>
 <instance part="GND56" gate="1" x="241.3" y="35.56"/>
+<instance part="C38" gate="G$1" x="114.3" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="113.284" y="165.481" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.284" y="162.941" size="1.778" layer="96"/>
+</instance>
+<instance part="GND57" gate="1" x="177.8" y="139.7"/>
+<instance part="C7" gate="G$1" x="50.8" y="152.4"/>
+<instance part="C39" gate="G$1" x="177.8" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -11540,6 +11319,8 @@ at plug</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="149.86" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 <junction x="119.38" y="149.86"/>
+<pinref part="C38" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="160.02" x2="119.38" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11550,6 +11331,9 @@ at plug</text>
 <pinref part="L2" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="157.48" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
 <junction x="111.76" y="149.86"/>
+<pinref part="C38" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="157.48" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="157.48"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11576,10 +11360,6 @@ at plug</text>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -11614,17 +11394,17 @@ at plug</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="203.2" y1="132.08" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="132.08" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G$6" pin="P$1"/>
-<wire x1="203.2" y1="134.62" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="137.16" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="134.62" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G$7" pin="P$1"/>
-<wire x1="205.74" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
-<junction x="203.2" y="134.62"/>
-<wire x1="203.2" y1="137.16" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
-<junction x="203.2" y="137.16"/>
+<wire x1="233.68" y1="134.62" x2="231.14" y2="134.62" width="0.1524" layer="91"/>
+<junction x="231.14" y="134.62"/>
+<wire x1="231.14" y1="137.16" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
+<junction x="231.14" y="137.16"/>
 <pinref part="X3" gate="G$2" pin="P$1"/>
-<wire x1="203.2" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="147.32" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
@@ -11645,6 +11425,14 @@ at plug</text>
 <pinref part="GND56" gate="1" pin="GND"/>
 <pinref part="H4" gate="G$1" pin="MOUNT"/>
 <wire x1="241.3" y1="38.1" x2="241.3" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="GND57" gate="1" pin="GND"/>
+<pinref part="C39" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IM_CHG" class="0">
@@ -11714,13 +11502,16 @@ at plug</text>
 <pinref part="R25" gate="G$1" pin="2"/>
 <junction x="137.16" y="149.86"/>
 <pinref part="X3" gate="G$3" pin="P$1"/>
-<wire x1="205.74" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="144.78" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="144.78" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="144.78" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="X3" gate="G$1" pin="P$1"/>
-<wire x1="200.66" y1="149.86" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
-<junction x="200.66" y="149.86"/>
-<wire x1="165.1" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
-<label x="196.088" y="150.368" size="1.778" layer="95"/>
+<wire x1="228.6" y1="149.86" x2="233.68" y2="149.86" width="0.1524" layer="91"/>
+<junction x="228.6" y="149.86"/>
+<label x="224.028" y="150.368" size="1.778" layer="95"/>
+<wire x1="165.1" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="C39" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
+<junction x="177.8" y="149.86"/>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
@@ -12062,24 +11853,24 @@ at plug</text>
 <wire x1="38.1" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="154.94" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
 <junction x="38.1" y="157.48"/>
-<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <junction x="50.8" y="157.48"/>
 <pinref part="P+13" gate="1" pin="+12V"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="X3" gate="G$4" pin="P$1"/>
 <pinref part="R45" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="142.24" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="X3" gate="G$5" pin="P$1"/>
 <pinref part="R46" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="139.7" x2="200.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_XCHRG" class="0">
@@ -12091,15 +11882,15 @@ at plug</text>
 </net>
 <net name="LED1" class="0">
 <segment>
-<wire x1="190.5" y1="142.24" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
-<label x="183.388" y="142.748" size="1.778" layer="95"/>
+<wire x1="218.44" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<label x="211.328" y="142.748" size="1.778" layer="95"/>
 <pinref part="R45" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED2" class="0">
 <segment>
-<wire x1="182.88" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
-<label x="183.388" y="140.208" size="1.778" layer="95"/>
+<wire x1="210.82" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="211.328" y="140.208" size="1.778" layer="95"/>
 <pinref part="R46" gate="G$1" pin="2"/>
 </segment>
 </net>
