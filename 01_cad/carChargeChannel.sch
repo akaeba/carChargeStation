@@ -7956,10 +7956,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
   &lt;/ul&gt;
 &lt;/ul&gt;</description>
 <gates>
-<gate name="G$1" symbol="OPV" x="5.08" y="5.08"/>
-<gate name="G$2" symbol="OPV" x="27.94" y="5.08"/>
-<gate name="G$3" symbol="OPV" x="5.08" y="20.32"/>
-<gate name="G$4" symbol="OPV" x="27.94" y="20.32"/>
+<gate name="G$1" symbol="OPV" x="5.08" y="5.08" swaplevel="1"/>
+<gate name="G$2" symbol="OPV" x="27.94" y="5.08" swaplevel="1"/>
+<gate name="G$3" symbol="OPV" x="5.08" y="20.32" swaplevel="1"/>
+<gate name="G$4" symbol="OPV" x="27.94" y="20.32" swaplevel="1"/>
 <gate name="G$5" symbol="PWR" x="5.08" y="5.08" addlevel="must"/>
 </gates>
 <devices>
@@ -9738,9 +9738,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="OPA1" library="omcOpAmp" deviceset="MCP6H04" device="" value="MCP6H04"/>
-<part name="C13" library="omcCapacitor" deviceset="X7R" device="-0805" technology="-100000P" value="100n"/>
-<part name="C14" library="omcCapacitor" deviceset="X7R" device="-0805" technology="-100000P" value="100n"/>
-<part name="C15" library="omcCapacitor" deviceset="X7R" device="-0805" technology="-100000P" value="100n"/>
+<part name="C13" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
+<part name="C14" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
+<part name="C15" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P-2" library="supply1" deviceset="-5V" device=""/>
 <part name="R9" library="omcResistor" deviceset="R1206" device="-1%" technology="-47000" value="47K"/>
@@ -11229,14 +11229,14 @@ at plug</text>
 <attribute name="VALUE" x="39.37" y="32.258" size="1.778" layer="96"/>
 </instance>
 <instance part="OPA1" gate="G$5" x="190.5" y="40.64"/>
-<instance part="C13" gate="G$1" x="172.72" y="45.72"/>
-<instance part="C14" gate="G$1" x="172.72" y="38.1"/>
+<instance part="C13" gate="G$1" x="167.64" y="45.72"/>
+<instance part="C14" gate="G$1" x="167.64" y="38.1"/>
 <instance part="C15" gate="G$1" x="182.88" y="43.18"/>
-<instance part="P+4" gate="1" x="165.1" y="48.26" smashed="yes" rot="R90">
-<attribute name="VALUE" x="163.83" y="49.276" size="1.778" layer="96" rot="R180"/>
+<instance part="P+4" gate="1" x="160.02" y="48.26" smashed="yes" rot="R90">
+<attribute name="VALUE" x="158.75" y="49.276" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P-2" gate="1" x="165.1" y="33.02" smashed="yes" rot="R270">
-<attribute name="VALUE" x="160.02" y="32.258" size="1.778" layer="96"/>
+<instance part="P-2" gate="1" x="160.02" y="33.02" smashed="yes" rot="R270">
+<attribute name="VALUE" x="154.94" y="32.258" size="1.778" layer="96"/>
 </instance>
 <instance part="R26" gate="G$1" x="93.98" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.504" y="26.6446" size="1.778" layer="95"/>
@@ -11273,8 +11273,8 @@ at plug</text>
 <attribute name="NAME" x="72.39" y="132.08" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND15" gate="1" x="165.1" y="40.64" smashed="yes" rot="R270">
-<attribute name="VALUE" x="157.226" y="39.878" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="160.02" y="40.64" smashed="yes" rot="R270">
+<attribute name="VALUE" x="152.146" y="39.878" size="1.778" layer="96"/>
 </instance>
 <instance part="P+13" gate="1" x="27.94" y="157.48" rot="R90"/>
 <instance part="X3" gate="G$1" x="238.76" y="149.86" rot="MR0"/>
@@ -11730,9 +11730,9 @@ at plug</text>
 <pinref part="OPA1" gate="G$5" pin="V+"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="48.26" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="48.26" x2="172.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
-<junction x="172.72" y="48.26"/>
+<wire x1="182.88" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="48.26" x2="162.56" y2="48.26" width="0.1524" layer="91"/>
+<junction x="167.64" y="48.26"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="45.72" x2="182.88" y2="48.26" width="0.1524" layer="91"/>
@@ -11804,9 +11804,9 @@ at plug</text>
 <pinref part="OPA1" gate="G$5" pin="V-"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="33.02" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
-<junction x="172.72" y="33.02"/>
+<wire x1="182.88" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="33.02" x2="162.56" y2="33.02" width="0.1524" layer="91"/>
+<junction x="167.64" y="33.02"/>
 <pinref part="P-2" gate="1" pin="-5V"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="38.1" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
@@ -11846,8 +11846,8 @@ at plug</text>
 <segment>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="C13" gate="G$1" pin="2"/>
-<junction x="172.72" y="40.64"/>
-<wire x1="167.64" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
+<junction x="167.64" y="40.64"/>
+<wire x1="162.56" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GNDA"/>
 </segment>
 </net>
