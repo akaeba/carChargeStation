@@ -192,9 +192,9 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <smd name="3" x="2.54" y="-6.0325" dx="1.6002" dy="4.2926" layer="1"/>
 <smd name="4" x="0" y="3.81" dx="11" dy="9.2" layer="1"/>
 <wire x1="-6.35" y1="8.89" x2="6.35" y2="8.89" width="0.127" layer="39"/>
-<wire x1="6.35" y1="8.89" x2="6.35" y2="-8.89" width="0.127" layer="39"/>
-<wire x1="6.35" y1="-8.89" x2="-6.35" y2="-8.89" width="0.127" layer="39"/>
-<wire x1="-6.35" y1="-8.89" x2="-6.35" y2="8.89" width="0.127" layer="39"/>
+<wire x1="6.35" y1="8.89" x2="6.35" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="4.445" y1="-8.89" x2="-4.445" y2="-8.89" width="0.127" layer="39"/>
+<wire x1="-6.35" y1="-3.175" x2="-6.35" y2="8.89" width="0.127" layer="39"/>
 <wire x1="5.8166" y1="6.3754" x2="5.817" y2="-2.159" width="0.2032" layer="21"/>
 <wire x1="5.817" y1="-2.159" x2="-5.817" y2="-2.159" width="0.2032" layer="21"/>
 <wire x1="-5.817" y1="-2.159" x2="-5.8166" y2="6.3754" width="0.2032" layer="21"/>
@@ -213,6 +213,10 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <circle x="-5.08" y="-1.42875" radius="0.4490125" width="0.127" layer="21"/>
 <text x="7.62" y="-1.27" size="1.27" layer="27" font="vector" rot="R90">&gt;VALUE</text>
 <text x="-6.35" y="-1.27" size="1.27" layer="25" font="vector" rot="R90">&gt;NAME</text>
+<wire x1="-6.35" y1="-3.175" x2="-4.445" y2="-3.175" width="0.127" layer="39"/>
+<wire x1="-4.445" y1="-3.175" x2="-4.445" y2="-8.89" width="0.127" layer="39"/>
+<wire x1="4.445" y1="-3.175" x2="4.445" y2="-8.89" width="0.127" layer="39"/>
+<wire x1="4.445" y1="-3.175" x2="6.35" y2="-3.175" width="0.127" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -9757,7 +9761,6 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="R18" library="omcResistor" deviceset="R1206" device="-1%" technology="-1000" value="1K"/>
 <part name="R19" library="omcResistor" deviceset="R1206" device="-1%" technology="-1000" value="1K"/>
 <part name="C18" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="R20" library="omcResistor" deviceset="R1206" device="-1%" technology="-2200" value="2K2"/>
 <part name="R21" library="omcResistor" deviceset="R1206" device="-1%" technology="-12000" value="12K"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -9912,13 +9915,13 @@ In short: You are welcome to use (and extend) this library, but extensions must 
 <part name="D2" library="omcDiode" deviceset="BAT46" device="W" value="BAT46"/>
 <part name="C40" library="omcCapacitor" deviceset="X5R" device="-1210" technology="-47000000P" value="47µ/16V"/>
 <part name="C45" library="omcCapacitor" deviceset="X5R" device="-1210" technology="-47000000P" value="47µ/16V"/>
-<part name="C31" library="omcCapacitor" deviceset="X5R" device="-1206" technology="-47000000P" value="47µ/6V"/>
 <part name="C5" library="omcCapacitor" deviceset="X5R" device="-1206" technology="-47000000P" value="47µ/6V"/>
 <part name="C41" library="omcCapacitor" deviceset="X5R" device="-1206" technology="-47000000P" value="47µ/6V"/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="C47" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
 <part name="C28" library="omcCapacitor" deviceset="X7R" device="-1206" technology="-100000P" value="100n/50V"/>
+<part name="GND24" library="supply1" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10228,7 +10231,6 @@ Translation</text>
 </instance>
 <instance part="C40" gate="G$1" x="55.88" y="137.16"/>
 <instance part="C45" gate="G$1" x="68.58" y="137.16"/>
-<instance part="C31" gate="G$1" x="101.6" y="167.64"/>
 <instance part="C5" gate="G$1" x="134.62" y="137.16"/>
 <instance part="C41" gate="G$1" x="121.92" y="137.16"/>
 <instance part="GND49" gate="1" x="121.92" y="129.54"/>
@@ -11203,7 +11205,6 @@ at plug</text>
 <attribute name="NAME" x="153.924" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.924" y="96.901" size="1.778" layer="96"/>
 </instance>
-<instance part="GND24" gate="1" x="152.4" y="93.98" rot="R270"/>
 <instance part="R20" gate="G$1" x="200.66" y="86.36"/>
 <instance part="OPA1" gate="G$4" x="58.42" y="38.1" smashed="yes">
 <attribute name="PART" x="60.96" y="43.815" size="1.778" layer="95"/>
@@ -11324,6 +11325,9 @@ at plug</text>
 <attribute name="NAME" x="77.47" y="53.0606" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.47" y="50.5206" size="1.778" layer="96"/>
 </instance>
+<instance part="GND24" gate="1" x="152.4" y="93.98" smashed="yes" rot="R270">
+<attribute name="VALUE" x="151.13" y="90.932" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11399,10 +11403,6 @@ at plug</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="76.2" y1="129.54" x2="76.2" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="E"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND27" gate="1" pin="GND"/>
@@ -11849,6 +11849,10 @@ at plug</text>
 <junction x="167.64" y="40.64"/>
 <wire x1="162.56" y1="40.64" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GNDA"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="GND24" gate="1" pin="GNDA"/>
 </segment>
 </net>
 <net name="+12V" class="0">
