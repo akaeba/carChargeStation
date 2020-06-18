@@ -10559,9 +10559,9 @@ Translation</text>
 <wire x1="172.72" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="83.82" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
 <junction x="165.1" y="83.82"/>
-<wire x1="165.1" y1="83.82" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="2@RC"/>
-<wire x1="165.1" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="83.82" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="1@RC"/>
+<wire x1="165.1" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CS_DAC2" class="0">
@@ -10580,14 +10580,14 @@ Translation</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="DAC2" gate="G$1" pin="SDI"/>
-<wire x1="134.62" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="81.28" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="DAC1" gate="G$1" pin="SDI"/>
 <wire x1="167.64" y1="104.14" x2="172.72" y2="104.14" width="0.1524" layer="91"/>
 <junction x="167.64" y="81.28"/>
-<wire x1="167.64" y1="73.66" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="1@RC"/>
+<wire x1="167.64" y1="71.12" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="2@RC"/>
+<wire x1="167.64" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XEN_CHRG" class="0">
